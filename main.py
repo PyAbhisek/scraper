@@ -12,7 +12,7 @@ with open('config.json') as f:
     scraping_targets = json.load(f)
 
 
-chrome_driver_path = r'C:\Users\abhis\OneDrive\Desktop\pythonselenium\chromedriver-win64\chromedriver.exe'
+chrome_driver_path = '/home/ec2-user/.local/lib/python3.9/site-packages (0.6.2)'
 chrome_service = Service(chrome_driver_path)
 
 driver = webdriver.Chrome(service=chrome_service)
