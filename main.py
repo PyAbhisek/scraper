@@ -1,21 +1,22 @@
 import json
 from selenium import webdriver
 from selenium.common.exceptions import StaleElementReferenceException, TimeoutException
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-import chromedriver_autoinstaller
-
-# Automatically install and set up ChromeDriver
-chromedriver_autoinstaller.install()
 
 # Load configuration from config.json
 with open('config.json') as f:
     scraping_targets = json.load(f)
 
-# Initialize the ChromeDriver
-driver = webdriver.Chrome()
+
+chrome_driver_path = '/usr/bin/chromedriver'
+chrome_service = Service(chrome_driver_path)
+
+driver = webdriver.Chrome(service=chrome_service)
+
 
 for target in scraping_targets:
     url = target["url"]
@@ -86,5 +87,4 @@ for target in scraping_targets:
     with open(output_filename, "w") as json_file:
         json.dump(data, json_file)
 
-# Quit the driver when done
 driver.quit()
