@@ -7,17 +7,15 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import chromedriver_autoinstaller
 
-d = chromedriver_autoinstaller.install()
+# Automatically install and set up ChromeDriver
+chromedriver_autoinstaller.install()
 
 # Load configuration from config.json
 with open('config.json') as f:
     scraping_targets = json.load(f)
 
-# Specify the path to your ChromeDriver executable
-chrome_driver_path = d  # Replace with the actual path to chromedriver
-
-# Initialize the ChromeDriver with the explicit executable_path
-driver = webdriver.Chrome(executable_path=chrome_driver_path)
+# Initialize the ChromeDriver
+driver = webdriver.Chrome()
 
 for target in scraping_targets:
     url = target["url"]
