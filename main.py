@@ -13,7 +13,9 @@ with open('config.json') as f:
 options = webdriver.ChromeOptions()
 options.binary_location = '/usr/bin/chromedriver'
 chrome_driver_binary = "/usr/local/bin/chromedriver"
-driver = webdriver.Chrome(chrome_driver_binary, options=options)  # Fixed the options parameter
+# driver = webdriver.Chrome(chrome_driver_binary, options=options)
+driver = webdriver.Chrome(executable_path=chrome_driver_binary, options=options)
+# Fixed the options parameter
 
 for target in scraping_targets:
     url = target["url"]
