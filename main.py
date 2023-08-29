@@ -6,17 +6,19 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import chromedriver_autoinstaller
+
+chromedriver_autoinstaller.install()
 
 # Load configuration from config.json
 with open('config.json') as f:
     scraping_targets = json.load(f)
 
+# Initialize the ChromeDriver service
+chrome_service = Service()
 
-chrome_driver_path = '/home/ec2-user/.local/lib/python3.9/site-packages (0.6.2)'
-chrome_service = Service(chrome_driver_path)
-
+# Initialize the ChromeDriver
 driver = webdriver.Chrome(service=chrome_service)
-
 
 for target in scraping_targets:
     url = target["url"]
@@ -87,4 +89,5 @@ for target in scraping_targets:
     with open(output_filename, "w") as json_file:
         json.dump(data, json_file)
 
+# Quit the driver when done
 driver.quit()
