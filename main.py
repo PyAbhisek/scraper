@@ -10,12 +10,18 @@ from selenium.webdriver.support import expected_conditions as EC
 with open('config.json') as f:
     scraping_targets = json.load(f)
 
+# Specify the path to the Chrome driver executable
+chrome_driver_binary = "/usr/local/bin/chromedriver"
+
+# Create a Service object with the executable_path
+service = Service(chrome_driver_binary)
+
+# Create a ChromeOptions object for any additional options you need
 options = webdriver.ChromeOptions()
 options.binary_location = '/usr/bin/chromedriver'
-chrome_driver_binary = "/usr/local/bin/chromedriver"
-# driver = webdriver.Chrome(chrome_driver_binary, options=options)
-driver = webdriver.Chrome(executable_path=chrome_driver_binary, options=options)
-# Fixed the options parameter
+
+# Create the Chrome WebDriver instance with the Service and Options
+driver = webdriver.Chrome(service=service, options=options)
 
 for target in scraping_targets:
     url = target["url"]
