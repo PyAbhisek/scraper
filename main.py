@@ -11,11 +11,12 @@ import time
 with open('config.json') as f:
     scraping_targets = json.load(f)
 
+
 chrome_driver_path = r'C:\Users\abhis\OneDrive\Desktop\pythonselenium\chromedriver-win64\chromedriver.exe'
 chrome_service = Service(chrome_driver_path)
 
-
 driver = webdriver.Chrome(service=chrome_service)
+
 
 for target in scraping_targets:
     url = target["url"]
