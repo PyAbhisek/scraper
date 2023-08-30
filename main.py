@@ -115,3 +115,4 @@ for target in scraping_targets:
         json.dump(data, json_file)
 
 driver.quit()
+print("got the output")
