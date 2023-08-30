@@ -23,6 +23,8 @@ options.binary_location = '/usr/bin/chromedriver'
 # Create the Chrome WebDriver instance with the Service and Options
 driver = webdriver.Chrome(service=service, options=options)
 
+
+
 for target in scraping_targets:
     url = target["url"]
     class_name = target["css_selector"]
