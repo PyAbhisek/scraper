@@ -1,5 +1,6 @@
 import json
 from selenium import webdriver
+
 from selenium.common import TimeoutException, StaleElementReferenceException, ElementClickInterceptedException
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -7,11 +8,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+from selenium.webdriver.chrome.options import Options
+
 # Load configuration from config.json
 with open('config.json') as f:
     scraping_targets = json.load(f)
 
-options = webdriver.ChromeOptions()
+options = Options()
 options.add_argument("--headless")
 options.add_argument("window-size=1400,1500")
 options.add_argument("--disable-gpu")
@@ -21,6 +24,8 @@ options.add_argument("enable-automation")
 options.add_argument("--disable-infobars")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--single-process")
+options.add_argument(
+    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
 # Path to ChromeDriver executable in Colab
 chrome_driver_path = '/usr/bin/chromedriver'
 driver = webdriver.Chrome(options=options)
