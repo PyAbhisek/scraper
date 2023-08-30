@@ -11,22 +11,22 @@ import time
 with open('config.json') as f:
     scraping_targets = json.load(f)
 
-chrome_options = webdriver.ChromeOptions()
-
-chrome_options.add_argument("start-maximized")
-chrome_options.add_argument("disable-infobars")
-chrome_options.add_argument("--disable-extensions")
-chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--headless")
-# Set the viewport size
-chrome_options.add_argument("--window-size=1920,1080")
+options = webdriver.ChromeOptions()
+options.add_argument("--headless")
+options.add_argument("window-size=1400,1500")
+options.add_argument("--disable-gpu")
+options.add_argument("--no-sandbox")
+options.add_argument("start-maximized")
+options.add_argument("enable-automation")
+options.add_argument("--disable-infobars")
+options.add_argument("--disable-dev-shm-usage")
 
 # Path to ChromeDriver executable in Colab
 chrome_driver_path = '/usr/bin/chromedriver'
+driver = webdriver.Chrome(options=options)
 
-driver = webdriver.Chrome(options=chrome_options)
+
+
 
 # Initialize a URL counter
 url_counter = 0
