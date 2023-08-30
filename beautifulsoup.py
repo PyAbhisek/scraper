@@ -1,19 +1,28 @@
+import os
 import json
 import requests
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, ElementNotInteractableException ,ElementClickInterceptedException
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, ElementNotInteractableException, ElementClickInterceptedException
 from bs4 import BeautifulSoup
 from PIL import Image
 from io import BytesIO
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+from datetime import date
 
 # Load configuration from config.json
 with open('BS4Config.json') as f:
     scraping_targets = json.load(f)
+
+# Get the current date in the format "dd/mm/yyyy"
+current_date = date.today().strftime("%d-%m-%Y")
+
+# Create a directory with the current date
+output_directory = os.path.join(os.getcwd(), current_date)
+os.makedirs(output_directory, exist_ok=True)
 
 chrome_driver_path = r'C:\Users\abhis\OneDrive\Desktop\pythonselenium\chromedriver-win64\chromedriver.exe'
 chrome_service = Service(chrome_driver_path)
@@ -34,6 +43,7 @@ def click_element_safely(element):
     except StaleElementReferenceException:
         # Handle the StaleElementReferenceException by re-locating the element before clicking
         click_element_safely(element)
+
 def handle_popups(driver):
     try:
         # Define the XPath for the popup and close button
@@ -52,9 +62,10 @@ def handle_popups(driver):
     except NoSuchElementException:
         # No pop-up found, continue with scraping
         pass
-all_data = []
 
 for target in scraping_targets:
+    website_name = target["filename"]  # Use the "filename" as the unique identifier
+    all_data = []
     product_name = target["product_name"]
     shade_image_srcset = target["shade_image_srcset"]
     shade_click = target["shade_click"]
@@ -70,7 +81,6 @@ for target in scraping_targets:
     price_parent = target['price_parent']
     img_tag = target['img_tag']
     img_parent = target['img_parent']
-
 
     def scrape_data(url):
         driver = webdriver.Chrome(service=chrome_service)
@@ -112,13 +122,11 @@ for target in scraping_targets:
                 # for shade price
                 try:
                     price_match = driver.find_element(By.CSS_SELECTOR, shade_price)
-                    # price = price_match.text.strip()
                     price = price_match.text.strip()
                     if not price:
                         price = price_match.get_attribute("textContent").strip()
                     if not price:
                         price = price_match.get_attribute("innerText").strip()
-
                     print(price)
 
                 except NoSuchElementException:
@@ -151,7 +159,6 @@ for target in scraping_targets:
                 print(productname)
 
                 # for shade name
-
                 try:
                     test = driver.find_element(By.CSS_SELECTOR, shade_name)
                     selected_shade_text = test.text.strip()
@@ -160,10 +167,8 @@ for target in scraping_targets:
                     selected_shade_text = "Shade name not found"
                     print(selected_shade_text)
 
-
                 # for image
                 try:
-
                     if shade_image_srcset:
                         test1 = driver.find_element(By.XPATH, shade_image_srcset)
                         data = test1.get_attribute('srcset')
@@ -177,7 +182,6 @@ for target in scraping_targets:
                         image_tag = parent_img.find_element(By.CSS_SELECTOR, img_tag)
                         data = image_tag.get_attribute('srcset') if image_tag else None
                         data = data.replace('//', '')
-                    # print(data)
                     if data.startswith('/'):
                         full_image_url = image_base_url + data
                     else:
@@ -216,8 +220,12 @@ for target in scraping_targets:
         all_data.append(scraped_data)
         print("-" * 50)
 
-output_file = 'scraped_data.json'
-with open(output_file, 'w') as f:
-    json.dump(all_data, f, indent=4)
+    # Define the output JSON file for this website based on the filename
+    output_file = os.path.join(output_directory, f"{website_name}.json")
 
-print(f"Scraped data saved to '{output_file}'")
+    with open(output_file, 'w') as f:
+        json.dump(all_data, f, indent=4)
+
+    print(f"Scraped data for {website_name} saved to '{output_file}'")
+
+print(f"Scraped data saved in directory '{output_directory}'")
