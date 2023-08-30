@@ -20,7 +20,7 @@ options.add_argument("start-maximized")
 options.add_argument("enable-automation")
 options.add_argument("--disable-infobars")
 options.add_argument("--disable-dev-shm-usage")
-
+options.add_argument("--single-process")
 # Path to ChromeDriver executable in Colab
 chrome_driver_path = '/usr/bin/chromedriver'
 driver = webdriver.Chrome(options=options)
