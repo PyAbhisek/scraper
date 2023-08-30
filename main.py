@@ -16,8 +16,11 @@ chrome_driver_binary = "/usr/bin/chromedriver"
 # Create a Service object with the executable_path
 service = Service(chrome_driver_binary)
 
+
 # Create a ChromeOptions object for any additional options you need
 options = webdriver.ChromeOptions()
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("--headless")
 options.binary_location = '/usr/bin/chromedriver'
 
 # Create the Chrome WebDriver instance with the Service and Options
