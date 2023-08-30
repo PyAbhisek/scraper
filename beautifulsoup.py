@@ -2,21 +2,30 @@ import json
 import requests
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, ElementNotInteractableException ,ElementClickInterceptedException
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, ElementNotInteractableException,ElementClickInterceptedException
 from bs4 import BeautifulSoup
 from PIL import Image
 from io import BytesIO
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.wait import WebDriverWait
+import os
+from selenium.webdriver.common.action_chains import ActionChains
 
 # Load configuration from config.json
 with open('BS4Config.json') as f:
     scraping_targets = json.load(f)
 
-chrome_driver_path = r'C:\Users\abhis\OneDrive\Desktop\pythonselenium\chromedriver-win64\chromedriver.exe'
-chrome_service = Service(chrome_driver_path)
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--disable-dev-shm-usage')
+chrome_options.add_argument(
+    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
+
+# Set the viewport size
+chrome_options.add_argument("--window-size=1920,1080")
+
+# Path to ChromeDriver executable in Colab
+chrome_driver_path = '/usr/lib/chromium-browser/chromedriver'
 
 def get_image_rgb(url):
     headers = {
@@ -34,6 +43,8 @@ def click_element_safely(element):
     except StaleElementReferenceException:
         # Handle the StaleElementReferenceException by re-locating the element before clicking
         click_element_safely(element)
+
+#for typsy
 def handle_popups(driver):
     try:
         # Define the XPath for the popup and close button
@@ -68,24 +79,44 @@ for target in scraping_targets:
     parent_element = target['parent_element']
     product_name_parent = target['product_name_parent']
     price_parent = target['price_parent']
-    img_tag = target['img_tag']
     img_parent = target['img_parent']
+    img_tag = target['img_tag']
+    color_Code_tag = target['color_Code_tag']
+    shade_image_classname = target['shade_image_classname']
 
+    # Skip to the next JSON file if filename is not provided
+    if not filename_prefix:
+        print("Skipping to the next JSON file since filename is not provided.")
+        continue
+
+    # Construct the filename for the links JSON file
+    links_filename = f"{filename_prefix}_links.json"
+
+    # Check if the links JSON file exists before attempting to open it
+    if not os.path.exists(links_filename):
+        print(f"Links JSON file '{links_filename}' does not exist. Skipping to the next JSON file.")
+        continue
 
     def scrape_data(url):
-        driver = webdriver.Chrome(service=chrome_service)
+        driver = webdriver.Chrome(options=chrome_options)
         driver.get(url)
 
         try:
             driver.implicitly_wait(10)
             product_counter = 0  # Initialize the product_counter
-            trigger_popup_after = 2  # Set the number of iterations after which the popup should be triggered
+            trigger_popup_after = 2
+
+            # Add a print statement to check if the URL is being opened correctly
+            print(f"Opened URL: {url}")
 
             if parent_element:
+                print('Opened URL')
                 parent = driver.find_element(By.CSS_SELECTOR, parent_element)
                 shade_items = parent.find_elements(By.CSS_SELECTOR, shade_click)
             else:
                 shade_items = driver.find_elements(By.CSS_SELECTOR, shade_click)
+
+            product_counter = 0
 
             product_data = {
                 "url": url,
@@ -93,26 +124,35 @@ for target in scraping_targets:
             }
 
             for shade_item in shade_items:
-                product_counter += 1  # Increment the product_counter for each iteration
+
+                driver.implicitly_wait(10)
+                product_counter += 1
                 print(f"Product #{product_counter}")
 
                 try:
                     shade_item.click()
-                except (ElementNotInteractableException, ElementClickInterceptedException):
-                    print("Could not click on the shade item (OUT OF STOCK). Skipping to the next one.")
-                    continue
+                except (ElementNotInteractableException,ElementClickInterceptedException) :
+                  print("Could not click on the shade item (OUT OF STOCK). Skipping to the next one.")
+
 
                 time.sleep(3)
+
+                # link for the product
                 window_location = driver.execute_script("return window.location.href")
                 print(window_location)
 
+                #for only typsy
                 if filename_prefix == "typsybeauty" and product_counter == trigger_popup_after:
                     handle_popups(driver)
 
+                page_source = driver.page_source
+                soup = BeautifulSoup(page_source, 'html.parser')
+
                 # for shade price
+
                 try:
+
                     price_match = driver.find_element(By.CSS_SELECTOR, shade_price)
-                    # price = price_match.text.strip()
                     price = price_match.text.strip()
                     if not price:
                         price = price_match.get_attribute("textContent").strip()
@@ -125,58 +165,120 @@ for target in scraping_targets:
                     price = "Price not found"
                     print(price)
 
-                # for original shade price
-                oprice = ""
+                # for shade price
+                oprice = "Original Price not available"  # Default value
+
                 if price_parent:
                     try:
                         parent_price = driver.find_element(By.CSS_SELECTOR, price_parent)
                         originalprice_match = parent_price.find_element(By.CSS_SELECTOR, shade_Original_Price)
                         oprice = originalprice_match.text.strip()
-                        print(oprice)
                     except NoSuchElementException:
-                        oprice = "Price not found"
-                        print(oprice)
+                        pass  # Keep the default value
+
+                elif shade_Original_Price:
+                    try:
+                        originalprice_match = driver.find_element(By.CSS_SELECTOR, shade_Original_Price)
+                        oprice = originalprice_match.text.strip()
+                    except NoSuchElementException:
+                        pass  # Keep the default value
+
+                print(oprice)
 
                 # for product name
                 try:
                     if product_name_parent:
                         product_name_parent_container = driver.find_element(By.CSS_SELECTOR, product_name_parent)
                         name_match = product_name_parent_container.find_element(By.CSS_SELECTOR, product_name)
+
                     else:
                         name_match = driver.find_element(By.CSS_SELECTOR, product_name)
 
+
                     productname = name_match.text.strip()
+                    if not productname:
+                          productname = name_match.get_attribute("textContent").strip()
+                    if not productname:
+                          productname = name_match.get_attribute("innerText").strip()
+
                 except NoSuchElementException:
                     productname = "Product name not found"
                 print(productname)
 
                 # for shade name
-
                 try:
+                  if shade_name:
                     test = driver.find_element(By.CSS_SELECTOR, shade_name)
                     selected_shade_text = test.text.strip()
-                    print(selected_shade_text)
+                  else:
+                    selected_shade_text = shade_item.text.strip()
+                  print(selected_shade_text)
                 except NoSuchElementException:
                     selected_shade_text = "Shade name not found"
                     print(selected_shade_text)
 
+                #for color code
+                rgb_color_Code = "color code not found"
+                rgb_img_url = ""
+                try:
+                    if color_Code_tag:
+                        color = shade_item.find_element(By.TAG_NAME, color_Code_tag)
+                        rgb = color.get_attribute('style')
+
+                    elif shade_item:
+                        rgb = shade_item.get_attribute('style')
+
+                    # Extract the RGB value from rgb_color_Code
+                    start_index = rgb.find('(')
+                    end_index = rgb.find(')')
+
+                    if start_index != -1 and end_index != -1:
+                        rgb_color_Code = rgb[start_index:end_index + 1]
+                        print("rgb_color_Code:", rgb_color_Code)
+                    else:
+                        print("No RGB values found in style.")
+
+                    # Check if 'background-image' is in rgb_color_Code and extract the URL
+                    if 'background-image' in rgb:
+                        start_index = rgb.index('url("') + len('url("')
+                        end_index = rgb.index('")', start_index)
+                        background_url = rgb[start_index:end_index]
+
+                        # Check if background_url starts with "//"
+                        if background_url.startswith('//'):
+                            background_url = 'https:' + background_url
+
+                        rgb_color_Code = get_image_rgb(background_url)
+                    print(rgb_color_Code)
+
+                except NoSuchElementException:
+                    rgb_color_Code = "color code not found"
+                    print(rgb_color_Code)
+
+
+
 
                 # for image
                 try:
-
                     if shade_image_srcset:
                         test1 = driver.find_element(By.XPATH, shade_image_srcset)
-                        data = test1.get_attribute('srcset')
-                        data = data.replace('//', '')
+                        srcset = test1.get_attribute('srcset')
+                        data = srcset.replace('//', '')
                     elif shade_image_src:
                         test1 = driver.find_element(By.XPATH, shade_image_src)
                         data = test1.get_attribute('src')
+                    elif shade_image_classname:
+                        img_class = driver.find_element(By.CSS_SELECTOR, shade_image_classname)
+                        data = img_class.get_attribute('src')
+
+
                     else:
                         # Check if the image tag is present and get the srcset attribute if available
                         parent_img = driver.find_element(By.CSS_SELECTOR, img_parent)
                         image_tag = parent_img.find_element(By.CSS_SELECTOR, img_tag)
-                        data = image_tag.get_attribute('srcset') if image_tag else None
-                        data = data.replace('//', '')
+                        srcset = image_tag.get_attribute('srcset') if image_tag else None
+                        data = srcset.replace('//', '')
+
                     # print(data)
                     if data.startswith('/'):
                         full_image_url = image_base_url + data
@@ -190,6 +292,7 @@ for target in scraping_targets:
                 if "combo" not in selected_shade_text.lower():
                     shade_data = {
                         "shade_url": window_location,
+                        "shade_color": rgb_color_Code,
                         "shade_image_url": full_image_url,
                         "shade_price": price,
                         "Product_Name": productname,
