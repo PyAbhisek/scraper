@@ -3,12 +3,13 @@ import requests
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, ElementNotInteractableException,ElementClickInterceptedException
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, ElementNotInteractableException, ElementClickInterceptedException
 from bs4 import BeautifulSoup
 from PIL import Image
 from io import BytesIO
 import os
 from selenium.webdriver.common.action_chains import ActionChains
+import datetime
 
 # Load configuration from config.json
 with open('BS4Config.json') as f:
@@ -44,7 +45,7 @@ def click_element_safely(element):
         # Handle the StaleElementReferenceException by re-locating the element before clicking
         click_element_safely(element)
 
-#for typsy
+# for typsy
 def handle_popups(driver):
     try:
         # Define the XPath for the popup and close button
@@ -63,6 +64,7 @@ def handle_popups(driver):
     except NoSuchElementException:
         # No pop-up found, continue with scraping
         pass
+
 all_data = []
 
 for target in scraping_targets:
@@ -134,7 +136,6 @@ for target in scraping_targets:
                 except (ElementNotInteractableException,ElementClickInterceptedException) :
                   print("Could not click on the shade item (OUT OF STOCK). Skipping to the next one.")
 
-
                 time.sleep(3)
 
                 # link for the product
@@ -149,9 +150,7 @@ for target in scraping_targets:
                 soup = BeautifulSoup(page_source, 'html.parser')
 
                 # for shade price
-
                 try:
-
                     price_match = driver.find_element(By.CSS_SELECTOR, shade_price)
                     price = price_match.text.strip()
                     if not price:
@@ -194,7 +193,6 @@ for target in scraping_targets:
                     else:
                         name_match = driver.find_element(By.CSS_SELECTOR, product_name)
 
-
                     productname = name_match.text.strip()
                     if not productname:
                           productname = name_match.get_attribute("textContent").strip()
@@ -207,12 +205,12 @@ for target in scraping_targets:
 
                 # for shade name
                 try:
-                  if shade_name:
-                    test = driver.find_element(By.CSS_SELECTOR, shade_name)
-                    selected_shade_text = test.text.strip()
-                  else:
-                    selected_shade_text = shade_item.text.strip()
-                  print(selected_shade_text)
+                    if shade_name:
+                        test = driver.find_element(By.CSS_SELECTOR, shade_name)
+                        selected_shade_text = test.text.strip()
+                    else:
+                        selected_shade_text = shade_item.text.strip()
+                    print(selected_shade_text)
                 except NoSuchElementException:
                     selected_shade_text = "Shade name not found"
                     print(selected_shade_text)
@@ -255,9 +253,6 @@ for target in scraping_targets:
                     rgb_color_Code = "color code not found"
                     print(rgb_color_Code)
 
-
-
-
                 # for image
                 try:
                     if shade_image_srcset:
@@ -270,8 +265,6 @@ for target in scraping_targets:
                     elif shade_image_classname:
                         img_class = driver.find_element(By.CSS_SELECTOR, shade_image_classname)
                         data = img_class.get_attribute('src')
-
-
                     else:
                         # Check if the image tag is present and get the srcset attribute if available
                         parent_img = driver.find_element(By.CSS_SELECTOR, img_parent)
@@ -279,7 +272,6 @@ for target in scraping_targets:
                         srcset = image_tag.get_attribute('srcset') if image_tag else None
                         data = srcset.replace('//', '')
 
-                    # print(data)
                     if data.startswith('/'):
                         full_image_url = image_base_url + data
                     else:
@@ -319,7 +311,13 @@ for target in scraping_targets:
         all_data.append(scraped_data)
         print("-" * 50)
 
-output_file = 'scraped_data.json'
+# Generate today's date in YYYYMMDD format
+today_date = datetime.date.today().strftime('%Y%m%d')
+
+# Define the output filename with today's date
+output_file = f'scraped_data_{today_date}.json'
+
+# Save the scraped data to the output file
 with open(output_file, 'w') as f:
     json.dump(all_data, f, indent=4)
 
