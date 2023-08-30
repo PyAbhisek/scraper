@@ -11,7 +11,7 @@ with open('config.json') as f:
     scraping_targets = json.load(f)
 
 # Specify the path to the Chrome driver executable
-chrome_driver_binary = "/usr/local/bin/chromedriver"
+chrome_driver_binary = "/usr/bin/chromedriver"
 
 # Create a Service object with the executable_path
 service = Service(chrome_driver_binary)
