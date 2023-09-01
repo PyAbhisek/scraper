@@ -12,11 +12,21 @@ import time
 with open('config.json') as f:
     scraping_targets = json.load(f)
 
-chrome_driver_path = r'C:\Users\abhis\OneDrive\Desktop\pythonselenium\chromedriver-win64\chromedriver.exe'
-chrome_service = Service(chrome_driver_path)
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--disable-dev-shm-usage')
+chrome_options.add_argument(
+    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
+
+# Set the viewport size
+chrome_options.add_argument("--window-size=1920,1080")
+
+# Path to ChromeDriver executable in Colab
+chrome_driver_path = '/usr/bin/chromedriver'
 
 
-driver = webdriver.Chrome(service=chrome_service)
+driver = webdriver.Chrome(options=chrome_options)
 
 for target in scraping_targets:
     url = target["url"]
