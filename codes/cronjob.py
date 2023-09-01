@@ -3,7 +3,7 @@ import subprocess
 import sys
 
 
-desired_time = "18:48"
+desired_time = "19:00"
 
 while True:
     #current time
