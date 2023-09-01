@@ -10,21 +10,21 @@ from selenium.webdriver.support import expected_conditions as EC
 with open('config.json') as f:
     scraping_targets = json.load(f)
 
-# Specify the path to the Chrome driver executable
-chrome_driver_binary = "/usr/bin/chromedriver"
-
-# Create a Service object with the executable_path
-service = Service(chrome_driver_binary)
-
-
-# Create a ChromeOptions object for any additional options you need
-options = webdriver.ChromeOptions()
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("--headless")
-options.binary_location = '/usr/bin/chromedriver'
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--disable-dev-shm-usage')
+chrome_options.add_argument(
+    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
+
+# Set the viewport size
+chrome_options.add_argument("--window-size=1920,1080")
+
+# Path to ChromeDriver executable in Colab
+chrome_driver_path = '/usr/bin/chromedriver'
 
 # Create the Chrome WebDriver instance with the Service and Options
-driver = webdriver.Chrome(service=service, options=options)
+driver = webdriver.Chrome(options=chrome_options)
 
 
 
@@ -45,6 +45,7 @@ for target in scraping_targets:
         try:
             pagination_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, loadmore)))
             pagination_button.click()
+            print("clicked")
         except TimeoutException:
             print(f"TimeoutException: Pagination button not found for URL: {url}")
 

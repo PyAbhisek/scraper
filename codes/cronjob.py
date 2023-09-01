@@ -3,11 +3,13 @@ import subprocess
 import sys
 
 
-desired_time = "19:00"
+desired_time = "19:11"
 
 while True:
     #current time
+    print("sdfgh")
     current_time = time.strftime("%H:%M")
+    print(current_time)
 
 
     if current_time == desired_time:
