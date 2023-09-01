@@ -1,18 +1,17 @@
 import time
 import subprocess
 import sys
+from datetime import datetime
+from datetime import timedelta
 
+# and the access its now method simpler
+desired_time = datetime.now()
 
-desired_time = "19:15"
+run_time =(desired_time+timedelta(minutes=2)).strftime("%H:%M")
 
 while True:
-    #current time
-    print("sdfgh")
     current_time = time.strftime("%H:%M")
-    print(current_time)
-
-
-    if current_time == desired_time:
+    if current_time == run_time:
         try:
             # Full path to the Python interpreter you want to use
             python_executable = sys.executable
@@ -30,6 +29,3 @@ while True:
 
     # Sleep for a minute before checking the time again
     time.sleep(60)
-
-
-
