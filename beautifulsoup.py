@@ -82,9 +82,7 @@ if not os.path.exists(folder_name):
 # Define the local directory containing the files to upload
 output_directory = folder_name
 
-# Create a dictionary to store data for each website
-all_data = []
-
+# Iterate through the scraping targets
 for target in scraping_targets:
     website_name = target["filename"]
     product_name = target["product_name"]
@@ -323,19 +321,25 @@ for target in scraping_targets:
 
     links = links_data['links']
 
+    # Create a list to store data for the current website
+    website_data = []
+
     for url in links:
         print(f"Scraping data from: {url}")
         scraped_data = scrape_data(url)
-        all_data.append(scraped_data)
+        website_data.append(scraped_data)
         print("-" * 50)
 
     # Define the output JSON file for this website based on the filename
     output_file = os.path.join(output_directory, f"{website_name}.json")
 
+    # Write the data for the current website to the JSON file
     with open(output_file, 'w') as f:
-        json.dump(all_data, f, indent=4)
+        json.dump(website_data, f, indent=4)
 
     print(f"Scraped data for {website_name} saved to '{output_file}'")
+
+
 
 print(f"Scraped data saved in directory '{output_directory}'")
 
