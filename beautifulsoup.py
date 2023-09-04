@@ -30,7 +30,7 @@ chrome_options.add_argument(
 chrome_options.add_argument("--window-size=1920,1080")
 
 # Path to ChromeDriver executable
-chrome_driver_path = '/usr/bin/google-chrome'
+chrome_driver_path = '/usr/bin/chromedriver'
 
 
 def get_image_rgb(url):
