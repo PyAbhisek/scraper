@@ -22,7 +22,7 @@ chrome_options.add_argument(
 chrome_options.add_argument("--window-size=1920,1080")
 
 # Path to ChromeDriver executable in Colab
-chrome_driver_path = '/usr/bin/chromedriver'
+chrome_driver_path = '/usr/bin/google-chrome'
 
 driver = webdriver.Chrome(options=chrome_options)
 
