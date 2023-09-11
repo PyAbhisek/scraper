@@ -199,6 +199,8 @@ for target in scraping_targets:
 
                 print(oprice)
 
+                # Initialize the result variable
+                result = None
                 # for product name
                 try:
                     if product_name_parent:
@@ -213,6 +215,23 @@ for target in scraping_targets:
                         productname = name_match.get_attribute("textContent").strip()
                     if not productname:
                         productname = name_match.get_attribute("innerText").strip()
+
+                    print(productname)
+
+                        # List of keywords to check
+                    keywords = ['satin', 'metallic', 'matte', 'gloss']
+
+
+                    # Iterate through keywords and check if they are in the product name
+                    found_keywords = [keyword for keyword in keywords if keyword in productname.lower()]
+
+                    if found_keywords:
+                        # Print the first found keyword
+                        result = found_keywords[0]
+                        print(result)
+                    else:
+                        result = "N/A"
+                        print(result)
 
                 except NoSuchElementException:
                     productname = "Product name not found"
@@ -303,6 +322,7 @@ for target in scraping_targets:
                         "shade_image_url": full_image_url,
                         "shade_price": price,
                         "Product_Name": productname,
+                        "Product_type": result,
                         "original_price": oprice,
                         "Selected_shade_name": selected_shade_text,
                         "vendor": vendor
