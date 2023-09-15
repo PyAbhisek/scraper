@@ -82,6 +82,10 @@ if not os.path.exists(folder_name):
 # Define the local directory containing the files to upload
 output_directory = folder_name
 
+# Initialize counters
+total_product_count = 0
+website_product_counts = {}
+
 # Iterate through the scraping targets
 for target in scraping_targets:
     website_name = target["filename"]
@@ -344,11 +348,22 @@ for target in scraping_targets:
     # Create a list to store data for the current website
     website_data = []
 
+    # Initialize website product count
+    website_product_count = 0
+
     for url in links:
         print(f"Scraping data from: {url}")
         scraped_data = scrape_data(url)
         website_data.append(scraped_data)
         print("-" * 50)
+        # Increment website product count
+        website_product_count += len(scraped_data["shades"])
+
+    # Update total product count
+    total_product_count += website_product_count
+
+    # Update website product counts dictionary
+    website_product_counts[website_name] = website_product_count
 
     # Define the output JSON file for this website based on the filename
     output_file = os.path.join(output_directory, f"{website_name}.json")
@@ -359,7 +374,10 @@ for target in scraping_targets:
 
     print(f"Scraped data for {website_name} saved to '{output_file}'")
 
-
+# Print the total product count and website-wise product counts
+print(f"Total product count: {total_product_count}")
+for website, count in website_product_counts.items():
+    print(f"Product count for {website}: {count}")
 
 print(f"Scraped data saved in directory '{output_directory}'")
 
