@@ -13,13 +13,14 @@ import time
 from PIL import Image
 import os  # Import the os module
 from datetime import date
+import traceback
 
+# Chrome options to run headless
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-chrome_options.add_argument(
-    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
+chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
 
 # Set the viewport size
 chrome_options.add_argument("--window-size=1920,1080")
@@ -38,6 +39,8 @@ if not os.path.exists(folder_name):
 # Define the local directory containing the files to upload
 output_directory = folder_name
 
+# Define the log file path
+log_file_path = os.path.join(output_directory, 'scraping_log.txt')
 
 def get_image_rgb(url):
     headers = {
@@ -48,14 +51,12 @@ def get_image_rgb(url):
     img = img.convert('RGB')
     return img.getpixel((width // 2, height // 2))
 
-
 def click_element_safely(element):
     try:
         element.click()
     except StaleElementReferenceException:
         # Handle the StaleElementReferenceException by re-locating the element before clicking
         click_element_safely(element)
-
 
 def scrape_data(url):
     driver = webdriver.Chrome(options=chrome_options)
@@ -94,7 +95,6 @@ def scrape_data(url):
             page_source = driver.page_source
             soup = BeautifulSoup(page_source, 'html.parser')
 
-            # saleprice
             try:
                 price_match = driver.find_element(By.CSS_SELECTOR, '.css-1jczs19')
                 price = price_match.text.strip()
@@ -102,7 +102,7 @@ def scrape_data(url):
             except NoSuchElementException:
                 price = "Price not found"
                 print(price)
-            # originalprice
+
             try:
                 original_price_match = driver.find_element(By.CSS_SELECTOR, '.css-u05rr')
                 original_price = original_price_match.text.strip()
@@ -111,17 +111,14 @@ def scrape_data(url):
                 original_price = "Price not found"
                 print(original_price)
 
-            # for product name
             result = None
             try:
                 name_match = driver.find_element(By.CSS_SELECTOR, '.css-1gc4x7i')
                 pname = name_match.text.strip()
                 print(pname)
                 keywords = ['satin', 'metallic', 'matte', 'gloss']
-                # Iterate through keywords and check if they are in the product name
                 found_keywords = [keyword for keyword in keywords if keyword in pname.lower()]
                 if found_keywords:
-                    # Print the first found keyword
                     result = found_keywords[0]
                     print(result)
                 else:
@@ -130,8 +127,6 @@ def scrape_data(url):
             except NoSuchElementException:
                 pname = "Product name not found"
                 print(pname)
-
-            # shadename
 
             try:
                 test = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
@@ -143,7 +138,6 @@ def scrape_data(url):
                 selected_shade_name = "Shade name not found"
                 print(selected_shade_name)
 
-            # shadecolor
             try:
                 color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
                 shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
@@ -154,7 +148,6 @@ def scrape_data(url):
                 background_color_rgb = "color code not found"
                 print(background_color_rgb)
 
-            # productimage
             try:
                 test1 = driver.find_element(By.CSS_SELECTOR,
                                             '#app > div.css-e82s8r > div.css-16kpx0l > div.css-14y2xde > div.css-1mruek6 > div.css-ov1ktg > div.productSelectedImage.css-eyk94w > div > div > img')
@@ -182,9 +175,16 @@ def scrape_data(url):
 
         return product_data
 
+    except Exception as e:
+        print(f"An error occurred while scraping the URL: {url}")
+        print(f"Error: {str(e)}")
+        with open(log_file_path, 'a') as log_file:
+            log_file.write(f"An error occurred while scraping the URL: {url}\n")
+            log_file.write(f"Error: {str(e)}\n")
+            traceback.print_exc()
+
     finally:
         driver.quit()
-
 
 # Load links from JSON file
 with open('links.json', 'r') as f:
@@ -197,7 +197,8 @@ all_data = []
 for url in links:
     print(f"Scraping data from: {url}")
     scraped_data = scrape_data(url)
-    all_data.append(scraped_data)
+    if scraped_data:
+        all_data.append(scraped_data)
     print("-" * 50)
 
 # Exclude shades with "combo" keyword
@@ -218,4 +219,9 @@ print(f"Filtered scraped data saved to '{output_file}'")
 # Calculate the total count of shades
 total_shade_count = sum(len(data["shades"]) for data in all_data_filtered)
 
+# Print the total count of shades to the console
 print(f"Total count of shades: {total_shade_count}")
+
+# Log the total count of shades
+with open(log_file_path, 'a') as log_file:
+    log_file.write(f"Total count of shades: {total_shade_count}\n")
