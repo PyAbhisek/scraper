@@ -1,0 +1,653 @@
+[
+    {
+        "url": "https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1",
+        "shades": [
+            {
+                "shade_url": "https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1&skuId=4317045",
+                "shade_color": [
+                    187,
+                    87,
+                    111
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/e/e/ee635cdMAYBE00000252_1.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9479",
+                "shade_original_price": "MRP:\u20b9599",
+                "Product_Name": "Maybelline New York Color Sensational Ultimattes Lipstick - More Mauve\n(1.7 g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "More Mauve-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1&skuId=4317041",
+                "shade_color": [
+                    205,
+                    35,
+                    38
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/4/5/45505cdMAYBE00000248_1.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9479",
+                "shade_original_price": "MRP:\u20b9599",
+                "Product_Name": "Maybelline New York Color Sensational Ultimattes Lipstick - More Ruby\n(1.7 g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "More Ruby-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1&skuId=4317042",
+                "shade_color": [
+                    225,
+                    43,
+                    29
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/e/0/e0525cdMAYBE00000249_1.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9479",
+                "shade_original_price": "MRP:\u20b9599",
+                "Product_Name": "Maybelline New York Color Sensational Ultimattes Lipstick - More Scarlet\n(1.7 g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "More Scarlet-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1&skuId=4317043",
+                "shade_color": [
+                    241,
+                    40,
+                    94
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/1/5/15705cdMAYBE00000250_1.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9479",
+                "shade_original_price": "MRP:\u20b9599",
+                "Product_Name": "Maybelline New York Color Sensational Ultimattes Lipstick - More Magenta\n(1.7 g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "More Magenta-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1&skuId=4317044",
+                "shade_color": [
+                    207,
+                    94,
+                    98
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/3/8/38675cdMAYBE00000251_1.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9479",
+                "shade_original_price": "MRP:\u20b9599",
+                "Product_Name": "Maybelline New York Color Sensational Ultimattes Lipstick - More Blush\n(1.7 g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "More Blush-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1&skuId=11392737",
+                "shade_color": [
+                    152,
+                    46,
+                    60
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/4/8/48379cf6902395833802_1.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9599",
+                "shade_original_price": "MRP:",
+                "Product_Name": "Maybelline New York Color Sensational Ultimatte Lipstick - Ruler\n(1.7 g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Ruler-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1&skuId=4317046",
+                "shade_color": [
+                    206,
+                    116,
+                    107
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/e/5/e5ab5cdMAYBE00000253_1.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9479",
+                "shade_original_price": "MRP:\u20b9599",
+                "Product_Name": "Maybelline New York Color Sensational Ultimattes Lipstick - More Buff\n(1.7 g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "More Buff-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1&skuId=4317047",
+                "shade_color": [
+                    183,
+                    96,
+                    77
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/a/4/a48e5cdMAYBE00000254_1.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9479",
+                "shade_original_price": "MRP:\u20b9599",
+                "Product_Name": "Maybelline New York Color Sensational Ultimattes Lipstick - More Taupe\n(1.7 g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "More Taupe-shade",
+                "vendor": "KayBeauty"
+            }
+        ]
+    },
+    {
+        "url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2",
+        "shades": [
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037754",
+                "shade_color": [
+                    170,
+                    59,
+                    75
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/0/a/0ac76cb24859_H-8901030794773.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MP8 Rosy Sunday\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MP8 Rosy Sunday-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037748",
+                "shade_color": [
+                    163,
+                    33,
+                    59
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/1/9/19b16cb24850_H-8901030794339.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MR5 Berry Base\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MR5 Berry Base-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037749",
+                "shade_color": [
+                    177,
+                    77,
+                    79
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/b/0/b0b9f0524849_s11-8901030794322.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MR4 Roseatte Red\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MR4 Roseatte Red-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037750",
+                "shade_color": [
+                    157,
+                    46,
+                    26
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/1/c/1c656cb24848_H-8901030794315.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MR3 Red Rust\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MR3 Red Rust-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037751",
+                "shade_color": [
+                    211,
+                    13,
+                    49
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/2/9/29d96cb24847_H-8901030794308.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MR2 Red Coat\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MR2 Red Coat-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037752",
+                "shade_color": [
+                    224,
+                    30,
+                    57
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/2/e/2e796cb24846_H-8901030794292.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MR1 Red Letter\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MR1 Red Letter-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037753",
+                "shade_color": [
+                    166,
+                    95,
+                    89
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/6/1/6174f0524860_s11-8901030794780.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MP9 Nude Touch\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MP9 Nude Touch-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037747",
+                "shade_color": [
+                    226,
+                    94,
+                    89
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/f/9/f9156cb24851_H-8901030794346.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MR6 Coral Date\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MR6 Coral Date-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037755",
+                "shade_color": [
+                    197,
+                    114,
+                    108
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/0/5/05e1cb51037755_0.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MP7 Blushing Nude\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MP7 Blushing Nude-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037756",
+                "shade_color": [
+                    136,
+                    9,
+                    50
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/8/0/8001f0524857_s11-8901030794759.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MP6 Deep Wine\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MP6 Deep Wine-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037757",
+                "shade_color": [
+                    175,
+                    41,
+                    78
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/0/c/0c3f6cb24856_H-8901030794742.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MP5 Maroon Mix\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MP5 Maroon Mix-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037758",
+                "shade_color": [
+                    186,
+                    33,
+                    98
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/b/3/b3a06cb24855_H-8901030794384.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MP4 Plum Pick\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MP4 Plum Pick-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037759",
+                "shade_color": [
+                    139,
+                    61,
+                    75
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/8/0/808d6cb24854_H-8901030794377.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MP3 Pink Party\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MP3 Pink Party-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037760",
+                "shade_color": [
+                    226,
+                    59,
+                    87
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/5/a/5ae06cb24853_H_8901030794360.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MP2 Ruby Rush\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MP2 Ruby Rush-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037761",
+                "shade_color": [
+                    231,
+                    32,
+                    97
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/6/b/6bb56cb24852_H-8901030794353.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MP1 Pink Perfect\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MP1 Pink Perfect-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037762",
+                "shade_color": [
+                    120,
+                    49,
+                    55
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/0/6/06716cb24865_H-8901030794834.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MM3 Sangria Weekend\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MM3 Sangria Weekend-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037764",
+                "shade_color": [
+                    182,
+                    102,
+                    113
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/4/0/4001f0524863_s11-8901030794810.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MM1 Mauve Matter\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MM1 Mauve Matter-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037765",
+                "shade_color": [
+                    181,
+                    93,
+                    69
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/e/8/e8d1f0524862_s11-8901030794803.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MB2 Caramel Latte\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MB2 Caramel Latte-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037766",
+                "shade_color": [
+                    144,
+                    89,
+                    94
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/a/0/a025f0524861_s11-8901030794797.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MB1 Chocolate Crush\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "MB1 Chocolate Crush-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330880",
+                "shade_color": [
+                    213,
+                    14,
+                    17
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/0/5/05408abLAKME00000147_001.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Red Twist\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Red Twist-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330881",
+                "shade_color": [
+                    131,
+                    0,
+                    31
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/a/a/aabc5cflakme00000148__1_.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Burgundy Passion\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Burgundy Passion-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330882",
+                "shade_color": [
+                    219,
+                    32,
+                    59
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/0/5/05408abLAKME00000149_001.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Pink Rose\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Pink Rose-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330883",
+                "shade_color": [
+                    233,
+                    97,
+                    111
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/0/5/05408abLAKME00000150_001.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Blush Pink\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Blush Pink-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330884",
+                "shade_color": [
+                    141,
+                    60,
+                    66
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/6/6/665f74eLAKME00000151_1.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Dusty Pink\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Dusty Pink-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330885",
+                "shade_color": [
+                    223,
+                    75,
+                    89
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/8/6/8615b7bLAKME00000152_1.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Peachy Affair\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Peachy Affair-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330886",
+                "shade_color": [
+                    170,
+                    23,
+                    68
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/0/5/05408abLAKME00000153_001.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Rose Day\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Rose Day-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330887",
+                "shade_color": [
+                    118,
+                    68,
+                    61
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/f/9/f93255224979_s1-8901030816017.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Brown Walnut\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Brown Walnut-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330888",
+                "shade_color": [
+                    150,
+                    76,
+                    51
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/d/7/d71455224980_s1-8901030816024.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Rustic Brown\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Rustic Brown-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330889",
+                "shade_color": [
+                    151,
+                    87,
+                    78
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/2/c/2c896cb24981_H-8901030816031.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Coffee Command\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Coffee Command-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330890",
+                "shade_color": [
+                    221,
+                    43,
+                    77
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/6/c/6ca86cb24967_H-8901030816048.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Scarlet Surge\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Scarlet Surge-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330891",
+                "shade_color": [
+                    155,
+                    44,
+                    50
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/8/1/814d6cb24968_H-8901030816055.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Cherry Chic\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Cherry Chic-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330892",
+                "shade_color": [
+                    206,
+                    79,
+                    62
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/8/2/82746cb24969_H-8901030816062.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Brick Blush\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Brick Blush-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330893",
+                "shade_color": [
+                    201,
+                    19,
+                    59
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/8/6/866e55224970_s1-8901030816079.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Iconic Red\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Iconic Red-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1330894",
+                "shade_color": [
+                    130,
+                    16,
+                    50
+                ],
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/b/4/b4f55cflakme00000161__1_.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9495",
+                "shade_original_price": "MRP:\u20b9550",
+                "Product_Name": "Lakme 9to5 Primer + Matte Lip Color - Red Velvet\n(3.6gm)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Red Velvet-shade",
+                "vendor": "KayBeauty"
+            },
+            {
+                "shade_url": "https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2&skuId=1037763",
+                "shade_color": "color code not found",
+                "shade_image_url": "https:images-static.nykaa.com/media/catalog/product/5/8/58af6cb24864_H_8901030794827.jpg?tr=w-344,h-344,cm-pad_resize",
+                "shade_sale_price": "\u20b9450",
+                "shade_original_price": "MRP:\u20b9500",
+                "Product_Name": "Lakme 9 To 5 Primer + Matte Lipstick - MM2 Garnet Punch\n(3.6g)",
+                "Product_type": "matte",
+                "Selected_shade_name": "Shade name not found",
+                "vendor": "KayBeauty"
+            }
+        ]
+    }
+]
