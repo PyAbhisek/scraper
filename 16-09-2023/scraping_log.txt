@@ -1,0 +1,2 @@
+An error occurred while scraping the URL: https://www.nykaa.com/lipstick-little-m-a-c/p/331327?productId=331327&skuId=331325&pps=6
+Error: 'NoneType' object has no attribute 'text'

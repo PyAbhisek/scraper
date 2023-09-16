@@ -1,0 +1,129 @@
+An error occurred while scraping data from https://www.nykaa.com/lipstick-little-m-a-c/p/331327?productId=331327&skuId=331325&pps=6: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.188)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7395C52A2+57122]
+	(No symbol) [0x00007FF73953EA92]
+	(No symbol) [0x00007FF73940E3AB]
+	(No symbol) [0x00007FF7393EE1B9]
+	(No symbol) [0x00007FF73946B417]
+	(No symbol) [0x00007FF73947E24F]
+	(No symbol) [0x00007FF739466DB3]
+	(No symbol) [0x00007FF73943D2B1]
+	(No symbol) [0x00007FF73943E494]
+	GetHandleVerifier [0x00007FF73986EF82+2849794]
+	GetHandleVerifier [0x00007FF7398C1D24+3189156]
+	GetHandleVerifier [0x00007FF7398BACAF+3160367]
+	GetHandleVerifier [0x00007FF739656D06+653702]
+	(No symbol) [0x00007FF73954A208]
+	(No symbol) [0x00007FF7395462C4]
+	(No symbol) [0x00007FF7395463F6]
+	(No symbol) [0x00007FF7395367A3]
+	BaseThreadInitThunk [0x00007FFAAEFE257D+29]
+	RtlUserThreadStart [0x00007FFAAFA2AA68+40]
+
+An error occurred while scraping data from https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.188)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7395C52A2+57122]
+	(No symbol) [0x00007FF73953EA92]
+	(No symbol) [0x00007FF73940E3AB]
+	(No symbol) [0x00007FF7393EE1B9]
+	(No symbol) [0x00007FF73946B417]
+	(No symbol) [0x00007FF73947E24F]
+	(No symbol) [0x00007FF739466DB3]
+	(No symbol) [0x00007FF73943D2B1]
+	(No symbol) [0x00007FF73943E494]
+	GetHandleVerifier [0x00007FF73986EF82+2849794]
+	GetHandleVerifier [0x00007FF7398C1D24+3189156]
+	GetHandleVerifier [0x00007FF7398BACAF+3160367]
+	GetHandleVerifier [0x00007FF739656D06+653702]
+	(No symbol) [0x00007FF73954A208]
+	(No symbol) [0x00007FF7395462C4]
+	(No symbol) [0x00007FF7395463F6]
+	(No symbol) [0x00007FF7395367A3]
+	BaseThreadInitThunk [0x00007FFAAEFE257D+29]
+	RtlUserThreadStart [0x00007FFAAFA2AA68+40]
+
+An error occurred while scraping the URL: https://www.nykaa.com/lipstick-little-m-a-c/p/331327?productId=331327&skuId=331325&pps=6
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.188)
+Stacktrace:
+	GetHandleVerifier [0x00007FF79E4852A2+57122]
+	(No symbol) [0x00007FF79E3FEA92]
+	(No symbol) [0x00007FF79E2CE3AB]
+	(No symbol) [0x00007FF79E2AE1B9]
+	(No symbol) [0x00007FF79E32B417]
+	(No symbol) [0x00007FF79E33E24F]
+	(No symbol) [0x00007FF79E326DB3]
+	(No symbol) [0x00007FF79E2FD2B1]
+	(No symbol) [0x00007FF79E2FE494]
+	GetHandleVerifier [0x00007FF79E72EF82+2849794]
+	GetHandleVerifier [0x00007FF79E781D24+3189156]
+	GetHandleVerifier [0x00007FF79E77ACAF+3160367]
+	GetHandleVerifier [0x00007FF79E516D06+653702]
+	(No symbol) [0x00007FF79E40A208]
+	(No symbol) [0x00007FF79E4062C4]
+	(No symbol) [0x00007FF79E4063F6]
+	(No symbol) [0x00007FF79E3F67A3]
+	BaseThreadInitThunk [0x00007FFAAEFE257D+29]
+	RtlUserThreadStart [0x00007FFAAFA2AA68+40]
+
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1
+Error: Message: unknown error: cannot determine loading status
+from target frame detached
+  (Session info: chrome=116.0.5845.188)
+Stacktrace:
+	GetHandleVerifier [0x00007FF79E4852A2+57122]
+	(No symbol) [0x00007FF79E3FEA92]
+	(No symbol) [0x00007FF79E2CE25D]
+	(No symbol) [0x00007FF79E2BBEC1]
+	(No symbol) [0x00007FF79E2BA9E5]
+	(No symbol) [0x00007FF79E2BB31E]
+	(No symbol) [0x00007FF79E2C8597]
+	(No symbol) [0x00007FF79E2D7F31]
+	(No symbol) [0x00007FF79E2DC0DA]
+	(No symbol) [0x00007FF79E2BB8E7]
+	(No symbol) [0x00007FF79E2D7BC3]
+	(No symbol) [0x00007FF79E33EAAF]
+	(No symbol) [0x00007FF79E326DB3]
+	(No symbol) [0x00007FF79E2FD2B1]
+	(No symbol) [0x00007FF79E2FE494]
+	GetHandleVerifier [0x00007FF79E72EF82+2849794]
+	GetHandleVerifier [0x00007FF79E781D24+3189156]
+	GetHandleVerifier [0x00007FF79E77ACAF+3160367]
+	GetHandleVerifier [0x00007FF79E516D06+653702]
+	(No symbol) [0x00007FF79E40A208]
+	(No symbol) [0x00007FF79E4062C4]
+	(No symbol) [0x00007FF79E4063F6]
+	(No symbol) [0x00007FF79E3F67A3]
+	BaseThreadInitThunk [0x00007FFAAEFE257D+29]
+	RtlUserThreadStart [0x00007FFAAFA2AA68+40]
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.188)
+Stacktrace:
+	GetHandleVerifier [0x00007FF79E4852A2+57122]
+	(No symbol) [0x00007FF79E3FEA92]
+	(No symbol) [0x00007FF79E2CE3AB]
+	(No symbol) [0x00007FF79E2AE1B9]
+	(No symbol) [0x00007FF79E32B417]
+	(No symbol) [0x00007FF79E33E24F]
+	(No symbol) [0x00007FF79E326DB3]
+	(No symbol) [0x00007FF79E2FD2B1]
+	(No symbol) [0x00007FF79E2FE494]
+	GetHandleVerifier [0x00007FF79E72EF82+2849794]
+	GetHandleVerifier [0x00007FF79E781D24+3189156]
+	GetHandleVerifier [0x00007FF79E77ACAF+3160367]
+	GetHandleVerifier [0x00007FF79E516D06+653702]
+	(No symbol) [0x00007FF79E40A208]
+	(No symbol) [0x00007FF79E4062C4]
+	(No symbol) [0x00007FF79E4063F6]
+	(No symbol) [0x00007FF79E3F67A3]
+	BaseThreadInitThunk [0x00007FFAAEFE257D+29]
+	RtlUserThreadStart [0x00007FFAAFA2AA68+40]
+

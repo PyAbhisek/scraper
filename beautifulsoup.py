@@ -135,8 +135,14 @@ def scrape_data(url):
                 selected_shade_name = selected_shade_text.replace('Color:', '').strip()
                 print(selected_shade_name)
             except NoSuchElementException:
-                selected_shade_name = "Shade name not found"
-                print(selected_shade_name)
+                try:
+                    test = driver.find_element(By.CSS_SELECTOR, '.oos.css-10ht89k')
+                    shade_name = test.find_element(By.TAG_NAME, 'img')
+                    selected_shade_text = shade_name.get_attribute('alt')
+                    selected_shade_name = selected_shade_text.replace('Color:', '').strip()
+                except NoSuchElementException:
+                    selected_shade_name = "Shade name not found"
+                    print(selected_shade_name)
 
             try:
                 color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
@@ -145,8 +151,16 @@ def scrape_data(url):
                 background_color_rgb = get_image_rgb(color_code)
                 print(background_color_rgb)
             except NoSuchElementException:
-                background_color_rgb = "color code not found"
-                print(background_color_rgb)
+                try:
+                    color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
+                    shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
+                    color_code = shade_name.get_attribute('src')
+                    background_color_rgb = get_image_rgb(color_code)
+                    print(background_color_rgb)
+                except NoSuchElementException:
+                    background_color_rgb = "color code not found"
+                    print(background_color_rgb)
+
 
             try:
                 test1 = driver.find_element(By.CSS_SELECTOR,
@@ -198,7 +212,15 @@ for url in links:
     print(f"Scraping data from: {url}")
     scraped_data = scrape_data(url)
     if scraped_data:
+        # Append the scraped data for this URL to the list
         all_data.append(scraped_data)
+
+        # Save the updated data to the JSON file after scraping each URL
+        output_file_partial = os.path.join(output_directory, 'partial_scraped_data.json')
+        with open(output_file_partial, 'w') as f:
+            json.dump(all_data, f, indent=4)
+            print(f"Partial scraped data saved to '{output_file_partial}'")
+
     print("-" * 50)
 
 # Exclude shades with "combo" keyword
@@ -209,12 +231,12 @@ for data in all_data:
         data["shades"] = shades_filtered
         all_data_filtered.append(data)
 
-# Save all filtered scraped data to a JSON file
-output_file = os.path.join(output_directory, 'filtered_scraped_data.json')
-with open(output_file, 'w') as f:
-    json.dump(all_data_filtered, f, indent=4)
+# Save all scraped data to a single JSON file
+output_file_final = os.path.join(output_directory, 'all_scraped_data.json')
+with open(output_file_final, 'w') as f:
+    json.dump(all_data, f, indent=4)
 
-print(f"Filtered scraped data saved to '{output_file}'")
+print(f"All scraped data saved to '{output_file_final}'")
 
 # Calculate the total count of shades
 total_shade_count = sum(len(data["shades"]) for data in all_data_filtered)
