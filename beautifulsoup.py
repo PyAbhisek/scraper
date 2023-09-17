@@ -17,7 +17,7 @@ import traceback
 
 # Chrome options to run headless
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--headless')
+# chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
@@ -89,7 +89,7 @@ def scrape_data(url):
                 except (ElementNotInteractableException, ElementClickInterceptedException):
                     print("Still unable to click on the shade item. Skipping to the next one.")
 
-            time.sleep(3)
+            # time.sleep(3)
             window_location = driver.execute_script("return window.location.href")
             print(window_location)
             page_source = driver.page_source
@@ -182,7 +182,7 @@ def scrape_data(url):
                 "Product_Name": pname,
                 "Product_type": result,
                 "Selected_shade_name": selected_shade_name,
-                "vendor": "KayBeauty"
+                "vendor": "Nykaa E-Retail Pvt. Ltd"
             }
 
             product_data["shades"].append(shade_data)
