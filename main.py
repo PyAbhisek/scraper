@@ -20,6 +20,12 @@ chrome_driver_path = '/usr/bin/chromedriver'
 # Initialize an empty list to store the links
 links = []
 
+# Keywords to exclude
+exclude_keywords = ['lip-juicers', '-in-1', 'kajal', 'casing', 'lip-gloss', 'brush', 'concealer', 'changing',
+                    'refillable-case', 'pencil', 'lip-liner', 'lipliner', 'lip-plumper', 'lip-oil',
+                    'multi-mousse', 'lip-balm', 'lip-care', 'cheek-stain', 'cheek', 'scrub',
+                    'crayon', 'pack', 'combo', 'fab5', 'lacquer', 'mini']
+
 for page_number in range(1, 54):
     driver = webdriver.Chrome(options=chrome_options)
     website = f'https://www.nykaa.com/makeup/lips/lipstick/c/249?page_no={page_number}&sort=popularity&eq=desktop'
@@ -31,7 +37,9 @@ for page_number in range(1, 54):
 
     for card in cards:
         href = card.get_attribute("href")
-        # if 'kay-beauty-matte-lipstick/p/1010793' in href:
+        if any(keyword in href for keyword in exclude_keywords):
+            continue  # Skip this link
+
         links.append(href)
 
     driver.quit()
@@ -42,4 +50,3 @@ data = {"links": links}
 # Save the links dictionary to a JSON file
 with open("links.json", "w") as json_file:
     json.dump(data, json_file, indent=4)  # The 'indent' argument is optional for pretty formatting
-
