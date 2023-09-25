@@ -1,4 +1,6 @@
 import json
+
+import boto3 as boto3
 import requests
 from io import BytesIO
 from selenium import webdriver
@@ -247,3 +249,27 @@ print(f"Total count of shades: {total_shade_count}")
 # Log the total count of shades
 with open(log_file_path, 'a') as log_file:
     log_file.write(f"Total count of shades: {total_shade_count}\n")
+# AWS credentials and S3 bucket information
+aws_access_key_id = 'AKIA5LN5QZFXC7TK5BXL'
+aws_secret_access_key = '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'
+bucket_name = 'dataset-image-dev'
+s3_prefix = 'web_scrape_data/' + current_date + '/'
+
+# Create an S3 client
+s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
+
+# Iterate through the files in the output_directory and upload them to S3
+for root, dirs, files in os.walk(output_directory):
+    for file in files:
+        local_path = os.path.join(root, file)
+        # Define the S3 key (object name) by removing the local directory path
+        s3_key = os.path.join(s3_prefix, os.path.relpath(local_path, output_directory))
+
+        try:
+            # Upload the file to S3
+            s3.upload_file(local_path, bucket_name, s3_key)
+            print(f"Uploaded {local_path} to s3://{bucket_name}/{s3_key}")
+        except Exception as e:
+            print(f"Error uploading {local_path} to s3://{bucket_name}/{s3_key}: {e}")
+
+print(f"Scraped data in '{output_directory}' uploaded to S3 bucket '{bucket_name}' with prefix '{s3_prefix}'")
