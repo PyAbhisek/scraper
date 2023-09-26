@@ -76,13 +76,14 @@ for target in scraping_targets:
     exclude_keywords = ['lip-juicers', '-in-1', 'kajal', 'casing', 'lip-gloss', 'brush', 'concealer', 'changing',
                         'refillable-case', 'pencil', 'lip-liner', 'lipliner', 'lip-plumper', 'lip-oil',
                         'multi-mousse', 'lip-balm', 'lip-care', 'cheek-stain', 'cheek', 'scrub',
-                        'crayon', 'pack', 'combo', 'fab5', 'lacquer', 'mini']
+                        'crayon', 'pack', 'combo', 'fab5', 'lacquer', 'mini','balm']
     iiii = 0
     for card in cards:
         iiii += 1
         print(f"loop {iiii}")
         try:
             href = card.get_attribute("href")
+            print(href)
             if href is not None and not any(keyword in href.lower() for keyword in exclude_keywords):
                 if href.startswith("/"):
                     href = base_url + href  # Concatenate base_url and relative href
@@ -91,6 +92,7 @@ for target in scraping_targets:
             # Handle the stale element exception by re-finding the card element
             card = driver.find_element(By.CSS_SELECTOR, class_name)
             href = card.get_attribute("href")
+            print(href)
             if href is not None and not any(keyword in href.lower() for keyword in exclude_keywords):
                 if href.startswith("/"):
                     href = base_url + href  # Concatenate base_url and relative href

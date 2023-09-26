@@ -1,5 +1,16 @@
 [
-   {
+  {
+    "url": "https://revlon.co.in/collections/lipstick",
+    "parent_element": ".grid-product__content ",
+    "css_selector": ".grid-product__link",
+    "filename": "revlon",
+    "loadmore": "",
+    "base_url": "",
+    "scrollmoretoload": "",
+    "startingrange": "",
+    "endingrange": ""
+  },
+  {
     "url": "https://www.esteelauder.in/products/649/product-catalog/makeup/lips/lipsticks",
     "parent_element": "",
     "css_selector": ".elc-clickable-wrapper.js-clickable-wrapper.elc-product-image-badge-wrapper.js-product-image-badge-wrapper",
@@ -10,7 +21,7 @@
     "startingrange": "",
     "endingrange": ""
   },
- {
+  {
     "url": "https://www.elfcosmetics.com/lips/lipstick",
     "parent_element": ".css-1ez1ltp",
     "css_selector": ".chakra-link.css-f4h6uy",
@@ -21,9 +32,9 @@
     "startingrange": "",
     "endingrange": ""
   },
-   {
+  {
     "url": "https://plumgoodness.com/collections/makeup?pf_mlt_product_type=filter-lipstick",
-     "parent_element": "",
+    "parent_element": "",
     "css_selector": ".product-grid-image.adaptive_height",
     "filename": "plumgoodness",
     "loadmore": "",
@@ -43,7 +54,6 @@
     "startingrange": "",
     "endingrange": ""
   },
-
   {
     "url": "https://lagirlindia.com/collections/lipstick",
     "parent_element": "",
