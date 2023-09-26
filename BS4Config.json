@@ -1,5 +1,25 @@
 [
   {
+    "product_name_parent": "",
+    "product_name": ".h2.product-single__title",
+    "shade_rgb": "",
+    "img_parent": ".product-main-slide.is-selected",
+    "img_tag": "img",
+    "shade_image_classname": "",
+    "shade_image_srcset": "",
+    "shade_image_src": "",
+    "parent_element": "",
+    "shade_click": ".variant__button-label",
+    "price_parent": "",
+    "shade_Original_Price": ".product__price.product__price--compare",
+    "shade_price": ".product__price.on-sale",
+    "shade_name": ".variant__label-info",
+    "image_base_url": "",
+    "color_Code_tag": "",
+    "vendor": "revlon",
+    "filename": "revlon"
+  },
+  {
     "product_name_parent": ".product-full__description-section",
     "product_name": ".product-full__title",
     "shade_rgb": "",
