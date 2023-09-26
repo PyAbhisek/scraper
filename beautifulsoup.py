@@ -54,6 +54,7 @@ def click_element_safely(element):
 # Handle popups for typsy
 def handle_popups(driver):
     try:
+        time.sleep(10)
         # Define the XPath for the popup and close button
         popup_xpath = '//*[@id="bik-widget-wrapper-Q0bQgojHaEBAsabJV5Xp"]/div/div'
         close_button_xpath = '//*[@id="bik-widget-wrapper-Q0bQgojHaEBAsabJV5Xp"]/div/div/div[1]/div'
@@ -61,7 +62,7 @@ def handle_popups(driver):
         # Wait for the popup to become visible (timeout after 10 seconds)
         wait = WebDriverWait(driver, 10)
         popup = wait.until(EC.visibility_of_element_located((By.XPATH, popup_xpath)))
-
+        # print("hello")
         if popup.is_displayed():
             # Handle the pop-up here
             # For example, you can click a close button to dismiss it
@@ -127,7 +128,7 @@ for target in scraping_targets:
         try:
             driver.implicitly_wait(10)
             product_counter = 0  # Initialize the product_counter
-            trigger_popup_after = 2
+            trigger_popup_after = 1
 
             # Add a print statement to check if the URL is being opened correctly
             print(f"Opened URL: {url}")
@@ -160,7 +161,7 @@ for target in scraping_targets:
                 # link for the product
                 window_location = driver.execute_script("return window.location.href")
                 print(window_location)
-
+                time.sleep(10)
                 # for only typsy
                 if filename_prefix == "typsybeauty" and product_counter == trigger_popup_after:
                     handle_popups(driver)

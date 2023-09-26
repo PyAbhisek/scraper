@@ -1,4 +1,24 @@
 [
+  {
+    "product_name_parent": "",
+    "product_name": ".product-title-heading",
+    "shade_rgb": "",
+    "img_parent": "",
+    "img_tag": "",
+    "shade_image_classname":"",
+    "shade_image_srcset": "//*[@id=\"shopify-section-template--20473395544373__main\"]/div/div/div/div/single-product/div/div[1]/div/div[1]/product-gallery/div/div[1]/div/div[2]/div/div/div[1]/div/div/div/img",
+    "shade_image_src": "",
+    "parent_element": ".product-options__section",
+    "shade_click": ".product-options__value.product-options__value--circle",
+    "price_parent": "",
+    "shade_Original_Price": "",
+    "shade_price": ".price",
+    "shade_name": "",
+    "image_base_url": "",
+    "color_Code_tag":"",
+    "vendor": "typsybeauty",
+    "filename": "typsybeauty"
+  },
     {
     "product_name_parent": ".is-hidden",
     "product_name": ".product__header-name",
