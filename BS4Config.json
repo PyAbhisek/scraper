@@ -1,11 +1,31 @@
 [
   {
+    "product_name_parent": ".product-page-info__title",
+    "product_name": ".m-0",
+    "shade_rgb": "",
+    "img_parent": "rimage",
+    "img_tag": "img",
+    "shade_image_classname": "",
+    "shade_image_srcset": "",
+    "shade_image_src": "",
+    "parent_element": ".product-options__section",
+    "shade_click": ".product-options__value.product-options__value--circle",
+    "price_parent": "",
+    "shade_Original_Price": "",
+    "shade_price": ".price",
+    "shade_name": ".ml-5",
+    "image_base_url": "",
+    "color_Code_tag": "",
+    "vendor": "colorbarcosmetics",
+    "filename": "colorbarcosmetics"
+  },
+  {
     "product_name_parent": "",
     "product_name": ".product-title-heading",
     "shade_rgb": "",
     "img_parent": "",
     "img_tag": "",
-    "shade_image_classname":"",
+    "shade_image_classname": "",
     "shade_image_srcset": "//*[@id=\"shopify-section-template--20473395544373__main\"]/div/div/div/div/single-product/div/div[1]/div/div[1]/product-gallery/div/div[1]/div/div[2]/div/div/div[1]/div/div/div/img",
     "shade_image_src": "",
     "parent_element": ".product-options__section",
@@ -15,17 +35,17 @@
     "shade_price": ".price",
     "shade_name": "",
     "image_base_url": "",
-    "color_Code_tag":"",
+    "color_Code_tag": "",
     "vendor": "typsybeauty",
     "filename": "typsybeauty"
   },
-    {
+  {
     "product_name_parent": ".is-hidden",
     "product_name": ".product__header-name",
     "shade_rgb": "",
     "img_parent": "",
     "img_tag": "",
-    "shade_image_classname":"",
+    "shade_image_classname": "",
     "shade_image_srcset": "//*[@id=\"content\"]/div/div[2]/div[1]/div[3]/div/ul/li[1]/picture/source[3]",
     "shade_image_src": "",
     "parent_element": ".shade-selector__list.list",
@@ -35,17 +55,17 @@
     "shade_price": ".product__header-price",
     "shade_name": "",
     "image_base_url": "https://www.maybelline.co.in",
-    "color_Code_tag":"circle",
+    "color_Code_tag": "circle",
     "vendor": "maybelline",
     "filename": "maybelline"
   },
-   {
+  {
     "product_name_parent": "",
     "product_name": ".h2.product-single__title",
     "shade_rgb": "",
     "img_parent": ".product-main-slide.is-selected",
     "img_tag": "img",
-    "shade_image_classname":"",
+    "shade_image_classname": "",
     "shade_image_srcset": "",
     "shade_image_src": "",
     "parent_element": ".variant-input-wrap",
@@ -53,20 +73,19 @@
     "price_parent": "",
     "shade_Original_Price": "",
     "shade_price": ".product__price",
-    "color_Code_tag":"",
+    "color_Code_tag": "",
     "shade_name": ".selected_color",
     "image_base_url": "",
     "vendor": " Faces Canada",
     "filename": "facescanada"
   },
-
   {
     "product_name_parent": "",
     "product_name": ".product-single__title",
     "shade_rgb": "",
     "img_parent": ".product-main-slide.is-selected",
     "img_tag": "img",
-    "shade_image_classname":"",
+    "shade_image_classname": "",
     "shade_image_srcset": "",
     "shade_image_src": "",
     "parent_element": "",
@@ -74,14 +93,13 @@
     "price_parent": ".product-block.product-block--price",
     "shade_Original_Price": ".product__price.product__price--compare",
     "shade_price": ".product__price.on-sale",
-    "color_Code_tag":"",
+    "color_Code_tag": "",
     "shade_name": ".variant__label-info",
     "image_base_url": "",
     "vendor": "lagirlindia",
     "filename": "lagirlindia"
   },
-
-    {
+  {
     "product_name_parent": ".product-title",
     "product_name": ".lang1",
     "shade_rgb": "",
@@ -89,12 +107,12 @@
     "img_tag": "",
     "shade_image_srcset": "",
     "shade_image_src": "",
-    "shade_image_classname":".zoomImg",
+    "shade_image_classname": ".zoomImg",
     "parent_element": "",
     "shade_click": ".bgImg",
     "price_parent": "",
     "shade_Original_Price": "",
-    "color_Code_tag":"",
+    "color_Code_tag": "",
     "shade_price": ".money",
     "shade_name": "#select2-product-selectors-option-0-container > div > p",
     "image_base_url": "",
@@ -107,7 +125,7 @@
     "shade_rgb": "",
     "img_parent": "",
     "img_tag": "",
-    "shade_image_classname":"",
+    "shade_image_classname": "",
     "shade_image_srcset": "",
     "shade_image_src": "//*[@id=\"prodimg0\"]/img[2]",
     "parent_element": "",
@@ -117,10 +135,8 @@
     "shade_price": ".product-full__price",
     "shade_name": ".js-shade-select-label-text.shade-picker__shade-item--label.product-full__shade-info-name",
     "image_base_url": "",
-    "color_Code_tag":"",
+    "color_Code_tag": "",
     "vendor": "maccosmetics",
     "filename": "maccosmetics"
   }
-
-
 ]

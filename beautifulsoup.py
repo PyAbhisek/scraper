@@ -264,6 +264,15 @@ for target in scraping_targets:
 
                     elif shade_item:
                         rgb = shade_item.get_attribute('style')
+                        print(rgb)
+                        #for colorbar
+                        if not rgb:
+                            data_selection_color = shade_item.get_attribute('data-selection-color')
+                            script = f"return getComputedStyle(document.querySelector('.{data_selection_color}')).backgroundColor;"
+                            rgb = shade_item._parent.execute_script(script)
+                            print("Background color associated with the class:", rgb)
+
+
 
                     # Extract the RGB value from rgb_color_Code
                     start_index = rgb.find('(')
