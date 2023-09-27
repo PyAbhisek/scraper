@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://www.lotusherbals.com/pages/lip-makeup",
+    "parent_element": ".lotusMakeup_category",
+    "css_selector": ".lotusMakeup_categoryBox",
+    "filename": "lotusherbals",
+    "loadmore": "",
+    "base_url": "",
+    "scrollmoretoload": "",
+    "startingrange": "",
+    "endingrange": ""
+  },
+  {
     "url": "https://revlon.co.in/collections/lipstick",
     "parent_element": ".grid-product__content ",
     "css_selector": ".grid-product__link",
