@@ -1,5 +1,27 @@
 [
-   {
+  {
+    "url": "https://www.lotusherbals.com/pages/lip-makeup",
+    "parent_element": ".lotusMakeup_category",
+    "css_selector": ".lotusMakeup_categoryBox",
+    "filename": "lotusherbals",
+    "loadmore": "",
+    "base_url": "",
+    "scrollmoretoload": "",
+    "startingrange": "",
+    "endingrange": ""
+  },
+  {
+    "url": "https://revlon.co.in/collections/lipstick",
+    "parent_element": ".grid-product__content ",
+    "css_selector": ".grid-product__link",
+    "filename": "revlon",
+    "loadmore": "",
+    "base_url": "",
+    "scrollmoretoload": "",
+    "startingrange": "",
+    "endingrange": ""
+  },
+  {
     "url": "https://www.esteelauder.in/products/649/product-catalog/makeup/lips/lipsticks",
     "parent_element": "",
     "css_selector": ".elc-clickable-wrapper.js-clickable-wrapper.elc-product-image-badge-wrapper.js-product-image-badge-wrapper",

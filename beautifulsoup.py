@@ -242,17 +242,20 @@ for target in scraping_targets:
                     productname = "Product name not found"
                 print(productname)
 
-                # for shade
                 try:
                     if shade_name:
                         test = driver.find_element(By.CSS_SELECTOR, shade_name)
-                        selected_shade_text = test.text.strip()
                     else:
-                        selected_shade_text = shade_item.text.strip()
-                    print(selected_shade_text)
+                        test = shade_item
+
+                    selected_shade_text = test.text.strip()
+                    #for esteelauder
+                    if not selected_shade_text and website_name == 'esteelauder':
+                        selected_shade_text = shade_item.get_attribute('name')
                 except NoSuchElementException:
                     selected_shade_text = "Shade name not found"
-                    print(selected_shade_text)
+
+                print(selected_shade_text)
 
                 # for color code
                 rgb_color_Code = "color code not found"
@@ -266,7 +269,7 @@ for target in scraping_targets:
                         rgb = shade_item.get_attribute('style')
                         print(rgb)
                         #for colorbar
-                        if not rgb:
+                        if not rgb and website_name == 'colorbar' :
                             data_selection_color = shade_item.get_attribute('data-selection-color')
                             script = f"return getComputedStyle(document.querySelector('.{data_selection_color}')).backgroundColor;"
                             rgb = shade_item._parent.execute_script(script)
