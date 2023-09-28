@@ -14,6 +14,7 @@ from datetime import date
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 import boto3
+import traceback
 
 # Load configuration from config.json
 with open('BS4Config.json') as f:
@@ -21,7 +22,7 @@ with open('BS4Config.json') as f:
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument('--headless')
+# chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument(
     "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
@@ -31,6 +32,8 @@ chrome_options.add_argument("--window-size=1920,1080")
 
 # Path to ChromeDriver executable
 chrome_driver_path = '/usr/bin/chromedriver'
+
+
 
 
 def get_image_rgb(url):
@@ -82,6 +85,9 @@ if not os.path.exists(folder_name):
 
 # Define the local directory containing the files to upload
 output_directory = folder_name
+
+# Define the log file path
+log_file_path = os.path.join(output_directory, 'scraping_log.txt')
 
 # Initialize counters
 total_product_count = 0
@@ -353,6 +359,17 @@ for target in scraping_targets:
 
             return product_data
 
+        except Exception as e:
+            print(f"An error occurred while scraping the URL: {url}")
+            print(f"Error: {str(e)}")
+            with open(log_file_path, 'a') as log_file:
+                log_file.write(f"An error occurred while scraping the URL: {url}\n")
+                log_file.write(f"Error: {str(e)}\n")
+                traceback.print_exc()
+            # If an error occurs, return None to indicate that the scraping failed for this URL
+            return None
+
+
         finally:
             driver.quit()
 
@@ -369,8 +386,14 @@ for target in scraping_targets:
     website_product_count = 0
 
     for url in links:
+
+
         print(f"Scraping data from: {url}")
         scraped_data = scrape_data(url)
+        if scraped_data is None:
+            print(f"Skipping to the next link due to an error for URL: {url}")
+            print("-" * 50)
+            continue
         website_data.append(scraped_data)
         print("-" * 50)
         # Increment website product count
@@ -397,7 +420,8 @@ for website, count in website_product_counts.items():
     print(f"Product count for {website}: {count}")
 
 print(f"Scraped data saved in directory '{output_directory}'")
-
+with open(log_file_path, 'a') as log_file:
+    log_file.write(f"Total count of shades: {total_product_count}\n")
 # AWS credentials and S3 bucket information
 aws_access_key_id = 'AKIA5LN5QZFXC7TK5BXL'
 aws_secret_access_key = '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'

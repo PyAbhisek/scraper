@@ -1,24 +1,6 @@
 [
-  {
-    "product_name_parent": "",
-    "product_name": ".h2.product-single__title",
-    "shade_rgb": "",
-    "img_parent": ".product-main-slide.is-selected",
-    "img_tag": "img",
-    "shade_image_classname": "",
-    "shade_image_srcset": "",
-    "shade_image_src": "",
-    "parent_element": "",
-    "shade_click": ".variant__button-label",
-    "price_parent": "",
-    "shade_Original_Price": ".product__price.product__price--compare",
-    "shade_price": ".product__price.on-sale",
-    "shade_name": ".variant__label-info",
-    "image_base_url": "",
-    "color_Code_tag": "",
-    "vendor": "lotusherbals",
-    "filename": "lotusherbals"
-  },
+
+
   {
     "product_name_parent": "",
     "product_name": ".h2.product-single__title",
@@ -38,26 +20,6 @@
     "color_Code_tag": "",
     "vendor": "revlon",
     "filename": "revlon"
-  },
-  {
-    "product_name_parent": ".product-full__description-section",
-    "product_name": ".product-full__title",
-    "shade_rgb": "",
-    "img_parent": "",
-    "img_tag": "",
-    "shade_image_classname": "",
-    "shade_image_srcset": "",
-    "shade_image_src": "//*[@id=\"content\"]/div/div[3]/div[1]/div[1]/div/div/div[1]/img",
-    "parent_element": ".js-shade-picker.shade-list",
-    "shade_click": ".swatch.swatch--selected",
-    "price_parent": "",
-    "shade_Original_Price": "",
-    "shade_price": ".product__price--bold",
-    "shade_name": ".selectBox-label",
-    "image_base_url": "",
-    "color_Code_tag": "",
-    "vendor": "esteelauder",
-    "filename": "esteelauder"
   },
   {
     "product_name_parent": ".product-page-info__title",
