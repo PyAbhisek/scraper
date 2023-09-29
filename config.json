@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://www.flowerbeauty.com/collections/lip-color",
+    "parent_element": ".PLP__Grid",
+    "css_selector": ".PLP__GridItem",
+    "filename": "flowerbeauty",
+    "loadmore": "",
+    "base_url": "",
+    "scrollmoretoload": "",
+    "startingrange": "",
+    "endingrange": ""
+  },
+  {
     "url": "https://www.kikocosmetics.com/en-us/make-up/lips/lipsticks.html",
     "parent_element": ".Listing.js-listing",
     "css_selector": ".ProductBox__Image",

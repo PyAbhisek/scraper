@@ -278,6 +278,10 @@ for target in scraping_targets:
                         color = shade_item.find_element(By.TAG_NAME, color_Code_tag)
                         rgb = color.get_attribute('style')
 
+
+
+
+
                     if website_name == "esteelauder":
                         parenttest = driver.find_element(By.CSS_SELECTOR,'.swatch.swatch--selected')
                         if parenttest:
@@ -298,6 +302,8 @@ for target in scraping_targets:
                             script = f"return getComputedStyle(document.querySelector('.{data_selection_color}')).backgroundColor;"
                             rgb = shade_item._parent.execute_script(script)
                             print("Background color associated with the class:", rgb)
+
+
 
 
 
@@ -340,6 +346,13 @@ for target in scraping_targets:
                         background_url = rgb[start_index:end_index]
 
                         rgb_color_Code = get_image_rgb('https:' + background_url)
+
+                    if website_name == "flowerbeauty":
+
+                        # color = driver.find_element(By.CSS_SELECTOR,'.items-center.rounded-full')
+                        colorcode = shade_item.find_element(By.CSS_SELECTOR, 'img')
+                        rgb = colorcode.get_attribute('src')
+                        rgb_color_Code = get_image_rgb(rgb)
 
 
                     print(rgb_color_Code)

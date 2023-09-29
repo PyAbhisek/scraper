@@ -1,5 +1,25 @@
 [
-   {
+  {
+    "product_name_parent": ".mb-8",
+    "product_name": ".text-lg",
+    "shade_rgb": "",
+    "img_parent": "",
+    "img_tag": "",
+    "shade_image_classname": "",
+    "shade_image_srcset": "",
+    "shade_image_src": "//*[@id=\"shopify-section-pdp\"]/div/div[1]/div[1]/div[2]/div[2]/div[1]/div/img",
+    "parent_element": ".varaints-labels",
+    "shade_click": ".items-center.rounded-full",
+    "price_parent": "",
+    "shade_Original_Price": "",
+    "shade_price": ".flex.pt-1",
+    "shade_name": ".font-bold.pl-1",
+    "image_base_url": "",
+    "color_Code_tag": "",
+    "vendor": "flowerbeauty",
+    "filename": "flowerbeauty"
+  },
+  {
     "product_name_parent": "",
     "product_name": ".ProductDetails__Title",
     "shade_rgb": "",
@@ -19,7 +39,7 @@
     "vendor": "kikocosmetics",
     "filename": "kikocosmetics"
   },
-    {
+  {
     "product_name_parent": "",
     "product_name": ".ProductMeta__Title.Heading.u-h2",
     "shade_rgb": "",
@@ -59,7 +79,6 @@
     "vendor": "esteelauder",
     "filename": "esteelauder"
   },
-
   {
     "product_name_parent": "",
     "product_name": ".h2.product-single__title",

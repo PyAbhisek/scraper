@@ -309,3 +309,34 @@ An error occurred while scraping the URL: https://www.kikocosmetics.com/en-us/ma
 Error: No connection adapters were found for 'background: url("//images.kikocosmetics.com/sys-master/images/h84/h13/12976497786910/KC000000648002Bgoccia_38Wx38H#k-variant-small");'
 An error occurred while scraping the URL: https://www.kikocosmetics.com/en-us/make-up/lips/lipsticks/CREATE-YOUR-BALANCE-DEFINITION-BOOST-LIPSTICK/p-KC000000648
 Error: Invalid URL 'https:background: url("//images.kikocosmetics.com/sys-master/images/h84/h13/12976497786910/KC000000648002Bgoccia_38Wx38H#k-variant-small");': No host supplied
+An error occurred while scraping the URL: https://www.flowerbeauty.com/products/scribble-stick
+Error: Message: invalid selector: No selector specified
+  (Session info: headless chrome=117.0.5938.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF76FB07892+54818]
+	(No symbol) [0x00007FF76FA76AC2]
+	(No symbol) [0x00007FF76F92DA3B]
+	(No symbol) [0x00007FF76F93246D]
+	(No symbol) [0x00007FF76F933F5F]
+	(No symbol) [0x00007FF76F934050]
+	(No symbol) [0x00007FF76F96E184]
+	(No symbol) [0x00007FF76F96E67C]
+	(No symbol) [0x00007FF76F9650FC]
+	(No symbol) [0x00007FF76F98EAEF]
+	(No symbol) [0x00007FF76F965036]
+	(No symbol) [0x00007FF76F98ECC0]
+	(No symbol) [0x00007FF76F9A75A2]
+	(No symbol) [0x00007FF76F98E883]
+	(No symbol) [0x00007FF76F963691]
+	(No symbol) [0x00007FF76F9648D4]
+	GetHandleVerifier [0x00007FF76FE6B992+3610402]
+	GetHandleVerifier [0x00007FF76FEC1860+3962352]
+	GetHandleVerifier [0x00007FF76FEB9D4F+3930847]
+	GetHandleVerifier [0x00007FF76FBA3646+693206]
+	(No symbol) [0x00007FF76FA81628]
+	(No symbol) [0x00007FF76FA7D934]
+	(No symbol) [0x00007FF76FA7DA62]
+	(No symbol) [0x00007FF76FA6E113]
+	BaseThreadInitThunk [0x00007FFB03B7257D+29]
+	RtlUserThreadStart [0x00007FFB0424AA68+40]
+
