@@ -1,9 +1,20 @@
 [
   {
+    "url": "https://www.kikocosmetics.com/en-us/make-up/lips/lipsticks.html",
+    "parent_element": ".Listing.js-listing",
+    "css_selector": ".ProductBox__Image",
+    "filename": "kikocosmetics",
+    "loadmore": "",
+    "base_url": "",
+    "scrollmoretoload": "",
+    "startingrange": "",
+    "endingrange": ""
+  },
+  {
     "url": "https://www.lotusherbals.com/pages/lip-makeup",
-    "parent_element": ".lotusMakeup_category",
-    "css_selector": ".lotusMakeup_categoryBox",
-    "filename": "lotusherbals",
+    "parent_element": "",
+    "css_selector": ".makeupBtn",
+    "filename": "lotusherbals1",
     "loadmore": "",
     "base_url": "",
     "scrollmoretoload": "",

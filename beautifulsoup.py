@@ -40,11 +40,16 @@ def get_image_rgb(url):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
     }
-    response = requests.get(url, headers=headers)
-    img = Image.open(BytesIO(response.content))
-    width, height = img.size
-    img = img.convert('RGB')
-    return img.getpixel((width // 2, height // 2))
+
+    try:
+        response = requests.get(url, headers=headers)
+        img = Image.open(BytesIO(response.content))
+        width, height = img.size
+        img = img.convert('RGB')
+        return img.getpixel((width // 2, height // 2))
+    except Image.UnidentifiedImageError as e:
+        print(f"Error: Unable to identify image file for URL '{url}': {str(e)}")
+        return None
 
 
 def click_element_safely(element):
@@ -273,6 +278,17 @@ for target in scraping_targets:
                         color = shade_item.find_element(By.TAG_NAME, color_Code_tag)
                         rgb = color.get_attribute('style')
 
+                    if website_name == "esteelauder":
+                        parenttest = driver.find_element(By.CSS_SELECTOR,'.swatch.swatch--selected')
+                        if parenttest:
+                            time.sleep(3)
+                            getcolorparent = driver.find_element(By.CSS_SELECTOR, '.swatch__container')
+                            getcolor = getcolorparent.find_element(By.CSS_SELECTOR, '.swatch--1')
+                            rgb = getcolor.get_attribute('style')
+                            print(rgb)
+
+
+
                     elif shade_item:
                         rgb = shade_item.get_attribute('style')
                         print(rgb)
@@ -295,17 +311,37 @@ for target in scraping_targets:
                     else:
                         print("No RGB values found in style.")
 
+
+
                     # Check if 'background-image' is in rgb_color_Code and extract the URL
                     if 'background-image' in rgb:
+
                         start_index = rgb.index('url("') + len('url("')
                         end_index = rgb.index('")', start_index)
+
                         background_url = rgb[start_index:end_index]
+                        print(background_url)
 
                         # Check if background_url starts with "//"
                         if background_url.startswith('//'):
+                            print('e')
                             background_url = 'https:' + background_url
 
                         rgb_color_Code = get_image_rgb(background_url)
+                    #for kikocosmetics
+                    if website_name == "kikocosmetics":
+                        # time.sleep(3)
+                        getcolorparent = driver.find_element(By.CSS_SELECTOR, '.Shade__Img.js-shade-img')
+                        rgb = getcolorparent.get_attribute('style')
+
+                        start_index = rgb.index('url("') + len('url("')
+                        end_index = rgb.index('")', start_index)
+
+                        background_url = rgb[start_index:end_index]
+
+                        rgb_color_Code = get_image_rgb('https:' + background_url)
+
+
                     print(rgb_color_Code)
 
                 except NoSuchElementException:

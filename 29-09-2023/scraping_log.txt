@@ -1,0 +1,311 @@
+An error occurred while scraping the URL: https://www.esteelauder.in/product/649/110676/product-catalog/makeup/lips/lipsticks/pure-color/matte-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".js-shade-picker.shade-list"}
+  (Session info: chrome=117.0.5938.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73D3C7892+54818]
+	(No symbol) [0x00007FF73D336AC2]
+	(No symbol) [0x00007FF73D1EDA3B]
+	(No symbol) [0x00007FF73D22E4FC]
+	(No symbol) [0x00007FF73D22E67C]
+	(No symbol) [0x00007FF73D269627]
+	(No symbol) [0x00007FF73D24EAEF]
+	(No symbol) [0x00007FF73D2675A2]
+	(No symbol) [0x00007FF73D24E883]
+	(No symbol) [0x00007FF73D223691]
+	(No symbol) [0x00007FF73D2248D4]
+	GetHandleVerifier [0x00007FF73D72B992+3610402]
+	GetHandleVerifier [0x00007FF73D781860+3962352]
+	GetHandleVerifier [0x00007FF73D779D4F+3930847]
+	GetHandleVerifier [0x00007FF73D463646+693206]
+	(No symbol) [0x00007FF73D341628]
+	(No symbol) [0x00007FF73D33D934]
+	(No symbol) [0x00007FF73D33DA62]
+	(No symbol) [0x00007FF73D32E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://revlon.co.in/products/revlon-super-lustrous-lipstick-bold-matte
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73D3C7892+54818]
+	(No symbol) [0x00007FF73D336AC2]
+	(No symbol) [0x00007FF73D1EDA3B]
+	(No symbol) [0x00007FF73D1CDEE8]
+	(No symbol) [0x00007FF73D253237]
+	(No symbol) [0x00007FF73D266C6F]
+	(No symbol) [0x00007FF73D24E883]
+	(No symbol) [0x00007FF73D223691]
+	(No symbol) [0x00007FF73D2248D4]
+	GetHandleVerifier [0x00007FF73D72B992+3610402]
+	GetHandleVerifier [0x00007FF73D781860+3962352]
+	GetHandleVerifier [0x00007FF73D779D4F+3930847]
+	GetHandleVerifier [0x00007FF73D463646+693206]
+	(No symbol) [0x00007FF73D341628]
+	(No symbol) [0x00007FF73D33D934]
+	(No symbol) [0x00007FF73D33DA62]
+	(No symbol) [0x00007FF73D32E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/69631/product-catalog/makeup/pure-color-desire-matte/rouge-excess-matte-lipstick
+Error: name 'website' is not defined
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/88314/product-catalog/makeup/pure-color-whipped-matte-lip-color-with-moringa-butter
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73D3C7892+54818]
+	(No symbol) [0x00007FF73D336AC2]
+	(No symbol) [0x00007FF73D1EDA3B]
+	(No symbol) [0x00007FF73D1CDEE8]
+	(No symbol) [0x00007FF73D253237]
+	(No symbol) [0x00007FF73D266C6F]
+	(No symbol) [0x00007FF73D24E883]
+	(No symbol) [0x00007FF73D223691]
+	(No symbol) [0x00007FF73D2248D4]
+	GetHandleVerifier [0x00007FF73D72B992+3610402]
+	GetHandleVerifier [0x00007FF73D781860+3962352]
+	GetHandleVerifier [0x00007FF73D779D4F+3930847]
+	GetHandleVerifier [0x00007FF73D463646+693206]
+	(No symbol) [0x00007FF73D341628]
+	(No symbol) [0x00007FF73D33D934]
+	(No symbol) [0x00007FF73D33DA62]
+	(No symbol) [0x00007FF73D32E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/69631/product-catalog/makeup/pure-color-desire-matte/rouge-excess-matte-lipstick
+Error: 'NoneType' object has no attribute 'get_attribute'
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/69631/product-catalog/makeup/pure-color-desire-matte/rouge-excess-matte-lipstick
+Error: 'NoneType' object has no attribute 'get_attribute'
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/69631/product-catalog/makeup/pure-color-desire-matte/rouge-excess-matte-lipstick
+Error: 'NoneType' object has no attribute 'get_attribute'
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/69631/product-catalog/makeup/pure-color-desire-matte/rouge-excess-matte-lipstick
+Error: 'NoneType' object has no attribute 'get_attribute'
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/88314/product-catalog/makeup/pure-color-whipped-matte-lip-color-with-moringa-butter
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73D3C7892+54818]
+	(No symbol) [0x00007FF73D336AC2]
+	(No symbol) [0x00007FF73D1EDA3B]
+	(No symbol) [0x00007FF73D1CDEE8]
+	(No symbol) [0x00007FF73D253237]
+	(No symbol) [0x00007FF73D266C6F]
+	(No symbol) [0x00007FF73D24E883]
+	(No symbol) [0x00007FF73D223691]
+	(No symbol) [0x00007FF73D2248D4]
+	GetHandleVerifier [0x00007FF73D72B992+3610402]
+	GetHandleVerifier [0x00007FF73D781860+3962352]
+	GetHandleVerifier [0x00007FF73D779D4F+3930847]
+	GetHandleVerifier [0x00007FF73D463646+693206]
+	(No symbol) [0x00007FF73D341628]
+	(No symbol) [0x00007FF73D33D934]
+	(No symbol) [0x00007FF73D33DA62]
+	(No symbol) [0x00007FF73D32E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/69631/product-catalog/makeup/pure-color-desire-matte/rouge-excess-matte-lipstick
+Error: 'NoneType' object has no attribute 'find'
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/69631/product-catalog/makeup/pure-color-desire-matte/rouge-excess-matte-lipstick
+Error: cannot access local variable 'rgb' where it is not associated with a value
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/69631/product-catalog/makeup/pure-color-desire-matte/rouge-excess-matte-lipstick
+Error: 'NoneType' object has no attribute 'find'
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/88314/product-catalog/makeup/pure-color-whipped-matte-lip-color-with-moringa-butter
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73D3C7892+54818]
+	(No symbol) [0x00007FF73D336AC2]
+	(No symbol) [0x00007FF73D1EDA3B]
+	(No symbol) [0x00007FF73D1CDEE8]
+	(No symbol) [0x00007FF73D253237]
+	(No symbol) [0x00007FF73D266C6F]
+	(No symbol) [0x00007FF73D24E883]
+	(No symbol) [0x00007FF73D223691]
+	(No symbol) [0x00007FF73D2248D4]
+	GetHandleVerifier [0x00007FF73D72B992+3610402]
+	GetHandleVerifier [0x00007FF73D781860+3962352]
+	GetHandleVerifier [0x00007FF73D779D4F+3930847]
+	GetHandleVerifier [0x00007FF73D463646+693206]
+	(No symbol) [0x00007FF73D341628]
+	(No symbol) [0x00007FF73D33D934]
+	(No symbol) [0x00007FF73D33DA62]
+	(No symbol) [0x00007FF73D32E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/69631/product-catalog/makeup/pure-color-desire-matte/rouge-excess-matte-lipstick
+Error: argument of type 'NoneType' is not iterable
+An error occurred while scraping the URL: https://www.esteelauder.in/product/631/69631/product-catalog/makeup/pure-color-desire-matte/rouge-excess-matte-lipstick
+Error: cannot access local variable 'rgb' where it is not associated with a value
+An error occurred while scraping the URL: https://www.lotusherbals.com/products/colorkick-liquid-matte-lipcolor-clm12-6g
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".ColorSwatchList.HorizontalList.HorizontalList--spacingTight"}
+  (Session info: chrome=117.0.5938.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73D3C7892+54818]
+	(No symbol) [0x00007FF73D336AC2]
+	(No symbol) [0x00007FF73D1EDA3B]
+	(No symbol) [0x00007FF73D22E4FC]
+	(No symbol) [0x00007FF73D22E67C]
+	(No symbol) [0x00007FF73D269627]
+	(No symbol) [0x00007FF73D24EAEF]
+	(No symbol) [0x00007FF73D2675A2]
+	(No symbol) [0x00007FF73D24E883]
+	(No symbol) [0x00007FF73D223691]
+	(No symbol) [0x00007FF73D2248D4]
+	GetHandleVerifier [0x00007FF73D72B992+3610402]
+	GetHandleVerifier [0x00007FF73D781860+3962352]
+	GetHandleVerifier [0x00007FF73D779D4F+3930847]
+	GetHandleVerifier [0x00007FF73D463646+693206]
+	(No symbol) [0x00007FF73D341628]
+	(No symbol) [0x00007FF73D33D934]
+	(No symbol) [0x00007FF73D33DA62]
+	(No symbol) [0x00007FF73D32E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://www.lotusherbals.com/products/colorkick-liquid-matte-lipcolor-clm08-6g
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73D3C7892+54818]
+	(No symbol) [0x00007FF73D336AC2]
+	(No symbol) [0x00007FF73D1EDA3B]
+	(No symbol) [0x00007FF73D1CDEE8]
+	(No symbol) [0x00007FF73D253237]
+	(No symbol) [0x00007FF73D266C6F]
+	(No symbol) [0x00007FF73D24E883]
+	(No symbol) [0x00007FF73D223691]
+	(No symbol) [0x00007FF73D2248D4]
+	GetHandleVerifier [0x00007FF73D72B992+3610402]
+	GetHandleVerifier [0x00007FF73D781860+3962352]
+	GetHandleVerifier [0x00007FF73D779D4F+3930847]
+	GetHandleVerifier [0x00007FF73D463646+693206]
+	(No symbol) [0x00007FF73D341628]
+	(No symbol) [0x00007FF73D33D934]
+	(No symbol) [0x00007FF73D33DA62]
+	(No symbol) [0x00007FF73D32E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://www.lotusherbals.com/products/proedit-liquid-matte-lip-color-8g-plc07
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73D3C7892+54818]
+	(No symbol) [0x00007FF73D336AC2]
+	(No symbol) [0x00007FF73D1EDA3B]
+	(No symbol) [0x00007FF73D1CDEE8]
+	(No symbol) [0x00007FF73D253237]
+	(No symbol) [0x00007FF73D266C6F]
+	(No symbol) [0x00007FF73D24E883]
+	(No symbol) [0x00007FF73D223691]
+	(No symbol) [0x00007FF73D2248D4]
+	GetHandleVerifier [0x00007FF73D72B992+3610402]
+	GetHandleVerifier [0x00007FF73D781860+3962352]
+	GetHandleVerifier [0x00007FF73D779D4F+3930847]
+	GetHandleVerifier [0x00007FF73D463646+693206]
+	(No symbol) [0x00007FF73D341628]
+	(No symbol) [0x00007FF73D33D934]
+	(No symbol) [0x00007FF73D33DA62]
+	(No symbol) [0x00007FF73D32E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://www.lotusherbals.com/products/colorkick-liquid-matte-lipcolor-clm10-6g
+Error: Message: target frame detached
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73D3C7892+54818]
+	(No symbol) [0x00007FF73D336AC2]
+	(No symbol) [0x00007FF73D1ED8ED]
+	(No symbol) [0x00007FF73D1DBF11]
+	(No symbol) [0x00007FF73D1DA82E]
+	(No symbol) [0x00007FF73D1DB2EE]
+	(No symbol) [0x00007FF73D1F0987]
+	(No symbol) [0x00007FF73D1F12F8]
+	(No symbol) [0x00007FF73D1F3F5F]
+	(No symbol) [0x00007FF73D1F4050]
+	(No symbol) [0x00007FF73D22E184]
+	(No symbol) [0x00007FF73D22E67C]
+	(No symbol) [0x00007FF73D269657]
+	(No symbol) [0x00007FF73D24EAEF]
+	(No symbol) [0x00007FF73D2675A2]
+	(No symbol) [0x00007FF73D24E883]
+	(No symbol) [0x00007FF73D223691]
+	(No symbol) [0x00007FF73D2248D4]
+	GetHandleVerifier [0x00007FF73D72B992+3610402]
+	GetHandleVerifier [0x00007FF73D781860+3962352]
+	GetHandleVerifier [0x00007FF73D779D4F+3930847]
+	GetHandleVerifier [0x00007FF73D463646+693206]
+	(No symbol) [0x00007FF73D341628]
+	(No symbol) [0x00007FF73D33D934]
+	(No symbol) [0x00007FF73D33DA62]
+	(No symbol) [0x00007FF73D32E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://www.lotusherbals.com/products/colorkick-exfoliating-hydrating-lip-sugar-spf-20-coral
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".ColorSwatchList"}
+  (Session info: chrome=117.0.5938.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF63F787892+54818]
+	(No symbol) [0x00007FF63F6F6AC2]
+	(No symbol) [0x00007FF63F5ADA3B]
+	(No symbol) [0x00007FF63F5EE4FC]
+	(No symbol) [0x00007FF63F5EE67C]
+	(No symbol) [0x00007FF63F629627]
+	(No symbol) [0x00007FF63F60EAEF]
+	(No symbol) [0x00007FF63F6275A2]
+	(No symbol) [0x00007FF63F60E883]
+	(No symbol) [0x00007FF63F5E3691]
+	(No symbol) [0x00007FF63F5E48D4]
+	GetHandleVerifier [0x00007FF63FAEB992+3610402]
+	GetHandleVerifier [0x00007FF63FB41860+3962352]
+	GetHandleVerifier [0x00007FF63FB39D4F+3930847]
+	GetHandleVerifier [0x00007FF63F823646+693206]
+	(No symbol) [0x00007FF63F701628]
+	(No symbol) [0x00007FF63F6FD934]
+	(No symbol) [0x00007FF63F6FDA62]
+	(No symbol) [0x00007FF63F6EE113]
+	BaseThreadInitThunk [0x00007FFB03B7257D+29]
+	RtlUserThreadStart [0x00007FFB0424AA68+40]
+
+An error occurred while scraping the URL: https://www.kikocosmetics.com/en-us/make-up/lips/lipsticks/POWDER-POWER-LIPSTICK/p-KM000000023
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76FB07892+54818]
+	(No symbol) [0x00007FF76FA76AC2]
+	(No symbol) [0x00007FF76F92DA3B]
+	(No symbol) [0x00007FF76F90DEE8]
+	(No symbol) [0x00007FF76F993237]
+	(No symbol) [0x00007FF76F9A6C6F]
+	(No symbol) [0x00007FF76F98E883]
+	(No symbol) [0x00007FF76F963691]
+	(No symbol) [0x00007FF76F9648D4]
+	GetHandleVerifier [0x00007FF76FE6B992+3610402]
+	GetHandleVerifier [0x00007FF76FEC1860+3962352]
+	GetHandleVerifier [0x00007FF76FEB9D4F+3930847]
+	GetHandleVerifier [0x00007FF76FBA3646+693206]
+	(No symbol) [0x00007FF76FA81628]
+	(No symbol) [0x00007FF76FA7D934]
+	(No symbol) [0x00007FF76FA7DA62]
+	(No symbol) [0x00007FF76FA6E113]
+	BaseThreadInitThunk [0x00007FFB03B7257D+29]
+	RtlUserThreadStart [0x00007FFB0424AA68+40]
+
+An error occurred while scraping the URL: https://www.kikocosmetics.com/en-us/make-up/lips/lipsticks/CREATE-YOUR-BALANCE-DEFINITION-BOOST-LIPSTICK/p-KC000000648
+Error: No connection adapters were found for 'background: url("//images.kikocosmetics.com/sys-master/images/h84/h13/12976497786910/KC000000648002Bgoccia_38Wx38H#k-variant-small");'
+An error occurred while scraping the URL: https://www.kikocosmetics.com/en-us/make-up/lips/lipsticks/CREATE-YOUR-BALANCE-DEFINITION-BOOST-LIPSTICK/p-KC000000648
+Error: Invalid URL 'https:background: url("//images.kikocosmetics.com/sys-master/images/h84/h13/12976497786910/KC000000648002Bgoccia_38Wx38H#k-variant-small");': No host supplied

@@ -76,7 +76,7 @@ for target in scraping_targets:
     exclude_keywords = ['lip-juicers', '-in-1', 'kajal', 'casing', 'lip-gloss', 'brush', 'concealer', 'changing',
                         'refillable-case', 'pencil', 'lip-liner', 'lipliner', 'lip-plumper', 'lip-oil',
                         'multi-mousse', 'lip-balm', 'lip-care', 'cheek-stain', 'cheek', 'scrub',
-                        'crayon', 'pack', 'combo', 'fab5', 'lacquer', 'mini','balm','#']
+                        'crayon', 'pack', 'combo', 'fab5', 'lacquer', 'mini','balm','#','jennifer','DUO']
     iiii = 0
     for card in cards:
         iiii += 1

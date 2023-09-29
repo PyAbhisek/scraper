@@ -1,0 +1,100 @@
+An error occurred while scraping the URL: https://revlon.co.in/products/revlon-r-super-lustrous-r-lipstick-creme
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7834C7892+54818]
+	(No symbol) [0x00007FF783436AC2]
+	(No symbol) [0x00007FF7832EDA3B]
+	(No symbol) [0x00007FF7832CDEE8]
+	(No symbol) [0x00007FF783353237]
+	(No symbol) [0x00007FF783366C6F]
+	(No symbol) [0x00007FF78334E883]
+	(No symbol) [0x00007FF783323691]
+	(No symbol) [0x00007FF7833248D4]
+	GetHandleVerifier [0x00007FF78382B992+3610402]
+	GetHandleVerifier [0x00007FF783881860+3962352]
+	GetHandleVerifier [0x00007FF783879D4F+3930847]
+	GetHandleVerifier [0x00007FF783563646+693206]
+	(No symbol) [0x00007FF783441628]
+	(No symbol) [0x00007FF78343D934]
+	(No symbol) [0x00007FF78343DA62]
+	(No symbol) [0x00007FF78342E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://revlon.co.in/products/revlon-r-super-lustrous-r-lipstick-creme
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF668137892+54818]
+	(No symbol) [0x00007FF6680A6AC2]
+	(No symbol) [0x00007FF667F5DA3B]
+	(No symbol) [0x00007FF667F3DEE8]
+	(No symbol) [0x00007FF667FC3237]
+	(No symbol) [0x00007FF667FD6C6F]
+	(No symbol) [0x00007FF667FBE883]
+	(No symbol) [0x00007FF667F93691]
+	(No symbol) [0x00007FF667F948D4]
+	GetHandleVerifier [0x00007FF66849B992+3610402]
+	GetHandleVerifier [0x00007FF6684F1860+3962352]
+	GetHandleVerifier [0x00007FF6684E9D4F+3930847]
+	GetHandleVerifier [0x00007FF6681D3646+693206]
+	(No symbol) [0x00007FF6680B1628]
+	(No symbol) [0x00007FF6680AD934]
+	(No symbol) [0x00007FF6680ADA62]
+	(No symbol) [0x00007FF66809E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://revlon.co.in/products/revlon-r-super-lustrous-r-lipstick-creme
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF67AFB7892+54818]
+	(No symbol) [0x00007FF67AF26AC2]
+	(No symbol) [0x00007FF67ADDDA3B]
+	(No symbol) [0x00007FF67ADBDEE8]
+	(No symbol) [0x00007FF67AE43237]
+	(No symbol) [0x00007FF67AE56C6F]
+	(No symbol) [0x00007FF67AE3E883]
+	(No symbol) [0x00007FF67AE13691]
+	(No symbol) [0x00007FF67AE148D4]
+	GetHandleVerifier [0x00007FF67B31B992+3610402]
+	GetHandleVerifier [0x00007FF67B371860+3962352]
+	GetHandleVerifier [0x00007FF67B369D4F+3930847]
+	GetHandleVerifier [0x00007FF67B053646+693206]
+	(No symbol) [0x00007FF67AF31628]
+	(No symbol) [0x00007FF67AF2D934]
+	(No symbol) [0x00007FF67AF2DA62]
+	(No symbol) [0x00007FF67AF1E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
+An error occurred while scraping the URL: https://revlon.co.in/products/revlon-ultra-hdr-matte-lip-color
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF67AFB7892+54818]
+	(No symbol) [0x00007FF67AF26AC2]
+	(No symbol) [0x00007FF67ADDDA3B]
+	(No symbol) [0x00007FF67ADBDEE8]
+	(No symbol) [0x00007FF67AE43237]
+	(No symbol) [0x00007FF67AE56C6F]
+	(No symbol) [0x00007FF67AE3E883]
+	(No symbol) [0x00007FF67AE13691]
+	(No symbol) [0x00007FF67AE148D4]
+	GetHandleVerifier [0x00007FF67B31B992+3610402]
+	GetHandleVerifier [0x00007FF67B371860+3962352]
+	GetHandleVerifier [0x00007FF67B369D4F+3930847]
+	GetHandleVerifier [0x00007FF67B053646+693206]
+	(No symbol) [0x00007FF67AF31628]
+	(No symbol) [0x00007FF67AF2D934]
+	(No symbol) [0x00007FF67AF2DA62]
+	(No symbol) [0x00007FF67AF1E113]
+	BaseThreadInitThunk [0x00007FFA552D257D+29]
+	RtlUserThreadStart [0x00007FFA56F6AA68+40]
+
