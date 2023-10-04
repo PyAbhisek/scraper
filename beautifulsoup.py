@@ -297,8 +297,10 @@ for target in scraping_targets:
                         rgb = shade_item.get_attribute('style')
                         print(rgb)
                         #for colorbar
-                        if not rgb and website_name == 'colorbar' :
+                        if not rgb and website_name == 'colorbarcosmetics' :
                             data_selection_color = shade_item.get_attribute('data-selection-color')
+                            print("test")
+                            print(data_selection_color)
                             script = f"return getComputedStyle(document.querySelector('.{data_selection_color}')).backgroundColor;"
                             rgb = shade_item._parent.execute_script(script)
                             print("Background color associated with the class:", rgb)
@@ -360,6 +362,8 @@ for target in scraping_targets:
                 except NoSuchElementException:
                     rgb_color_Code = "color code not found"
                     print(rgb_color_Code)
+
+                print(rgb_color_Code)
 
                 # for image
 
