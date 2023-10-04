@@ -71,7 +71,9 @@ def scrape_data(url):
 
         product_data = {
             "url": url,
-            "shades": []
+            "shades": [],
+            "brand_name": ""
+
         }
 
         for shade_item in shade_items:
