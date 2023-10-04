@@ -120,18 +120,26 @@ def scrape_data(url):
                 print(original_price)
 
             result = None
+
             try:
                 name_match = driver.find_element(By.CSS_SELECTOR, '.css-1gc4x7i')
                 pname = name_match.text.strip()
+
+                # Remove everything after the hyphen '-'
+                pname = pname.split('-')[0].strip()
+
                 print(pname)
+
                 keywords = ['satin', 'metallic', 'matte', 'gloss']
                 found_keywords = [keyword for keyword in keywords if keyword in pname.lower()]
+
                 if found_keywords:
                     result = found_keywords[0]
                     print(result)
                 else:
-                    result = "N/A"
+                    result = ""
                     print(result)
+
             except NoSuchElementException:
                 pname = "Product name not found"
                 print(pname)
@@ -173,7 +181,7 @@ def scrape_data(url):
                 test1 = driver.find_element(By.CSS_SELECTOR,
                                             '#app > div.css-e82s8r > div.css-16kpx0l > div.css-14y2xde > div.css-1mruek6 > div.css-ov1ktg > div.productSelectedImage.css-eyk94w > div > div > img')
                 data = test1.get_attribute('src')
-                data = data.replace('//', '')
+                # data = data.replace('//', '')
                 full_image_url = data.split()[0] if data else "Image URL not available"
                 print(full_image_url)
             except NoSuchElementException:
