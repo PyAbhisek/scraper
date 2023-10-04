@@ -19,10 +19,11 @@ import traceback
 
 # Chrome options to run headless
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--headless')
+# chrome_options.add_argument('--headless')##
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
+chrome_options.add_argument(
+    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
 
 # Set the viewport size
 chrome_options.add_argument("--window-size=1920,1080")
@@ -44,6 +45,7 @@ output_directory = folder_name
 # Define the log file path
 log_file_path = os.path.join(output_directory, 'scraping_log.txt')
 
+
 def get_image_rgb(url):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"}
@@ -53,12 +55,14 @@ def get_image_rgb(url):
     img = img.convert('RGB')
     return img.getpixel((width // 2, height // 2))
 
+
 def click_element_safely(element):
     try:
         element.click()
     except StaleElementReferenceException:
         # Handle the StaleElementReferenceException by re-locating the element before clicking
         click_element_safely(element)
+
 
 def scrape_data(url):
     driver = webdriver.Chrome(options=chrome_options)
@@ -68,7 +72,7 @@ def scrape_data(url):
         driver.implicitly_wait(10)
         shade_items = driver.find_elements(By.CSS_SELECTOR, '.css-11ozycd')
         product_counter = 0
-
+        brand_name_found = False
         product_data = {
             "url": url,
             "shades": [],
@@ -165,7 +169,6 @@ def scrape_data(url):
                     background_color_rgb = "color code not found"
                     print(background_color_rgb)
 
-
             try:
                 test1 = driver.find_element(By.CSS_SELECTOR,
                                             '#app > div.css-e82s8r > div.css-16kpx0l > div.css-14y2xde > div.css-1mruek6 > div.css-ov1ktg > div.productSelectedImage.css-eyk94w > div > div > img')
@@ -191,6 +194,22 @@ def scrape_data(url):
 
             product_data["shades"].append(shade_data)
 
+        driver.execute_script("window.scrollTo(0, window.scrollY + window.innerHeight *1.0);")
+        btn = driver.find_element(By.CSS_SELECTOR, '.css-1eymbsg')
+        btn.click()
+        time.sleep(5)
+
+        elements = driver.find_elements(By.CSS_SELECTOR, '.content-info')
+        # Check if there is a second element
+        if len(elements) >= 2:
+            # Get the text of the second element
+            name = elements[1].text.strip()
+            print(name)
+            product_data['brand_name'] = name
+
+        else:
+            print("There is no second element with class name .content-info")
+
         return product_data
 
     except Exception as e:
@@ -203,6 +222,7 @@ def scrape_data(url):
 
     finally:
         driver.quit()
+
 
 # Load links from JSON file
 with open('links.json', 'r') as f:
@@ -255,7 +275,7 @@ with open(log_file_path, 'a') as log_file:
 aws_access_key_id = 'AKIA5LN5QZFXC7TK5BXL'
 aws_secret_access_key = '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'
 bucket_name = 'dataset-image-dev'
-s3_prefix = 'web_scrape_data/' + current_date + '/'  + 'PaginationSetup' + '/'
+s3_prefix = 'web_scrape_data/' + current_date + '/' + 'PaginationSetup' + '/'
 
 # Create an S3 client
 s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
