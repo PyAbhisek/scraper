@@ -26,16 +26,17 @@ exclude_keywords = ['lip-juicers', '-in-1', 'kajal', 'casing', 'lip-gloss', 'bru
                     'multi-mousse', 'lip-balm', 'lip-care', 'cheek-stain', 'cheek', 'scrub',
                     'crayon', 'pack', 'combo', 'fab5', 'lacquer', 'mini']
 
-for page_number in range(1, 54):
+for page_number in range(1, 36):
     driver = webdriver.Chrome(options=chrome_options)
-    website = f'https://www.nykaa.com/makeup/lips/lipstick/c/249?page_no={page_number}&sort=popularity&eq=desktop'
+    website = f'https://www.nykaa.com/makeup/lips/liquid-lipstick/c/263?page_no={page_number}&sort=popularity&eq=desktop'
 
     driver.get(website)
 
     wait = WebDriverWait(driver, 10)
     cards = wait.until(EC.visibility_of_all_elements_located((By.CLASS_NAME, 'css-qlopj4')))
-
+    print("getting links from " + website)
     for card in cards:
+
         href = card.get_attribute("href")
         if any(keyword in href for keyword in exclude_keywords):
             continue  # Skip this link
