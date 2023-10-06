@@ -202,10 +202,16 @@ def scrape_data(url):
 
             product_data["shades"].append(shade_data)
 
-        driver.execute_script("window.scrollTo(0, window.scrollY + window.innerHeight *1.0);")
-        btn = driver.find_element(By.CSS_SELECTOR, '.css-1eymbsg')
-        btn.click()
-        time.sleep(5)
+            # Wait for the element to be clickable
+        btn = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, '.css-1eymbsg'))
+            )
+        driver.execute_script("arguments[0].scrollIntoView();", btn)
+
+
+
+        # Click the element
+        driver.execute_script("arguments[0].click();", btn)
 
         elements = driver.find_elements(By.CSS_SELECTOR, '.content-info')
         # Check if there is a second element
