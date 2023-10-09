@@ -24,11 +24,11 @@ links = []
 exclude_keywords = ['lip-juicers', '-in-1', 'kajal', 'casing', 'brush', 'concealer', 'changing',
                     'refillable-case', 'pencil', 'lip-liner', 'lipliner', 'lip-plumper', 'lip-oil',
                     'multi-mousse', 'lip-balm', 'lip-care', 'cheek-stain', 'cheek', 'scrub',
-                    'crayon', 'pack', 'combo', 'fab5', 'lacquer', 'mini','kit','set','balm','palette']
+                    'crayon', 'pack', 'combo', 'fab5', 'lacquer', 'mini','kit','set','balm','palette','trimmer']
 
-for page_number in range(1, 24):
+for page_number in range(1, 19):
     driver = webdriver.Chrome(options=chrome_options)
-    website = f'https://www.nykaa.com/makeup/eyes/eye-mascara/c/241?page_no={page_number}&sort=popularity&eq=desktop'
+    website = f'https://www.nykaa.com/makeup/eyes/eye-brow-enhancer/c/245?page_no={page_number}&sort=popularity&eq=desktop'
 
     driver.get(website)
 
