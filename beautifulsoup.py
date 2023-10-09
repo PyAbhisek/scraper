@@ -289,7 +289,7 @@ with open(log_file_path, 'a') as log_file:
 aws_access_key_id = 'AKIA5LN5QZFXC7TK5BXL'
 aws_secret_access_key = '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'
 bucket_name = 'dataset-image-dev'
-s3_prefix = 'web_scrape_data/' + current_date + '/' + 'eyeliner' + '/'
+s3_prefix = 'web_scrape_data/' + current_date + '/' + 'Mascara' + '/'
 
 # Create an S3 client
 s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
