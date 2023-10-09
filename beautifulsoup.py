@@ -19,7 +19,7 @@ import traceback
 
 # Chrome options to run headless
 chrome_options = webdriver.ChromeOptions()
-# chrome_options.add_argument('--headless')##
+chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument(
@@ -202,10 +202,16 @@ def scrape_data(url):
 
             product_data["shades"].append(shade_data)
 
-        driver.execute_script("window.scrollTo(0, window.scrollY + window.innerHeight *1.0);")
-        btn = driver.find_element(By.CSS_SELECTOR, '.css-1eymbsg')
-        btn.click()
-        time.sleep(5)
+            # Wait for the element to be clickable
+        btn = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, '.css-1eymbsg'))
+            )
+        driver.execute_script("arguments[0].scrollIntoView();", btn)
+
+
+
+        # Click the element
+        driver.execute_script("arguments[0].click();", btn)
 
         elements = driver.find_elements(By.CSS_SELECTOR, '.content-info')
         # Check if there is a second element
@@ -282,9 +288,9 @@ with open(log_file_path, 'a') as log_file:
 # AWS credentials and S3 bucket information
 aws_access_key_id = 'AKIA5LN5QZFXC7TK5BXL'
 aws_secret_access_key = '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'
+brand_name = "nykaa"
 bucket_name = 'dataset-image-dev'
-s3_prefix = 'web_scrape_data/' + current_date + '/' + 'PaginationSetup' + '/'
-
+s3_prefix = 'web_scrape_data/{}/{}/lipstick/'.format(current_date, brand_name)
 # Create an S3 client
 s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
 
