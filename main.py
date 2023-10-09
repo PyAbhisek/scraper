@@ -21,14 +21,14 @@ chrome_driver_path = '/usr/bin/chromedriver'
 links = []
 
 # Keywords to exclude
-exclude_keywords = ['lip-juicers', '-in-1', 'kajal', 'casing', 'brush', 'concealer', 'changing',
+exclude_keywords = ['lip-juicers', '-in-1', 'kajal', 'casing', 'brush', 'changing','in1','foundation',
                     'refillable-case', 'pencil', 'lip-liner', 'lipliner', 'lip-plumper', 'lip-oil',
                     'multi-mousse', 'lip-balm', 'lip-care', 'cheek-stain', 'cheek', 'scrub',
                     'crayon', 'pack', 'combo', 'fab5', 'lacquer', 'mini','kit','set','balm','palette','trimmer']
 
-for page_number in range(1, 19):
+for page_number in range(1, 23):
     driver = webdriver.Chrome(options=chrome_options)
-    website = f'https://www.nykaa.com/makeup/eyes/eye-brow-enhancer/c/245?page_no={page_number}&sort=popularity&eq=desktop'
+    website = f'https://www.nykaa.com/makeup/face/face-concealer/c/234?page_no={page_number}&sort=popularity&eq=desktop'
 
     driver.get(website)
 
