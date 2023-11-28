@@ -20,6 +20,9 @@ import traceback
 with open('BS4Config.json') as f:
     scraping_targets = json.load(f)
 
+# Initialize the set to keep track of scraped URLs
+scraped_urls = set()
+
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--headless')
@@ -349,9 +352,7 @@ for target in scraping_targets:
 
                         rgb_color_Code = get_image_rgb('https:' + background_url)
 
-                    if website_name == "flowerbeauty":
-
-                        # color = driver.find_element(By.CSS_SELECTOR,'.items-center.rounded-full')
+                    if website_name == "flowerbeauty" or website_name == "ibacosmetics":
                         colorcode = shade_item.find_element(By.CSS_SELECTOR, 'img')
                         rgb = colorcode.get_attribute('src')
                         rgb_color_Code = get_image_rgb(rgb)
@@ -380,6 +381,7 @@ for target in scraping_targets:
                         img_class = driver.find_element(By.CSS_SELECTOR, shade_image_classname)
                         data = img_class.get_attribute('src')
                     else:
+                        time.sleep(5)
                         # Check if the image tag is present and get the srcset attribute if available
                         parent_img = driver.find_element(By.CSS_SELECTOR, img_parent)
                         image_tag = parent_img.find_element(By.CSS_SELECTOR, img_tag)
@@ -442,11 +444,18 @@ for target in scraping_targets:
 
 
         print(f"Scraping data from: {url}")
+     
+        if url in scraped_urls:
+            print(f"Skipping {url} as it has already been scraped.")
+            continue
         scraped_data = scrape_data(url)
         if scraped_data is None:
             print(f"Skipping to the next link due to an error for URL: {url}")
             print("-" * 50)
             continue
+        # Add the scraped URL to the set
+        scraped_urls.add(url)
+
         website_data.append(scraped_data)
         print("-" * 50)
         # Increment website product count

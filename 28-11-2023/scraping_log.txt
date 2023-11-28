@@ -1,0 +1,735 @@
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000100b8e004 chromedriver + 4169732
+1   chromedriver                        0x0000000100b85ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001007db500 chromedriver + 292096
+3   chromedriver                        0x00000001008203a0 chromedriver + 574368
+4   chromedriver                        0x0000000100815db4 chromedriver + 531892
+5   chromedriver                        0x000000010085b818 chromedriver + 817176
+6   chromedriver                        0x00000001008145e8 chromedriver + 525800
+7   chromedriver                        0x00000001008154b8 chromedriver + 529592
+8   chromedriver                        0x0000000100b54334 chromedriver + 3932980
+9   chromedriver                        0x0000000100b58970 chromedriver + 3950960
+10  chromedriver                        0x0000000100b3c774 chromedriver + 3835764
+11  chromedriver                        0x0000000100b59478 chromedriver + 3953784
+12  chromedriver                        0x0000000100b2eab4 chromedriver + 3779252
+13  chromedriver                        0x0000000100b75914 chromedriver + 4069652
+14  chromedriver                        0x0000000100b75a90 chromedriver + 4070032
+15  chromedriver                        0x0000000100b85c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104932004 chromedriver + 4169732
+1   chromedriver                        0x0000000104929ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010457f500 chromedriver + 292096
+3   chromedriver                        0x00000001045c47a0 chromedriver + 575392
+4   chromedriver                        0x00000001045ff818 chromedriver + 817176
+5   chromedriver                        0x00000001045b85e8 chromedriver + 525800
+6   chromedriver                        0x00000001045b94b8 chromedriver + 529592
+7   chromedriver                        0x00000001048f8334 chromedriver + 3932980
+8   chromedriver                        0x00000001048fc970 chromedriver + 3950960
+9   chromedriver                        0x00000001048e0774 chromedriver + 3835764
+10  chromedriver                        0x00000001048fd478 chromedriver + 3953784
+11  chromedriver                        0x00000001048d2ab4 chromedriver + 3779252
+12  chromedriver                        0x0000000104919914 chromedriver + 4069652
+13  chromedriver                        0x0000000104919a90 chromedriver + 4070032
+14  chromedriver                        0x0000000104929c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-maxx-matte-liquid-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000102432004 chromedriver + 4169732
+1   chromedriver                        0x0000000102429ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010207f500 chromedriver + 292096
+3   chromedriver                        0x00000001020c43a0 chromedriver + 574368
+4   chromedriver                        0x00000001020b9db4 chromedriver + 531892
+5   chromedriver                        0x00000001020ff818 chromedriver + 817176
+6   chromedriver                        0x00000001020b85e8 chromedriver + 525800
+7   chromedriver                        0x00000001020b94b8 chromedriver + 529592
+8   chromedriver                        0x00000001023f8334 chromedriver + 3932980
+9   chromedriver                        0x00000001023fc970 chromedriver + 3950960
+10  chromedriver                        0x00000001023e0774 chromedriver + 3835764
+11  chromedriver                        0x00000001023fd478 chromedriver + 3953784
+12  chromedriver                        0x00000001023d2ab4 chromedriver + 3779252
+13  chromedriver                        0x0000000102419914 chromedriver + 4069652
+14  chromedriver                        0x0000000102419a90 chromedriver + 4070032
+15  chromedriver                        0x0000000102429c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: can only concatenate str (not "WebElement") to str
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000105366004 chromedriver + 4169732
+1   chromedriver                        0x000000010535dff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104fb3500 chromedriver + 292096
+3   chromedriver                        0x0000000104ff87a0 chromedriver + 575392
+4   chromedriver                        0x0000000105033818 chromedriver + 817176
+5   chromedriver                        0x0000000104fec5e8 chromedriver + 525800
+6   chromedriver                        0x0000000104fed4b8 chromedriver + 529592
+7   chromedriver                        0x000000010532c334 chromedriver + 3932980
+8   chromedriver                        0x0000000105330970 chromedriver + 3950960
+9   chromedriver                        0x0000000105314774 chromedriver + 3835764
+10  chromedriver                        0x0000000105331478 chromedriver + 3953784
+11  chromedriver                        0x0000000105306ab4 chromedriver + 3779252
+12  chromedriver                        0x000000010534d914 chromedriver + 4069652
+13  chromedriver                        0x000000010534da90 chromedriver + 4070032
+14  chromedriver                        0x000000010535dc70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000102742004 chromedriver + 4169732
+1   chromedriver                        0x0000000102739ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010238f500 chromedriver + 292096
+3   chromedriver                        0x00000001023d43a0 chromedriver + 574368
+4   chromedriver                        0x00000001023c9db4 chromedriver + 531892
+5   chromedriver                        0x000000010240f818 chromedriver + 817176
+6   chromedriver                        0x00000001023c85e8 chromedriver + 525800
+7   chromedriver                        0x00000001023c94b8 chromedriver + 529592
+8   chromedriver                        0x0000000102708334 chromedriver + 3932980
+9   chromedriver                        0x000000010270c970 chromedriver + 3950960
+10  chromedriver                        0x00000001026f0774 chromedriver + 3835764
+11  chromedriver                        0x000000010270d478 chromedriver + 3953784
+12  chromedriver                        0x00000001026e2ab4 chromedriver + 3779252
+13  chromedriver                        0x0000000102729914 chromedriver + 4069652
+14  chromedriver                        0x0000000102729a90 chromedriver + 4070032
+15  chromedriver                        0x0000000102739c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001046e2004 chromedriver + 4169732
+1   chromedriver                        0x00000001046d9ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010432f500 chromedriver + 292096
+3   chromedriver                        0x00000001043747a0 chromedriver + 575392
+4   chromedriver                        0x00000001043af818 chromedriver + 817176
+5   chromedriver                        0x00000001043685e8 chromedriver + 525800
+6   chromedriver                        0x00000001043694b8 chromedriver + 529592
+7   chromedriver                        0x00000001046a8334 chromedriver + 3932980
+8   chromedriver                        0x00000001046ac970 chromedriver + 3950960
+9   chromedriver                        0x0000000104690774 chromedriver + 3835764
+10  chromedriver                        0x00000001046ad478 chromedriver + 3953784
+11  chromedriver                        0x0000000104682ab4 chromedriver + 3779252
+12  chromedriver                        0x00000001046c9914 chromedriver + 4069652
+13  chromedriver                        0x00000001046c9a90 chromedriver + 4070032
+14  chromedriver                        0x00000001046d9c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: local variable 'img_tag' referenced before assignment
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000103236004 chromedriver + 4169732
+1   chromedriver                        0x000000010322dff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102e83500 chromedriver + 292096
+3   chromedriver                        0x0000000102ec83a0 chromedriver + 574368
+4   chromedriver                        0x0000000102ebddb4 chromedriver + 531892
+5   chromedriver                        0x0000000102f03818 chromedriver + 817176
+6   chromedriver                        0x0000000102ebc5e8 chromedriver + 525800
+7   chromedriver                        0x0000000102ebd4b8 chromedriver + 529592
+8   chromedriver                        0x00000001031fc334 chromedriver + 3932980
+9   chromedriver                        0x0000000103200970 chromedriver + 3950960
+10  chromedriver                        0x00000001031e4774 chromedriver + 3835764
+11  chromedriver                        0x0000000103201478 chromedriver + 3953784
+12  chromedriver                        0x00000001031d6ab4 chromedriver + 3779252
+13  chromedriver                        0x000000010321d914 chromedriver + 4069652
+14  chromedriver                        0x000000010321da90 chromedriver + 4070032
+15  chromedriver                        0x000000010322dc70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102a5e004 chromedriver + 4169732
+1   chromedriver                        0x0000000102a55ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001026ab500 chromedriver + 292096
+3   chromedriver                        0x00000001026f07a0 chromedriver + 575392
+4   chromedriver                        0x000000010272b818 chromedriver + 817176
+5   chromedriver                        0x00000001026e45e8 chromedriver + 525800
+6   chromedriver                        0x00000001026e54b8 chromedriver + 529592
+7   chromedriver                        0x0000000102a24334 chromedriver + 3932980
+8   chromedriver                        0x0000000102a28970 chromedriver + 3950960
+9   chromedriver                        0x0000000102a0c774 chromedriver + 3835764
+10  chromedriver                        0x0000000102a29478 chromedriver + 3953784
+11  chromedriver                        0x00000001029feab4 chromedriver + 3779252
+12  chromedriver                        0x0000000102a45914 chromedriver + 4069652
+13  chromedriver                        0x0000000102a45a90 chromedriver + 4070032
+14  chromedriver                        0x0000000102a55c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-maxx-matte-liquid-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000104b6e004 chromedriver + 4169732
+1   chromedriver                        0x0000000104b65ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001047bb500 chromedriver + 292096
+3   chromedriver                        0x00000001048003a0 chromedriver + 574368
+4   chromedriver                        0x00000001047f5db4 chromedriver + 531892
+5   chromedriver                        0x000000010483b818 chromedriver + 817176
+6   chromedriver                        0x00000001047f45e8 chromedriver + 525800
+7   chromedriver                        0x00000001047f54b8 chromedriver + 529592
+8   chromedriver                        0x0000000104b34334 chromedriver + 3932980
+9   chromedriver                        0x0000000104b38970 chromedriver + 3950960
+10  chromedriver                        0x0000000104b1c774 chromedriver + 3835764
+11  chromedriver                        0x0000000104b39478 chromedriver + 3953784
+12  chromedriver                        0x0000000104b0eab4 chromedriver + 3779252
+13  chromedriver                        0x0000000104b55914 chromedriver + 4069652
+14  chromedriver                        0x0000000104b55a90 chromedriver + 4070032
+15  chromedriver                        0x0000000104b65c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x00000001009d6004 chromedriver + 4169732
+1   chromedriver                        0x00000001009cdff8 chromedriver + 4136952
+2   chromedriver                        0x0000000100623500 chromedriver + 292096
+3   chromedriver                        0x00000001006683a0 chromedriver + 574368
+4   chromedriver                        0x000000010065ddb4 chromedriver + 531892
+5   chromedriver                        0x00000001006a3818 chromedriver + 817176
+6   chromedriver                        0x000000010065c5e8 chromedriver + 525800
+7   chromedriver                        0x000000010065d4b8 chromedriver + 529592
+8   chromedriver                        0x000000010099c334 chromedriver + 3932980
+9   chromedriver                        0x00000001009a0970 chromedriver + 3950960
+10  chromedriver                        0x0000000100984774 chromedriver + 3835764
+11  chromedriver                        0x00000001009a1478 chromedriver + 3953784
+12  chromedriver                        0x0000000100976ab4 chromedriver + 3779252
+13  chromedriver                        0x00000001009bd914 chromedriver + 4069652
+14  chromedriver                        0x00000001009bda90 chromedriver + 4070032
+15  chromedriver                        0x00000001009cdc70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: local variable 'img_tag' referenced before assignment
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102b8e004 chromedriver + 4169732
+1   chromedriver                        0x0000000102b85ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001027db500 chromedriver + 292096
+3   chromedriver                        0x00000001028207a0 chromedriver + 575392
+4   chromedriver                        0x000000010285b818 chromedriver + 817176
+5   chromedriver                        0x00000001028145e8 chromedriver + 525800
+6   chromedriver                        0x00000001028154b8 chromedriver + 529592
+7   chromedriver                        0x0000000102b54334 chromedriver + 3932980
+8   chromedriver                        0x0000000102b58970 chromedriver + 3950960
+9   chromedriver                        0x0000000102b3c774 chromedriver + 3835764
+10  chromedriver                        0x0000000102b59478 chromedriver + 3953784
+11  chromedriver                        0x0000000102b2eab4 chromedriver + 3779252
+12  chromedriver                        0x0000000102b75914 chromedriver + 4069652
+13  chromedriver                        0x0000000102b75a90 chromedriver + 4070032
+14  chromedriver                        0x0000000102b85c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000102c12004 chromedriver + 4169732
+1   chromedriver                        0x0000000102c09ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010285f500 chromedriver + 292096
+3   chromedriver                        0x00000001028a43a0 chromedriver + 574368
+4   chromedriver                        0x0000000102899db4 chromedriver + 531892
+5   chromedriver                        0x00000001028df818 chromedriver + 817176
+6   chromedriver                        0x00000001028985e8 chromedriver + 525800
+7   chromedriver                        0x00000001028994b8 chromedriver + 529592
+8   chromedriver                        0x0000000102bd8334 chromedriver + 3932980
+9   chromedriver                        0x0000000102bdc970 chromedriver + 3950960
+10  chromedriver                        0x0000000102bc0774 chromedriver + 3835764
+11  chromedriver                        0x0000000102bdd478 chromedriver + 3953784
+12  chromedriver                        0x0000000102bb2ab4 chromedriver + 3779252
+13  chromedriver                        0x0000000102bf9914 chromedriver + 4069652
+14  chromedriver                        0x0000000102bf9a90 chromedriver + 4070032
+15  chromedriver                        0x0000000102c09c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001027ee004 chromedriver + 4169732
+1   chromedriver                        0x00000001027e5ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010243b500 chromedriver + 292096
+3   chromedriver                        0x00000001024807a0 chromedriver + 575392
+4   chromedriver                        0x00000001024bb818 chromedriver + 817176
+5   chromedriver                        0x00000001024745e8 chromedriver + 525800
+6   chromedriver                        0x00000001024754b8 chromedriver + 529592
+7   chromedriver                        0x00000001027b4334 chromedriver + 3932980
+8   chromedriver                        0x00000001027b8970 chromedriver + 3950960
+9   chromedriver                        0x000000010279c774 chromedriver + 3835764
+10  chromedriver                        0x00000001027b9478 chromedriver + 3953784
+11  chromedriver                        0x000000010278eab4 chromedriver + 3779252
+12  chromedriver                        0x00000001027d5914 chromedriver + 4069652
+13  chromedriver                        0x00000001027d5a90 chromedriver + 4070032
+14  chromedriver                        0x00000001027e5c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-maxx-matte-liquid-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000103362004 chromedriver + 4169732
+1   chromedriver                        0x0000000103359ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102faf500 chromedriver + 292096
+3   chromedriver                        0x0000000102ff43a0 chromedriver + 574368
+4   chromedriver                        0x0000000102fe9db4 chromedriver + 531892
+5   chromedriver                        0x000000010302f818 chromedriver + 817176
+6   chromedriver                        0x0000000102fe85e8 chromedriver + 525800
+7   chromedriver                        0x0000000102fe94b8 chromedriver + 529592
+8   chromedriver                        0x0000000103328334 chromedriver + 3932980
+9   chromedriver                        0x000000010332c970 chromedriver + 3950960
+10  chromedriver                        0x0000000103310774 chromedriver + 3835764
+11  chromedriver                        0x000000010332d478 chromedriver + 3953784
+12  chromedriver                        0x0000000103302ab4 chromedriver + 3779252
+13  chromedriver                        0x0000000103349914 chromedriver + 4069652
+14  chromedriver                        0x0000000103349a90 chromedriver + 4070032
+15  chromedriver                        0x0000000103359c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-transfer-proof-ultra-matte-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x000000010283a004 chromedriver + 4169732
+1   chromedriver                        0x0000000102831ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102487500 chromedriver + 292096
+3   chromedriver                        0x00000001024cc3a0 chromedriver + 574368
+4   chromedriver                        0x00000001024c1db4 chromedriver + 531892
+5   chromedriver                        0x0000000102507818 chromedriver + 817176
+6   chromedriver                        0x00000001024c05e8 chromedriver + 525800
+7   chromedriver                        0x00000001024c14b8 chromedriver + 529592
+8   chromedriver                        0x0000000102800334 chromedriver + 3932980
+9   chromedriver                        0x0000000102804970 chromedriver + 3950960
+10  chromedriver                        0x00000001027e8774 chromedriver + 3835764
+11  chromedriver                        0x0000000102805478 chromedriver + 3953784
+12  chromedriver                        0x00000001027daab4 chromedriver + 3779252
+13  chromedriver                        0x0000000102821914 chromedriver + 4069652
+14  chromedriver                        0x0000000102821a90 chromedriver + 4070032
+15  chromedriver                        0x0000000102831c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000102ef2004 chromedriver + 4169732
+1   chromedriver                        0x0000000102ee9ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102b3f500 chromedriver + 292096
+3   chromedriver                        0x0000000102b843a0 chromedriver + 574368
+4   chromedriver                        0x0000000102b79db4 chromedriver + 531892
+5   chromedriver                        0x0000000102bbf818 chromedriver + 817176
+6   chromedriver                        0x0000000102b785e8 chromedriver + 525800
+7   chromedriver                        0x0000000102b794b8 chromedriver + 529592
+8   chromedriver                        0x0000000102eb8334 chromedriver + 3932980
+9   chromedriver                        0x0000000102ebc970 chromedriver + 3950960
+10  chromedriver                        0x0000000102ea0774 chromedriver + 3835764
+11  chromedriver                        0x0000000102ebd478 chromedriver + 3953784
+12  chromedriver                        0x0000000102e92ab4 chromedriver + 3779252
+13  chromedriver                        0x0000000102ed9914 chromedriver + 4069652
+14  chromedriver                        0x0000000102ed9a90 chromedriver + 4070032
+15  chromedriver                        0x0000000102ee9c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000105256004 chromedriver + 4169732
+1   chromedriver                        0x000000010524dff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104ea3500 chromedriver + 292096
+3   chromedriver                        0x0000000104ee83a0 chromedriver + 574368
+4   chromedriver                        0x0000000104edddb4 chromedriver + 531892
+5   chromedriver                        0x0000000104f23818 chromedriver + 817176
+6   chromedriver                        0x0000000104edc5e8 chromedriver + 525800
+7   chromedriver                        0x0000000104edd4b8 chromedriver + 529592
+8   chromedriver                        0x000000010521c334 chromedriver + 3932980
+9   chromedriver                        0x0000000105220970 chromedriver + 3950960
+10  chromedriver                        0x0000000105204774 chromedriver + 3835764
+11  chromedriver                        0x0000000105221478 chromedriver + 3953784
+12  chromedriver                        0x00000001051f6ab4 chromedriver + 3779252
+13  chromedriver                        0x000000010523d914 chromedriver + 4069652
+14  chromedriver                        0x000000010523da90 chromedriver + 4070032
+15  chromedriver                        0x000000010524dc70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010486a004 chromedriver + 4169732
+1   chromedriver                        0x0000000104861ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001044b7500 chromedriver + 292096
+3   chromedriver                        0x00000001044fc7a0 chromedriver + 575392
+4   chromedriver                        0x0000000104537818 chromedriver + 817176
+5   chromedriver                        0x00000001044f05e8 chromedriver + 525800
+6   chromedriver                        0x00000001044f14b8 chromedriver + 529592
+7   chromedriver                        0x0000000104830334 chromedriver + 3932980
+8   chromedriver                        0x0000000104834970 chromedriver + 3950960
+9   chromedriver                        0x0000000104818774 chromedriver + 3835764
+10  chromedriver                        0x0000000104835478 chromedriver + 3953784
+11  chromedriver                        0x000000010480aab4 chromedriver + 3779252
+12  chromedriver                        0x0000000104851914 chromedriver + 4069652
+13  chromedriver                        0x0000000104851a90 chromedriver + 4070032
+14  chromedriver                        0x0000000104861c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-maxx-matte-liquid-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000104d1a004 chromedriver + 4169732
+1   chromedriver                        0x0000000104d11ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104967500 chromedriver + 292096
+3   chromedriver                        0x00000001049ac3a0 chromedriver + 574368
+4   chromedriver                        0x00000001049a1db4 chromedriver + 531892
+5   chromedriver                        0x00000001049e7818 chromedriver + 817176
+6   chromedriver                        0x00000001049a05e8 chromedriver + 525800
+7   chromedriver                        0x00000001049a14b8 chromedriver + 529592
+8   chromedriver                        0x0000000104ce0334 chromedriver + 3932980
+9   chromedriver                        0x0000000104ce4970 chromedriver + 3950960
+10  chromedriver                        0x0000000104cc8774 chromedriver + 3835764
+11  chromedriver                        0x0000000104ce5478 chromedriver + 3953784
+12  chromedriver                        0x0000000104cbaab4 chromedriver + 3779252
+13  chromedriver                        0x0000000104d01914 chromedriver + 4069652
+14  chromedriver                        0x0000000104d01a90 chromedriver + 4070032
+15  chromedriver                        0x0000000104d11c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-transfer-proof-ultra-matte-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x000000010118e004 chromedriver + 4169732
+1   chromedriver                        0x0000000101185ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000100ddb500 chromedriver + 292096
+3   chromedriver                        0x0000000100e203a0 chromedriver + 574368
+4   chromedriver                        0x0000000100e15db4 chromedriver + 531892
+5   chromedriver                        0x0000000100e5b818 chromedriver + 817176
+6   chromedriver                        0x0000000100e145e8 chromedriver + 525800
+7   chromedriver                        0x0000000100e154b8 chromedriver + 529592
+8   chromedriver                        0x0000000101154334 chromedriver + 3932980
+9   chromedriver                        0x0000000101158970 chromedriver + 3950960
+10  chromedriver                        0x000000010113c774 chromedriver + 3835764
+11  chromedriver                        0x0000000101159478 chromedriver + 3953784
+12  chromedriver                        0x000000010112eab4 chromedriver + 3779252
+13  chromedriver                        0x0000000101175914 chromedriver + 4069652
+14  chromedriver                        0x0000000101175a90 chromedriver + 4070032
+15  chromedriver                        0x0000000101185c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-multitasking-lipstick-trio-peach-sorbet
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104e86004 chromedriver + 4169732
+1   chromedriver                        0x0000000104e7dff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104ad3500 chromedriver + 292096
+3   chromedriver                        0x0000000104b187a0 chromedriver + 575392
+4   chromedriver                        0x0000000104b53818 chromedriver + 817176
+5   chromedriver                        0x0000000104b0c5e8 chromedriver + 525800
+6   chromedriver                        0x0000000104b0d4b8 chromedriver + 529592
+7   chromedriver                        0x0000000104e4c334 chromedriver + 3932980
+8   chromedriver                        0x0000000104e50970 chromedriver + 3950960
+9   chromedriver                        0x0000000104e34774 chromedriver + 3835764
+10  chromedriver                        0x0000000104e51478 chromedriver + 3953784
+11  chromedriver                        0x0000000104e26ab4 chromedriver + 3779252
+12  chromedriver                        0x0000000104e6d914 chromedriver + 4069652
+13  chromedriver                        0x0000000104e6da90 chromedriver + 4070032
+14  chromedriver                        0x0000000104e7dc70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-pout-perfect-lip-sleeping-mask
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010467e004 chromedriver + 4169732
+1   chromedriver                        0x0000000104675ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001042cb500 chromedriver + 292096
+3   chromedriver                        0x00000001043107a0 chromedriver + 575392
+4   chromedriver                        0x000000010434b818 chromedriver + 817176
+5   chromedriver                        0x00000001043045e8 chromedriver + 525800
+6   chromedriver                        0x00000001043054b8 chromedriver + 529592
+7   chromedriver                        0x0000000104644334 chromedriver + 3932980
+8   chromedriver                        0x0000000104648970 chromedriver + 3950960
+9   chromedriver                        0x000000010462c774 chromedriver + 3835764
+10  chromedriver                        0x0000000104649478 chromedriver + 3953784
+11  chromedriver                        0x000000010461eab4 chromedriver + 3779252
+12  chromedriver                        0x0000000104665914 chromedriver + 4069652
+13  chromedriver                        0x0000000104665a90 chromedriver + 4070032
+14  chromedriver                        0x0000000104675c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-color-change-gel-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000102a1e004 chromedriver + 4169732
+1   chromedriver                        0x0000000102a15ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010266b500 chromedriver + 292096
+3   chromedriver                        0x00000001026b03a0 chromedriver + 574368
+4   chromedriver                        0x00000001026a5db4 chromedriver + 531892
+5   chromedriver                        0x00000001026eb818 chromedriver + 817176
+6   chromedriver                        0x00000001026a45e8 chromedriver + 525800
+7   chromedriver                        0x00000001026a54b8 chromedriver + 529592
+8   chromedriver                        0x00000001029e4334 chromedriver + 3932980
+9   chromedriver                        0x00000001029e8970 chromedriver + 3950960
+10  chromedriver                        0x00000001029cc774 chromedriver + 3835764
+11  chromedriver                        0x00000001029e9478 chromedriver + 3953784
+12  chromedriver                        0x00000001029beab4 chromedriver + 3779252
+13  chromedriver                        0x0000000102a05914 chromedriver + 4069652
+14  chromedriver                        0x0000000102a05a90 chromedriver + 4070032
+15  chromedriver                        0x0000000102a15c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-long-stay-matte-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x00000001029fa004 chromedriver + 4169732
+1   chromedriver                        0x00000001029f1ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102647500 chromedriver + 292096
+3   chromedriver                        0x000000010268c3a0 chromedriver + 574368
+4   chromedriver                        0x0000000102681db4 chromedriver + 531892
+5   chromedriver                        0x00000001026c7818 chromedriver + 817176
+6   chromedriver                        0x00000001026805e8 chromedriver + 525800
+7   chromedriver                        0x00000001026814b8 chromedriver + 529592
+8   chromedriver                        0x00000001029c0334 chromedriver + 3932980
+9   chromedriver                        0x00000001029c4970 chromedriver + 3950960
+10  chromedriver                        0x00000001029a8774 chromedriver + 3835764
+11  chromedriver                        0x00000001029c5478 chromedriver + 3953784
+12  chromedriver                        0x000000010299aab4 chromedriver + 3779252
+13  chromedriver                        0x00000001029e1914 chromedriver + 4069652
+14  chromedriver                        0x00000001029e1a90 chromedriver + 4070032
+15  chromedriver                        0x00000001029f1c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000100936004 chromedriver + 4169732
+1   chromedriver                        0x000000010092dff8 chromedriver + 4136952
+2   chromedriver                        0x0000000100583500 chromedriver + 292096
+3   chromedriver                        0x00000001005c83a0 chromedriver + 574368
+4   chromedriver                        0x00000001005bddb4 chromedriver + 531892
+5   chromedriver                        0x0000000100603818 chromedriver + 817176
+6   chromedriver                        0x00000001005bc5e8 chromedriver + 525800
+7   chromedriver                        0x00000001005bd4b8 chromedriver + 529592
+8   chromedriver                        0x00000001008fc334 chromedriver + 3932980
+9   chromedriver                        0x0000000100900970 chromedriver + 3950960
+10  chromedriver                        0x00000001008e4774 chromedriver + 3835764
+11  chromedriver                        0x0000000100901478 chromedriver + 3953784
+12  chromedriver                        0x00000001008d6ab4 chromedriver + 3779252
+13  chromedriver                        0x000000010091d914 chromedriver + 4069652
+14  chromedriver                        0x000000010091da90 chromedriver + 4070032
+15  chromedriver                        0x000000010092dc70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010506e004 chromedriver + 4169732
+1   chromedriver                        0x0000000105065ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104cbb500 chromedriver + 292096
+3   chromedriver                        0x0000000104d007a0 chromedriver + 575392
+4   chromedriver                        0x0000000104d3b818 chromedriver + 817176
+5   chromedriver                        0x0000000104cf45e8 chromedriver + 525800
+6   chromedriver                        0x0000000104cf54b8 chromedriver + 529592
+7   chromedriver                        0x0000000105034334 chromedriver + 3932980
+8   chromedriver                        0x0000000105038970 chromedriver + 3950960
+9   chromedriver                        0x000000010501c774 chromedriver + 3835764
+10  chromedriver                        0x0000000105039478 chromedriver + 3953784
+11  chromedriver                        0x000000010500eab4 chromedriver + 3779252
+12  chromedriver                        0x0000000105055914 chromedriver + 4069652
+13  chromedriver                        0x0000000105055a90 chromedriver + 4070032
+14  chromedriver                        0x0000000105065c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: 'WebElement' object has no attribute 'find_element_by_tag_name'
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010502a004 chromedriver + 4169732
+1   chromedriver                        0x0000000105021ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104c77500 chromedriver + 292096
+3   chromedriver                        0x0000000104cbc7a0 chromedriver + 575392
+4   chromedriver                        0x0000000104cf7818 chromedriver + 817176
+5   chromedriver                        0x0000000104cb05e8 chromedriver + 525800
+6   chromedriver                        0x0000000104cb14b8 chromedriver + 529592
+7   chromedriver                        0x0000000104ff0334 chromedriver + 3932980
+8   chromedriver                        0x0000000104ff4970 chromedriver + 3950960
+9   chromedriver                        0x0000000104fd8774 chromedriver + 3835764
+10  chromedriver                        0x0000000104ff5478 chromedriver + 3953784
+11  chromedriver                        0x0000000104fcaab4 chromedriver + 3779252
+12  chromedriver                        0x0000000105011914 chromedriver + 4069652
+13  chromedriver                        0x0000000105011a90 chromedriver + 4070032
+14  chromedriver                        0x0000000105021c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x000000010454e004 chromedriver + 4169732
+1   chromedriver                        0x0000000104545ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010419b500 chromedriver + 292096
+3   chromedriver                        0x00000001041e03a0 chromedriver + 574368
+4   chromedriver                        0x00000001041d5db4 chromedriver + 531892
+5   chromedriver                        0x000000010421b818 chromedriver + 817176
+6   chromedriver                        0x00000001041d45e8 chromedriver + 525800
+7   chromedriver                        0x00000001041d54b8 chromedriver + 529592
+8   chromedriver                        0x0000000104514334 chromedriver + 3932980
+9   chromedriver                        0x0000000104518970 chromedriver + 3950960
+10  chromedriver                        0x00000001044fc774 chromedriver + 3835764
+11  chromedriver                        0x0000000104519478 chromedriver + 3953784
+12  chromedriver                        0x00000001044eeab4 chromedriver + 3779252
+13  chromedriver                        0x0000000104535914 chromedriver + 4069652
+14  chromedriver                        0x0000000104535a90 chromedriver + 4070032
+15  chromedriver                        0x0000000104545c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: Message: invalid argument: 'value' must be a string
+  (Session info: headless chrome=119.0.6045.159)
+Stacktrace:
+0   chromedriver                        0x0000000100f36004 chromedriver + 4169732
+1   chromedriver                        0x0000000100f2dff8 chromedriver + 4136952
+2   chromedriver                        0x0000000100b83500 chromedriver + 292096
+3   chromedriver                        0x0000000100bc83a0 chromedriver + 574368
+4   chromedriver                        0x0000000100c03818 chromedriver + 817176
+5   chromedriver                        0x0000000100bbc5e8 chromedriver + 525800
+6   chromedriver                        0x0000000100bbd4b8 chromedriver + 529592
+7   chromedriver                        0x0000000100efc334 chromedriver + 3932980
+8   chromedriver                        0x0000000100f00970 chromedriver + 3950960
+9   chromedriver                        0x0000000100ee4774 chromedriver + 3835764
+10  chromedriver                        0x0000000100f01478 chromedriver + 3953784
+11  chromedriver                        0x0000000100ed6ab4 chromedriver + 3779252
+12  chromedriver                        0x0000000100f1d914 chromedriver + 4069652
+13  chromedriver                        0x0000000100f1da90 chromedriver + 4070032
+14  chromedriver                        0x0000000100f2dc70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: can only concatenate str (not "tuple") to str
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001032fe004 chromedriver + 4169732
+1   chromedriver                        0x00000001032f5ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102f4b500 chromedriver + 292096
+3   chromedriver                        0x0000000102f907a0 chromedriver + 575392
+4   chromedriver                        0x0000000102fcb818 chromedriver + 817176
+5   chromedriver                        0x0000000102f845e8 chromedriver + 525800
+6   chromedriver                        0x0000000102f854b8 chromedriver + 529592
+7   chromedriver                        0x00000001032c4334 chromedriver + 3932980
+8   chromedriver                        0x00000001032c8970 chromedriver + 3950960
+9   chromedriver                        0x00000001032ac774 chromedriver + 3835764
+10  chromedriver                        0x00000001032c9478 chromedriver + 3953784
+11  chromedriver                        0x000000010329eab4 chromedriver + 3779252
+12  chromedriver                        0x00000001032e5914 chromedriver + 4069652
+13  chromedriver                        0x00000001032e5a90 chromedriver + 4070032
+14  chromedriver                        0x00000001032f5c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: can only concatenate str (not "tuple") to str
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-pure-lips-moisture-rich-lipstick
+Error: can only concatenate str (not "tuple") to str
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010317a004 chromedriver + 4169732
+1   chromedriver                        0x0000000103171ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102dc7500 chromedriver + 292096
+3   chromedriver                        0x0000000102e0c7a0 chromedriver + 575392
+4   chromedriver                        0x0000000102e47818 chromedriver + 817176
+5   chromedriver                        0x0000000102e005e8 chromedriver + 525800
+6   chromedriver                        0x0000000102e014b8 chromedriver + 529592
+7   chromedriver                        0x0000000103140334 chromedriver + 3932980
+8   chromedriver                        0x0000000103144970 chromedriver + 3950960
+9   chromedriver                        0x0000000103128774 chromedriver + 3835764
+10  chromedriver                        0x0000000103145478 chromedriver + 3953784
+11  chromedriver                        0x000000010311aab4 chromedriver + 3779252
+12  chromedriver                        0x0000000103161914 chromedriver + 4069652
+13  chromedriver                        0x0000000103161a90 chromedriver + 4070032
+14  chromedriver                        0x0000000103171c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102a6e004 chromedriver + 4169732
+1   chromedriver                        0x0000000102a65ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001026bb500 chromedriver + 292096
+3   chromedriver                        0x00000001027007a0 chromedriver + 575392
+4   chromedriver                        0x000000010273b818 chromedriver + 817176
+5   chromedriver                        0x00000001026f45e8 chromedriver + 525800
+6   chromedriver                        0x00000001026f54b8 chromedriver + 529592
+7   chromedriver                        0x0000000102a34334 chromedriver + 3932980
+8   chromedriver                        0x0000000102a38970 chromedriver + 3950960
+9   chromedriver                        0x0000000102a1c774 chromedriver + 3835764
+10  chromedriver                        0x0000000102a39478 chromedriver + 3953784
+11  chromedriver                        0x0000000102a0eab4 chromedriver + 3779252
+12  chromedriver                        0x0000000102a55914 chromedriver + 4069652
+13  chromedriver                        0x0000000102a55a90 chromedriver + 4070032
+14  chromedriver                        0x0000000102a65c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+

@@ -1,5 +1,27 @@
 [
   {
+    "url": "https://in.sugarcosmetics.com/search?q=lipstick",
+    "parent_element": "",
+    "css_selector": ".w-100",
+    "filename": "sugarcosmetics",
+    "loadmore": "",
+    "base_url": "https://in.sugarcosmetics.com",
+    "scrollmoretoload": "",
+    "startingrange": "",
+    "endingrange": ""
+  },
+  {
+    "url": "https://ibacosmetics.com/collections/shop-by-lips",
+    "parent_element": "#product-grid",
+    "css_selector": ".full-unstyled-link",
+    "filename": "ibacosmetics",
+    "loadmore": "",
+    "base_url": "",
+    "scrollmoretoload": "",
+    "startingrange": "",
+    "endingrange": ""
+  },
+  {
     "url": "https://www.flowerbeauty.com/collections/lip-color",
     "parent_element": ".PLP__Grid",
     "css_selector": ".PLP__GridItem",

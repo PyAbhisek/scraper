@@ -26,25 +26,42 @@ chrome_driver_path = '/usr/bin/google-chrome'
 
 driver = webdriver.Chrome(options=chrome_options)
 
+
+
 # Initialize a URL counter
 url_counter = 0
 
 for target in scraping_targets:
+  
     url = target["url"]
     class_name = target["css_selector"]
     filename_prefix = target["filename"]
     loadmore = target['loadmore']
     base_url = target['base_url']
-
+    parent_element = target['parent_element']
+    wait = WebDriverWait(driver, 10)
     # Increment the URL counter
     url_counter += 1
 
     print(f"Processing URL {url_counter}/{len(scraping_targets)}: {url}")  # Print the URL being processed
 
-    wait = WebDriverWait(driver, 10)
+  
 
     driver.get(url)
     print(url)
+    if filename_prefix == "sugarcosmetics":
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.CLASS_NAME, 'DesktopProductCard_collectionContainer__j0VId'))
+        )
+        last_height = driver.execute_script('return document.body.scrollHeight')
+        while True:
+            
+            driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
+            time.sleep(5)  # Increase the waiting time to slow down scrolling
+            new_height = driver.execute_script('return document.body.scrollHeight')
+            if new_height == last_height:
+                break
+            last_height = new_height
 
     if loadmore:
 
@@ -57,8 +74,24 @@ for target in scraping_targets:
 
             pagination_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, loadmore)))
             driver.execute_script("arguments[0].click();", pagination_button)
+    print(parent_element)
 
-    cards = driver.find_elements(By.CSS_SELECTOR, class_name)
+    # Assuming 'driver' is your WebDriver instance
+    wait = WebDriverWait(driver, 10)  # 10 seconds timeout
+
+
+
+    if parent_element:
+        
+        parent_elm = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, parent_element)))
+        if parent_element:
+            print(parent_element + "found")
+        cards = parent_elm.find_elements(By.CSS_SELECTOR, class_name)
+        if cards:
+            print("cards found")
+    else:
+        cards = driver.find_elements(By.CSS_SELECTOR, class_name)
+
     # cards= wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, class_name)))
 
     print(class_name)
@@ -110,3 +143,5 @@ for target in scraping_targets:
         json.dump(data, json_file)
 
 driver.quit()
+
+

@@ -1,0 +1,22 @@
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104e8a004 chromedriver + 4169732
+1   chromedriver                        0x0000000104e81ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104ad7500 chromedriver + 292096
+3   chromedriver                        0x0000000104b1c7a0 chromedriver + 575392
+4   chromedriver                        0x0000000104b57818 chromedriver + 817176
+5   chromedriver                        0x0000000104b105e8 chromedriver + 525800
+6   chromedriver                        0x0000000104b114b8 chromedriver + 529592
+7   chromedriver                        0x0000000104e50334 chromedriver + 3932980
+8   chromedriver                        0x0000000104e54970 chromedriver + 3950960
+9   chromedriver                        0x0000000104e38774 chromedriver + 3835764
+10  chromedriver                        0x0000000104e55478 chromedriver + 3953784
+11  chromedriver                        0x0000000104e2aab4 chromedriver + 3779252
+12  chromedriver                        0x0000000104e71914 chromedriver + 4069652
+13  chromedriver                        0x0000000104e71a90 chromedriver + 4070032
+14  chromedriver                        0x0000000104e81c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+

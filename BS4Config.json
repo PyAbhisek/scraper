@@ -1,4 +1,25 @@
 [
+ 
+  {
+    "product_name_parent": ".product__title",
+    "product_name": "h1",
+    "shade_rgb": "",
+    "img_parent": ".product__media-item.grid__item.slider__slide.is-active",
+    "img_tag": "img",
+    "shade_image_classname": "",
+    "shade_image_srcset": "",
+    "shade_image_src": "",
+    "parent_element": ".product-form__input.new_swatch",
+    "shade_click": ".color_tool",
+    "price_parent": "",
+    "shade_Original_Price": ".price-item.price-item--regular",
+    "shade_price": ".price-item.price-item--sale",
+    "shade_name": ".variant-option-title",
+    "image_base_url": "",
+    "color_Code_tag": "",
+    "vendor": "ibacosmetics",
+    "filename": "ibacosmetics"
+  },
   {
     "product_name_parent": ".mb-8",
     "product_name": ".text-lg",
@@ -38,26 +59,6 @@
     "image_base_url": "",
     "vendor": " Faces Canada",
     "filename": "facescanada"
-  },
-  {
-    "product_name_parent": ".product-page-info__title",
-    "product_name": ".m-0",
-    "shade_rgb": "",
-    "img_parent": ".product-gallery__blockratio_content",
-    "img_tag": "img",
-    "shade_image_classname": "",
-    "shade_image_srcset": "",
-    "shade_image_src": "",
-    "parent_element": ".product-options__section",
-    "shade_click": ".product-options__value.product-options__value--circle",
-    "price_parent": "",
-    "shade_Original_Price": "",
-    "shade_price": ".price",
-    "shade_name": ".ml-5",
-    "image_base_url": "",
-    "color_Code_tag": "",
-    "vendor": "colorbarcosmetics",
-    "filename": "colorbarcosmetics"
   },
   {
     "product_name_parent": "",
