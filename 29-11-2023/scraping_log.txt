@@ -1,0 +1,2 @@
+An error occurred while scraping the URL: https://in.sugarcosmetics.com/products/sugar-mettle-liquid-lipstick-08-alcor
+Error: name 'input_string' is not defined
