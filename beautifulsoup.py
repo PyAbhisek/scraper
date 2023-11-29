@@ -268,6 +268,16 @@ for target in scraping_targets:
                     #for esteelauder
                     if not selected_shade_text and website_name == 'esteelauder':
                         selected_shade_text = shade_item.get_attribute('name')
+                    if not selected_shade_text and website_name == 'sugarcosmetics':
+                        
+                        selected_shade_text = driver.find_element(By.XPATH, "//*[@id=\"__next\"]/div/div[1]/div[3]/div[2]/div[2]/div/div[2]/div[1]/div[4]/div[1]/div[1]")
+                        selected_shade_text = test.text.strip()
+
+
+                        if selected_shade_text:
+                            print("not selected_shade_text" )
+                        print("sugarcosmetics")
+                        print(selected_shade_text)
                 except NoSuchElementException:
                     selected_shade_text = "Shade name not found"
 

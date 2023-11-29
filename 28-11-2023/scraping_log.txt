@@ -733,3 +733,101 @@ Stacktrace:
 15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
 16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
 
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-black-to-pink-ph-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010063e004 chromedriver + 4169732
+1   chromedriver                        0x0000000100635ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010028b500 chromedriver + 292096
+3   chromedriver                        0x00000001002d07a0 chromedriver + 575392
+4   chromedriver                        0x000000010030b818 chromedriver + 817176
+5   chromedriver                        0x00000001002c45e8 chromedriver + 525800
+6   chromedriver                        0x00000001002c54b8 chromedriver + 529592
+7   chromedriver                        0x0000000100604334 chromedriver + 3932980
+8   chromedriver                        0x0000000100608970 chromedriver + 3950960
+9   chromedriver                        0x00000001005ec774 chromedriver + 3835764
+10  chromedriver                        0x0000000100609478 chromedriver + 3953784
+11  chromedriver                        0x00000001005deab4 chromedriver + 3779252
+12  chromedriver                        0x0000000100625914 chromedriver + 4069652
+13  chromedriver                        0x0000000100625a90 chromedriver + 4070032
+14  chromedriver                        0x0000000100635c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-multitasking-lipstick-trio-peach-sorbet
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c7a004 chromedriver + 4169732
+1   chromedriver                        0x0000000104c71ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001048c7500 chromedriver + 292096
+3   chromedriver                        0x000000010490c7a0 chromedriver + 575392
+4   chromedriver                        0x0000000104947818 chromedriver + 817176
+5   chromedriver                        0x00000001049005e8 chromedriver + 525800
+6   chromedriver                        0x00000001049014b8 chromedriver + 529592
+7   chromedriver                        0x0000000104c40334 chromedriver + 3932980
+8   chromedriver                        0x0000000104c44970 chromedriver + 3950960
+9   chromedriver                        0x0000000104c28774 chromedriver + 3835764
+10  chromedriver                        0x0000000104c45478 chromedriver + 3953784
+11  chromedriver                        0x0000000104c1aab4 chromedriver + 3779252
+12  chromedriver                        0x0000000104c61914 chromedriver + 4069652
+13  chromedriver                        0x0000000104c61a90 chromedriver + 4070032
+14  chromedriver                        0x0000000104c71c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://ibacosmetics.com/collections/shop-by-lips/products/iba-must-have-pout-perfect-lip-sleeping-mask
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-form__input.new_swatch"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010119a004 chromedriver + 4169732
+1   chromedriver                        0x0000000101191ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000100de7500 chromedriver + 292096
+3   chromedriver                        0x0000000100e2c7a0 chromedriver + 575392
+4   chromedriver                        0x0000000100e67818 chromedriver + 817176
+5   chromedriver                        0x0000000100e205e8 chromedriver + 525800
+6   chromedriver                        0x0000000100e214b8 chromedriver + 529592
+7   chromedriver                        0x0000000101160334 chromedriver + 3932980
+8   chromedriver                        0x0000000101164970 chromedriver + 3950960
+9   chromedriver                        0x0000000101148774 chromedriver + 3835764
+10  chromedriver                        0x0000000101165478 chromedriver + 3953784
+11  chromedriver                        0x000000010113aab4 chromedriver + 3779252
+12  chromedriver                        0x0000000101181914 chromedriver + 4069652
+13  chromedriver                        0x0000000101181a90 chromedriver + 4070032
+14  chromedriver                        0x0000000101191c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://in.sugarcosmetics.com/products/sugar-mettle-liquid-lipstick-08-alcor
+Error: 'str' object has no attribute 'get_attribute'
+An error occurred while scraping the URL: https://in.sugarcosmetics.com/products/sugar-mettle-liquid-lipstick-08-alcor
+Error: 'NoneType' object has no attribute 'lower'
+An error occurred while scraping the URL: https://in.sugarcosmetics.com/products/sugar-mettle-liquid-lipstick-08-alcor
+Error: 'WebElement' object has no attribute 'lower'
+An error occurred while scraping the URL: https://in.sugarcosmetics.com/products/smudge-me-not-liquid-lipstick-08-wine-and-shine-sangria
+Error: 'WebElement' object has no attribute 'lower'
+An error occurred while scraping the URL: https://in.sugarcosmetics.com/products/aquaholic-priming-moisturizer-smudge-me-not-liquid-lipstick
+Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".p-2.varient-container"}
+  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001009ae004 chromedriver + 4169732
+1   chromedriver                        0x00000001009a5ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001005fb500 chromedriver + 292096
+3   chromedriver                        0x00000001006407a0 chromedriver + 575392
+4   chromedriver                        0x000000010067b818 chromedriver + 817176
+5   chromedriver                        0x00000001006345e8 chromedriver + 525800
+6   chromedriver                        0x00000001006354b8 chromedriver + 529592
+7   chromedriver                        0x0000000100974334 chromedriver + 3932980
+8   chromedriver                        0x0000000100978970 chromedriver + 3950960
+9   chromedriver                        0x000000010095c774 chromedriver + 3835764
+10  chromedriver                        0x0000000100979478 chromedriver + 3953784
+11  chromedriver                        0x000000010094eab4 chromedriver + 3779252
+12  chromedriver                        0x0000000100995914 chromedriver + 4069652
+13  chromedriver                        0x0000000100995a90 chromedriver + 4070032
+14  chromedriver                        0x00000001009a5c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://in.sugarcosmetics.com/products/sugar-smudge-me-not-liquid-lipstick-13-wooed-by-nude-peach-nude
+Error: 'WebElement' object has no attribute 'lower'

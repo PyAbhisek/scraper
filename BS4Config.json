@@ -1,25 +1,4 @@
 [
- 
-  {
-    "product_name_parent": ".product__title",
-    "product_name": "h1",
-    "shade_rgb": "",
-    "img_parent": ".product__media-item.grid__item.slider__slide.is-active",
-    "img_tag": "img",
-    "shade_image_classname": "",
-    "shade_image_srcset": "",
-    "shade_image_src": "",
-    "parent_element": ".product-form__input.new_swatch",
-    "shade_click": ".color_tool",
-    "price_parent": "",
-    "shade_Original_Price": ".price-item.price-item--regular",
-    "shade_price": ".price-item.price-item--sale",
-    "shade_name": ".variant-option-title",
-    "image_base_url": "",
-    "color_Code_tag": "",
-    "vendor": "ibacosmetics",
-    "filename": "ibacosmetics"
-  },
   {
     "product_name_parent": ".mb-8",
     "product_name": ".text-lg",
@@ -40,6 +19,48 @@
     "vendor": "flowerbeauty",
     "filename": "flowerbeauty"
   },
+  
+  {
+    "product_name_parent": ".mb-1.DesktopProduct_desktopProductTitleDivProd1__1oo8G",
+    "product_name": "span",
+    "shade_rgb": "",
+    "img_parent": "",
+    "img_tag": "",
+    "shade_image_classname": "",
+    "shade_image_srcset": "",
+    "shade_image_src": "//*[@id=\"__next\"]/div/div[1]/div[3]/div[2]/div[2]/div/div[1]/div[1]/div[2]/div/img",
+    "parent_element": ".p-2.varient-container",
+    "shade_click": ".varient-content",
+    "price_parent": "",
+    "shade_Original_Price": "",
+    "shade_price": ".texture-2.desktopProductPrice",
+    "shade_name": ".cursor",
+    "image_base_url": "",
+    "color_Code_tag": "",
+    "vendor": "sugarcosmetics",
+    "filename": "sugarcosmetics"
+  },
+  {
+    "product_name_parent": ".product__title",
+    "product_name": "h1",
+    "shade_rgb": "",
+    "img_parent": ".product__media-item.grid__item.slider__slide.is-active",
+    "img_tag": "img",
+    "shade_image_classname": "",
+    "shade_image_srcset": "",
+    "shade_image_src": "",
+    "parent_element": ".product-form__input.new_swatch",
+    "shade_click": ".color_tool",
+    "price_parent": "",
+    "shade_Original_Price": ".price-item.price-item--regular",
+    "shade_price": ".price-item.price-item--sale",
+    "shade_name": ".variant-option-title",
+    "image_base_url": "",
+    "color_Code_tag": "",
+    "vendor": "ibacosmetics",
+    "filename": "ibacosmetics"
+  },
+ 
   {
     "product_name_parent": "",
     "product_name": ".h2.product-single__title",
