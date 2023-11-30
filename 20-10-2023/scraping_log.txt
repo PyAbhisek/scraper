@@ -1,0 +1,100 @@
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1
+Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7ADF88EF2+54786]
+	(No symbol) [0x00007FF7ADEF5612]
+	(No symbol) [0x00007FF7ADDAA64B]
+	(No symbol) [0x00007FF7ADDEB79C]
+	(No symbol) [0x00007FF7ADDEB91C]
+	(No symbol) [0x00007FF7ADE26D87]
+	(No symbol) [0x00007FF7ADE0BEAF]
+	(No symbol) [0x00007FF7ADE24D02]
+	(No symbol) [0x00007FF7ADE0BC43]
+	(No symbol) [0x00007FF7ADDE0941]
+	(No symbol) [0x00007FF7ADDE1B84]
+	GetHandleVerifier [0x00007FF7AE2D7F52+3524194]
+	GetHandleVerifier [0x00007FF7AE32D800+3874576]
+	GetHandleVerifier [0x00007FF7AE325D7F+3843215]
+	GetHandleVerifier [0x00007FF7AE025086+694166]
+	(No symbol) [0x00007FF7ADF00A88]
+	(No symbol) [0x00007FF7ADEFCA94]
+	(No symbol) [0x00007FF7ADEFCBC2]
+	(No symbol) [0x00007FF7ADEECC83]
+	BaseThreadInitThunk [0x00007FFEA53B257D+29]
+	RtlUserThreadStart [0x00007FFEA6E0AA78+40]
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=2
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7ADF88EF2+54786]
+	(No symbol) [0x00007FF7ADEF5612]
+	(No symbol) [0x00007FF7ADDAA64B]
+	(No symbol) [0x00007FF7ADD8A9F5]
+	(No symbol) [0x00007FF7ADE10887]
+	(No symbol) [0x00007FF7ADE243CF]
+	(No symbol) [0x00007FF7ADE0BC43]
+	(No symbol) [0x00007FF7ADDE0941]
+	(No symbol) [0x00007FF7ADDE1B84]
+	GetHandleVerifier [0x00007FF7AE2D7F52+3524194]
+	GetHandleVerifier [0x00007FF7AE32D800+3874576]
+	GetHandleVerifier [0x00007FF7AE325D7F+3843215]
+	GetHandleVerifier [0x00007FF7AE025086+694166]
+	(No symbol) [0x00007FF7ADF00A88]
+	(No symbol) [0x00007FF7ADEFCA94]
+	(No symbol) [0x00007FF7ADEFCBC2]
+	(No symbol) [0x00007FF7ADEECC83]
+	BaseThreadInitThunk [0x00007FFEA53B257D+29]
+	RtlUserThreadStart [0x00007FFEA6E0AA78+40]
+
+An error occurred while scraping the URL: https://www.nykaa.com/lipstick-little-m-a-c/p/331327?productId=331327&skuId=331325&pps=6
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7ADF88EF2+54786]
+	(No symbol) [0x00007FF7ADEF5612]
+	(No symbol) [0x00007FF7ADDAA64B]
+	(No symbol) [0x00007FF7ADD8A9F5]
+	(No symbol) [0x00007FF7ADE10887]
+	(No symbol) [0x00007FF7ADE243CF]
+	(No symbol) [0x00007FF7ADE0BC43]
+	(No symbol) [0x00007FF7ADDE0941]
+	(No symbol) [0x00007FF7ADDE1B84]
+	GetHandleVerifier [0x00007FF7AE2D7F52+3524194]
+	GetHandleVerifier [0x00007FF7AE32D800+3874576]
+	GetHandleVerifier [0x00007FF7AE325D7F+3843215]
+	GetHandleVerifier [0x00007FF7AE025086+694166]
+	(No symbol) [0x00007FF7ADF00A88]
+	(No symbol) [0x00007FF7ADEFCA94]
+	(No symbol) [0x00007FF7ADEFCBC2]
+	(No symbol) [0x00007FF7ADEECC83]
+	BaseThreadInitThunk [0x00007FFEA53B257D+29]
+	RtlUserThreadStart [0x00007FFEA6E0AA78+40]
+
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-so-creme-creamy-matte-lipstick/p/683166?productId=683166&pps=3
+Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7ADF88EF2+54786]
+	(No symbol) [0x00007FF7ADEF5612]
+	(No symbol) [0x00007FF7ADDAA64B]
+	(No symbol) [0x00007FF7ADD8A9F5]
+	(No symbol) [0x00007FF7ADE10887]
+	(No symbol) [0x00007FF7ADE243CF]
+	(No symbol) [0x00007FF7ADE0BC43]
+	(No symbol) [0x00007FF7ADDE0941]
+	(No symbol) [0x00007FF7ADDE1B84]
+	GetHandleVerifier [0x00007FF7AE2D7F52+3524194]
+	GetHandleVerifier [0x00007FF7AE32D800+3874576]
+	GetHandleVerifier [0x00007FF7AE325D7F+3843215]
+	GetHandleVerifier [0x00007FF7AE025086+694166]
+	(No symbol) [0x00007FF7ADF00A88]
+	(No symbol) [0x00007FF7ADEFCA94]
+	(No symbol) [0x00007FF7ADEFCBC2]
+	(No symbol) [0x00007FF7ADEECC83]
+	BaseThreadInitThunk [0x00007FFEA53B257D+29]
+	RtlUserThreadStart [0x00007FFEA6E0AA78+40]
+

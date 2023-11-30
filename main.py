@@ -14,7 +14,7 @@ exclude_keywords = ['lip-juicers', '-in-1', 'kajal', 'casing', 'lip-gloss', 'bru
                    'refillable-case', 'pencil', 'lip-liner', 'lipliner', 'lip-plumper', 'lip-oil', 'multi-mousse',
                    'lip-balm', 'lip-care', 'cheek-stain', 'cheek', 'scrub', 'crayon', 'pack', 'combo', 'fab5',
                    'lacquer', 'mini', 'duo', '-for-1', 'trio', 'combo', 'set', 'tint',
-                   'kit','collection']
+                   'kit', 'collection']
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
@@ -43,8 +43,8 @@ for config in config_data:
         url1 = config.get("first_half_url")
         url2 = config.get("second_half_url")
 
-        # Use a list to temporarily store data
-        links = []
+        # Use a set to temporarily store unique data
+        links_set = set()
 
         for page_number in range(startingrange, endingrange):
             url = url1 + str(page_number) + url2
@@ -59,25 +59,22 @@ for config in config_data:
             # Find elements based on the provided CSS selector
             cards = driver.find_elements(By.CSS_SELECTOR, css_selector)
 
-            # # Use a list to temporarily store data
-            # links = []
-
             # Loop through the found elements
             for card in cards:
                 href = card.get_attribute("href")
 
                 # Check if any of the exclude keywords are present in the href
                 if not any(keyword in href.lower() for keyword in exclude_keywords):
-                    links.append(href)  # Only add the link if it doesn't contain exclude keywords
+                    links_set.add(href)  # Only add the link if it doesn't contain exclude keywords
 
             driver.quit()
 
-            # Step 1: Create a dictionary to store the data
-            data = {"links": links}
+        # Step 1: Create a dictionary to store the data
+        data = {"links": list(links_set)}
 
-            # Step 2: Save the data dictionary to a JSON file with the provided filename
-            with open(f"{filename}.json", "w") as json_file:
-                json.dump(data, json_file)  # The 'indent' argument is optional for pretty formatting
+        # Step 2: Save the data dictionary to a JSON file with the provided filename
+        with open(f"{filename}.json", "w") as json_file:
+            json.dump(data, json_file)  # The 'indent' argument is optional for pretty formatting
 
     else:
         # Create a new WebDriver instance and navigate to the URL
@@ -89,8 +86,8 @@ for config in config_data:
         # Find elements based on the provided CSS selector
         cards = driver.find_elements(By.CSS_SELECTOR, css_selector)
 
-        # Use a list to temporarily store data
-        links = []
+        # Use a set to temporarily store unique data
+        links_set = set()
 
         # Loop through the found elements
         for card in cards:
@@ -98,12 +95,12 @@ for config in config_data:
 
             # Check if any of the exclude keywords are present in the href
             if not any(keyword in href.lower() for keyword in exclude_keywords):
-                links.append(href)  # Only add the link if it doesn't contain exclude keywords
+                links_set.add(href)  # Only add the link if it doesn't contain exclude keywords
 
         driver.quit()
 
         # Step 1: Create a dictionary to store the data
-        data = {"links": links}
+        data = {"links": list(links_set)}
 
         # Step 2: Save the data dictionary to a JSON file with the provided filename
         with open(f"{filename}.json", "w") as json_file:
