@@ -16,6 +16,7 @@ from PIL import Image
 import os  # Import the os module
 from datetime import date
 import traceback
+from concurrent.futures import ThreadPoolExecutor
 
 # Chrome options to run headless
 chrome_options = webdriver.ChromeOptions()
@@ -44,6 +45,8 @@ output_directory = folder_name
 
 # Define the log file path
 log_file_path = os.path.join(output_directory, 'scraping_log.txt')
+
+
 
 
 def get_image_rgb(url):
@@ -236,7 +239,22 @@ def scrape_data(url):
 
     finally:
         driver.quit()
+def scrape_data_with_threading(links):
+    all_data = []
 
+    with ThreadPoolExecutor() as executor:
+        # Submit scraping tasks for each URL
+        scraping_tasks = {executor.submit(scrape_data, url): url for url in links}
+
+        # Wait for all tasks to complete
+        concurrent.futures.wait(scraping_tasks)
+
+        # Retrieve results from completed tasks
+        all_data = [result.result() for result in scraping_tasks if result.result() is not None]
+
+    return all_data
+
+processed_urls = set()
 
 # Load links from JSON file
 with open('links.json', 'r') as f:
@@ -244,9 +262,15 @@ with open('links.json', 'r') as f:
 
 links = links_data['links']
 
+all_scraped_data = scrape_data_with_threading(links)
+
 all_data = []
 
 for url in links:
+    if url in processed_urls:
+        print(f"URL {url} already processed. Skipping.")
+        continue
+     
     print(f"Scraping data from: {url}")
     scraped_data = scrape_data(url)
     if scraped_data:
@@ -258,6 +282,8 @@ for url in links:
         with open(output_file_partial, 'w') as f:
             json.dump(all_data, f, indent=4)
             print(f"Partial scraped data saved to '{output_file_partial}'")
+        # Mark the URL as processed
+        processed_urls.add(url)
 
     print("-" * 50)
 

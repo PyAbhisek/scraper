@@ -1,0 +1,27 @@
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-color-sensational-ultimattes-lipstick/p/4317050?productId=4317050&pps=1
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010105a004 chromedriver + 4169732
+1   chromedriver                        0x0000000101051ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000100ca7500 chromedriver + 292096
+3   chromedriver                        0x0000000100cec7a0 chromedriver + 575392
+4   chromedriver                        0x0000000100d27818 chromedriver + 817176
+5   chromedriver                        0x0000000100ce05e8 chromedriver + 525800
+6   chromedriver                        0x0000000100ce14b8 chromedriver + 529592
+7   chromedriver                        0x0000000101020334 chromedriver + 3932980
+8   chromedriver                        0x0000000101024970 chromedriver + 3950960
+9   chromedriver                        0x0000000101008774 chromedriver + 3835764
+10  chromedriver                        0x0000000101025478 chromedriver + 3953784
+11  chromedriver                        0x0000000100ffaab4 chromedriver + 3779252
+12  chromedriver                        0x0000000101041914 chromedriver + 4069652
+13  chromedriver                        0x0000000101041a90 chromedriver + 4070032
+14  chromedriver                        0x0000000101051c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-pure-matte-lipstick/p/367160?productId=367160&pps=18
+Error: cannot identify image file <_io.BytesIO object at 0x1051f1770>
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-so-matte-mini-lipstick/p/374239?productId=374239&pps=2
+Error: cannot identify image file <_io.BytesIO object at 0x105598950>
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-lip-cheek-cream/p/5649141?productId=5649141&pps=15
+Error: cannot identify image file <_io.BytesIO object at 0x10553ce50>
