@@ -1,0 +1,98 @@
+An error occurred while scraping the URL: https://www.nykaa.com/biotique-natural-makeup-magicolor-lipstick/p/579193?productId=579193&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-locked-kiss-lipstick/p/11922157?productId=11922157&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-statement-lipstick/p/137603?productId=137603&pps=9
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/shiseido-modernmatte-powder-lipstick/p/417279?productId=417279&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/beauty-people-sheer-color-lipstick/p/1324414?productId=1324414&pps=15
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/colorbar-take-me-as-i-am-vegan-creme-refill/p/11093511?productId=11093511&pps=17
+Error: HTTPConnectionPool(host='localhost', port=62415): Max retries exceeded with url: /session/c5bf353b20759f9862c9ff685f206098/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109f51550>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/elizabeth-arden-ceramide-ultra-lipstick/p/176541?productId=176541&pps=5
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/matt-look-stay-matte-lipstick/p/6004982?productId=6004982&pps=14
+Error: HTTPConnectionPool(host='localhost', port=62602): Max retries exceeded with url: /session/fe9036b2e59c1c863f9468bd272f5deb/source (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10032e070>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-powder-kiss-lipstick/p/377929?productId=377929&pps=13
+Error: HTTPConnectionPool(host='localhost', port=62476): Max retries exceeded with url: /session/4bee9d6f982e34819ab118362fae4e5f/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109f51790>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-k-i-s-s-i-n-g/p/985211?productId=985211&pps=10
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/c-a-l-los-angeles-iconic-collection-lipstick/p/5129980?productId=5129980&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/shiseido-modernmatte-powder-lipstick/p/417279?productId=417279&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/daily-life-forever52-velvet-matte-lipstick/p/1064393?productId=1064393&pps=4
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/rimmel-london-high-light-powder-stardust-lasting-finish-matte-lipstick-hollywood-red/p/7946772?productId=7946772&pps=19
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/elizabeth-arden-ceramide-ultra-lipstick/p/176541?productId=176541&pps=5
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/c2p-pro-slice-non-transfer-matte-lipstick/p/9763213?productId=9763213&pps=9
+Error: HTTPConnectionPool(host='localhost', port=51621): Max retries exceeded with url: /session/235594b425364a598e65e35b31678808/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10454cbe0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-statement-lipstick/p/137603?productId=137603&pps=9
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/beauty-people-sheer-color-lipstick/p/1324414?productId=1324414&pps=15
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-powder-kiss-lipstick/p/377929?productId=377929&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/rimmel-london-lasting-finish-lipstick/p/3631551?productId=3631551&pps=15
+Error: HTTPConnectionPool(host='localhost', port=51891): Max retries exceeded with url: /session/04f9be7e0904634c0a0339ae3601707d/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10454eb20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-k-i-s-s-i-n-g/p/985211?productId=985211&pps=10
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673727&pps=3
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/stars-cosmetics-12-shades-lush-lip-color-palette-lipstick/p/11977769?productId=11977769&pps=11
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/shiseido-modernmatte-powder-lipstick/p/417279?productId=417279&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/morphe-mega-matte-lipstick/p/1330744?productId=1330744&pps=9
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/biotique-natural-makeup-magicolor-lipstick/p/579193?productId=579193&pps=13
+Error: HTTPConnectionPool(host='localhost', port=52887): Max retries exceeded with url: /session/3631bd343da203aa8de99c4ced92ddc7/element/6F2B193BE34CC50C266F1EDC60BA151D_element_94/text (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11f234220>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673726&pps=6
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/rufa-beauty-lux-matte-lipstick-bridesmaid-trio/p/5063871?productId=5063871&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/character-poppins-lippies/p/13179528?productId=13179528&pps=12
+Error: HTTPConnectionPool(host='localhost', port=54496): Max retries exceeded with url: /session/e46bca7e0af917b12d30fb34a7223421/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11f212f10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-treasure-it-suede-matte-lipstick/p/9312418?productId=9312418&pps=11
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-locked-kiss-lipstick/p/11922157?productId=11922157&pps=8
+Error: HTTPConnectionPool(host='localhost', port=52893): Max retries exceeded with url: /session/036cd8813ded35807ac9dab56ae8f52b/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11f212eb0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-k-i-s-s-i-n-g/p/985211?productId=985211&pps=10
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/biotique-natural-makeup-magicolor-lipstick/p/579193?productId=579193&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/beauty-people-sheer-color-lipstick/p/1324414?productId=1324414&pps=15
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-treasure-it-suede-matte-lipstick/p/9312418?productId=9312418&pps=11
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-statement-lipstick/p/137603?productId=137603&pps=9
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/shiseido-modernmatte-powder-lipstick/p/417279?productId=417279&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-pink-nudes-x-9/p/5773720?productId=5773720&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/elizabeth-arden-ceramide-ultra-lipstick/p/176541?productId=176541&pps=5
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-bff-forever-gift-set-for-rakhi/p/12427425?productId=12427425&pps=16
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/colorbar-take-me-as-i-am-vegan-creme-refill/p/11093511?productId=11093511&pps=17
+Error: HTTPConnectionPool(host='localhost', port=58217): Max retries exceeded with url: /session/73f1a2403bbef551ec7248250993ff2e/element/616EB07B8571822023B61A93022611D8_element_63/text (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x130903ee0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/flicka-lip-alert-matte-lipstick/p/10090734?productId=10090734&pps=14
+Error: HTTPConnectionPool(host='localhost', port=55878): Max retries exceeded with url: /session/96fd10a1f0026e73eeee7fd2fb429605/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13093dcd0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/makeup-revolution-rose-gold-lipstick/p/38593?productId=38593&pps=1
+Error: HTTPConnectionPool(host='localhost', port=55879): Max retries exceeded with url: /session/c2dc0166257437abf73c983c3980a9ad/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12754db80>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/biotique-natural-makeup-magicolor-lipstick/p/579193?productId=579193&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-locked-kiss-lipstick/p/11922157?productId=11922157&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/morphe-mega-matte-lipstick/p/1330744?productId=1330744&pps=9
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-locked-kiss-lipstick/p/11922157?productId=11922157&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/biotique-natural-makeup-magicolor-lipstick/p/579193?productId=579193&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/morphe-mega-matte-lipstick/p/1330744?productId=1330744&pps=9
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))

@@ -16,7 +16,7 @@ from PIL import Image
 import os  # Import the os module
 from datetime import date
 import traceback
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, wait
 
 # Chrome options to run headless
 chrome_options = webdriver.ChromeOptions()
@@ -242,12 +242,12 @@ def scrape_data(url):
 def scrape_data_with_threading(links):
     all_data = []
 
-    with ThreadPoolExecutor() as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         # Submit scraping tasks for each URL
         scraping_tasks = {executor.submit(scrape_data, url): url for url in links}
 
         # Wait for all tasks to complete
-        concurrent.futures.wait(scraping_tasks)
+        wait(scraping_tasks)
 
         # Retrieve results from completed tasks
         all_data = [result.result() for result in scraping_tasks if result.result() is not None]
@@ -262,7 +262,7 @@ with open('links.json', 'r') as f:
 
 links = links_data['links']
 
-all_scraped_data = scrape_data_with_threading(links)
+# scrape_data_with_threading(links)
 
 all_data = []
 
@@ -272,7 +272,7 @@ for url in links:
         continue
      
     print(f"Scraping data from: {url}")
-    scraped_data = scrape_data(url)
+    scraped_data = scrape_data_with_threading(links)
     if scraped_data:
         # Append the scraped data for this URL to the list
         all_data.append(scraped_data)

@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
-# chrome_options.add_argument('--headless')
+chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument(
     "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36")
@@ -26,7 +26,7 @@ exclude_keywords = ['lip-juicers', '-in-1', 'kajal', 'casing', 'lip-gloss', 'bru
                     'multi-mousse', 'lip-balm', 'lip-care', 'cheek-stain', 'cheek', 'scrub',
                     'crayon', 'pack', 'combo', 'fab5', 'lacquer', 'mini','kit','box']
 
-for page_number in range(1, 45):
+for page_number in range(1, 44):
     driver = webdriver.Chrome(options=chrome_options)
     website = f'https://www.nykaa.com/makeup/lips/lipstick/c/249?page_no={page_number}&sort=popularity&eq=desktop'
 
