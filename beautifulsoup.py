@@ -1,5 +1,5 @@
 import json
-
+import concurrent.futures
 import boto3 as boto3
 import requests
 from io import BytesIO
@@ -246,20 +246,45 @@ links = links_data['links']
 
 all_data = []
 
-for url in links:
-    print(f"Scraping data from: {url}")
-    scraped_data = scrape_data(url)
-    if scraped_data:
-        # Append the scraped data for this URL to the list
-        all_data.append(scraped_data)
+# Define the maximum number of threads (adjust as needed)
+max_threads =5
 
-        # Save the updated data to the JSON file after scraping each URL
-        output_file_partial = os.path.join(output_directory, 'partial_scraped_data.json')
-        with open(output_file_partial, 'w') as f:
-            json.dump(all_data, f, indent=4)
-            print(f"Partial scraped data saved to '{output_file_partial}'")
+# Use ThreadPoolExecutor for concurrent scraping
+with concurrent.futures.ThreadPoolExecutor(max_threads) as executor:
+    # Submit tasks for each URL
+    future_to_url = {executor.submit(scrape_data, url): url for url in links}
+    
+    # Retrieve results as they become available
+    for future in concurrent.futures.as_completed(future_to_url):
+        url = future_to_url[future]
+        try:
+            data = future.result()
+            if data:
+                all_data.append(data)
+                  # Save the updated data to the JSON file after scraping each URL
+                output_file_partial = os.path.join(output_directory, 'partial_scraped_data.json')
+                with open(output_file_partial, 'w') as f:
+                    json.dump(all_data, f, indent=4)
+                    print(f"Partial scraped data saved to '{output_file_partial}'")
 
-    print("-" * 50)
+            print("-" * 50)
+        except Exception as e:
+            print(f"Error scraping data from {url}: {e}")
+
+# for url in links:
+#     print(f"Scraping data from: {url}")
+#     scraped_data = scrape_data(url)
+#     if scraped_data:
+#         # Append the scraped data for this URL to the list
+#         all_data.append(scraped_data)
+
+#         # Save the updated data to the JSON file after scraping each URL
+#         output_file_partial = os.path.join(output_directory, 'partial_scraped_data.json')
+#         with open(output_file_partial, 'w') as f:
+#             json.dump(all_data, f, indent=4)
+#             print(f"Partial scraped data saved to '{output_file_partial}'")
+
+#     print("-" * 50)
 
 # Exclude shades with "combo" keyword
 all_data_filtered = []

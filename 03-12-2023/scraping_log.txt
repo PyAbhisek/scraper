@@ -1,0 +1,258 @@
+An error occurred while scraping the URL: https://www.nykaa.com/morphe-mega-matte-lipstick/p/1330744?productId=1330744&pps=9
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-treasure-it-suede-matte-lipstick/p/9312418?productId=9312418&pps=11
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673726&pps=6
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-locked-kiss-lipstick/p/11922157?productId=11922157&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/biotique-natural-makeup-magicolor-lipstick/p/579193?productId=579193&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/l-a-colors-matte-lip-color/p/554320?productId=554320&pps=19
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104fbe004 chromedriver + 4169732
+1   chromedriver                        0x0000000104fb5ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104c0b500 chromedriver + 292096
+3   chromedriver                        0x0000000104c507a0 chromedriver + 575392
+4   chromedriver                        0x0000000104c8b818 chromedriver + 817176
+5   chromedriver                        0x0000000104c445e8 chromedriver + 525800
+6   chromedriver                        0x0000000104c454b8 chromedriver + 529592
+7   chromedriver                        0x0000000104f84334 chromedriver + 3932980
+8   chromedriver                        0x0000000104f88970 chromedriver + 3950960
+9   chromedriver                        0x0000000104f6c774 chromedriver + 3835764
+10  chromedriver                        0x0000000104f89478 chromedriver + 3953784
+11  chromedriver                        0x0000000104f5eab4 chromedriver + 3779252
+12  chromedriver                        0x0000000104fa5914 chromedriver + 4069652
+13  chromedriver                        0x0000000104fa5a90 chromedriver + 4070032
+14  chromedriver                        0x0000000104fb5c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/c-a-l-los-angeles-x-gurishq-beauties-soft-matte-lipstick/p/1425160?productId=1425160&pps=4
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001032b6004 chromedriver + 4169732
+1   chromedriver                        0x00000001032adff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102f03500 chromedriver + 292096
+3   chromedriver                        0x0000000102f487a0 chromedriver + 575392
+4   chromedriver                        0x0000000102f83818 chromedriver + 817176
+5   chromedriver                        0x0000000102f3c5e8 chromedriver + 525800
+6   chromedriver                        0x0000000102f3d4b8 chromedriver + 529592
+7   chromedriver                        0x000000010327c334 chromedriver + 3932980
+8   chromedriver                        0x0000000103280970 chromedriver + 3950960
+9   chromedriver                        0x0000000103264774 chromedriver + 3835764
+10  chromedriver                        0x0000000103281478 chromedriver + 3953784
+11  chromedriver                        0x0000000103256ab4 chromedriver + 3779252
+12  chromedriver                        0x000000010329d914 chromedriver + 4069652
+13  chromedriver                        0x000000010329da90 chromedriver + 4070032
+14  chromedriver                        0x00000001032adc70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/renee-cosmetics-fab-bullet-lipstick/p/5063701?productId=5063701&pps=3
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010066e004 chromedriver + 4169732
+1   chromedriver                        0x0000000100665ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001002bb500 chromedriver + 292096
+3   chromedriver                        0x00000001003007a0 chromedriver + 575392
+4   chromedriver                        0x000000010033b818 chromedriver + 817176
+5   chromedriver                        0x00000001002f45e8 chromedriver + 525800
+6   chromedriver                        0x00000001002f54b8 chromedriver + 529592
+7   chromedriver                        0x0000000100634334 chromedriver + 3932980
+8   chromedriver                        0x0000000100638970 chromedriver + 3950960
+9   chromedriver                        0x000000010061c774 chromedriver + 3835764
+10  chromedriver                        0x0000000100639478 chromedriver + 3953784
+11  chromedriver                        0x000000010060eab4 chromedriver + 3779252
+12  chromedriver                        0x0000000100655914 chromedriver + 4069652
+13  chromedriver                        0x0000000100655a90 chromedriver + 4070032
+14  chromedriver                        0x0000000100665c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-superstar-lips/p/985201?productId=985201&pps=20
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104532004 chromedriver + 4169732
+1   chromedriver                        0x0000000104529ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010417f500 chromedriver + 292096
+3   chromedriver                        0x00000001041c47a0 chromedriver + 575392
+4   chromedriver                        0x00000001041ff818 chromedriver + 817176
+5   chromedriver                        0x00000001041b85e8 chromedriver + 525800
+6   chromedriver                        0x00000001041b94b8 chromedriver + 529592
+7   chromedriver                        0x00000001044f8334 chromedriver + 3932980
+8   chromedriver                        0x00000001044fc970 chromedriver + 3950960
+9   chromedriver                        0x00000001044e0774 chromedriver + 3835764
+10  chromedriver                        0x00000001044fd478 chromedriver + 3953784
+11  chromedriver                        0x00000001044d2ab4 chromedriver + 3779252
+12  chromedriver                        0x0000000104519914 chromedriver + 4069652
+13  chromedriver                        0x0000000104519a90 chromedriver + 4070032
+14  chromedriver                        0x0000000104529c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-fetish-matte-lipstick-roleplay/p/12098309?productId=12098309&pps=16
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102f5e004 chromedriver + 4169732
+1   chromedriver                        0x0000000102f55ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102bab500 chromedriver + 292096
+3   chromedriver                        0x0000000102bf07a0 chromedriver + 575392
+4   chromedriver                        0x0000000102c2b818 chromedriver + 817176
+5   chromedriver                        0x0000000102be45e8 chromedriver + 525800
+6   chromedriver                        0x0000000102be54b8 chromedriver + 529592
+7   chromedriver                        0x0000000102f24334 chromedriver + 3932980
+8   chromedriver                        0x0000000102f28970 chromedriver + 3950960
+9   chromedriver                        0x0000000102f0c774 chromedriver + 3835764
+10  chromedriver                        0x0000000102f29478 chromedriver + 3953784
+11  chromedriver                        0x0000000102efeab4 chromedriver + 3779252
+12  chromedriver                        0x0000000102f45914 chromedriver + 4069652
+13  chromedriver                        0x0000000102f45a90 chromedriver + 4070032
+14  chromedriver                        0x0000000102f55c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673727&pps=1
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104b52004 chromedriver + 4169732
+1   chromedriver                        0x0000000104b49ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010479f500 chromedriver + 292096
+3   chromedriver                        0x00000001047e47a0 chromedriver + 575392
+4   chromedriver                        0x000000010481f818 chromedriver + 817176
+5   chromedriver                        0x00000001047d85e8 chromedriver + 525800
+6   chromedriver                        0x00000001047d94b8 chromedriver + 529592
+7   chromedriver                        0x0000000104b18334 chromedriver + 3932980
+8   chromedriver                        0x0000000104b1c970 chromedriver + 3950960
+9   chromedriver                        0x0000000104b00774 chromedriver + 3835764
+10  chromedriver                        0x0000000104b1d478 chromedriver + 3953784
+11  chromedriver                        0x0000000104af2ab4 chromedriver + 3779252
+12  chromedriver                        0x0000000104b39914 chromedriver + 4069652
+13  chromedriver                        0x0000000104b39a90 chromedriver + 4070032
+14  chromedriver                        0x0000000104b49c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-lip-love-chapstick/p/363154?productId=363154&pps=19
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104ab2004 chromedriver + 4169732
+1   chromedriver                        0x0000000104aa9ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001046ff500 chromedriver + 292096
+3   chromedriver                        0x00000001047447a0 chromedriver + 575392
+4   chromedriver                        0x000000010477f818 chromedriver + 817176
+5   chromedriver                        0x00000001047385e8 chromedriver + 525800
+6   chromedriver                        0x00000001047394b8 chromedriver + 529592
+7   chromedriver                        0x0000000104a78334 chromedriver + 3932980
+8   chromedriver                        0x0000000104a7c970 chromedriver + 3950960
+9   chromedriver                        0x0000000104a60774 chromedriver + 3835764
+10  chromedriver                        0x0000000104a7d478 chromedriver + 3953784
+11  chromedriver                        0x0000000104a52ab4 chromedriver + 3779252
+12  chromedriver                        0x0000000104a99914 chromedriver + 4069652
+13  chromedriver                        0x0000000104a99a90 chromedriver + 4070032
+14  chromedriver                        0x0000000104aa9c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/character-pro-lipstick-palette-c-a401/p/10227681?productId=10227681&pps=13
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001024ae004 chromedriver + 4169732
+1   chromedriver                        0x00000001024a5ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001020fb500 chromedriver + 292096
+3   chromedriver                        0x00000001021407a0 chromedriver + 575392
+4   chromedriver                        0x000000010217b818 chromedriver + 817176
+5   chromedriver                        0x00000001021345e8 chromedriver + 525800
+6   chromedriver                        0x00000001021354b8 chromedriver + 529592
+7   chromedriver                        0x0000000102474334 chromedriver + 3932980
+8   chromedriver                        0x0000000102478970 chromedriver + 3950960
+9   chromedriver                        0x000000010245c774 chromedriver + 3835764
+10  chromedriver                        0x0000000102479478 chromedriver + 3953784
+11  chromedriver                        0x000000010244eab4 chromedriver + 3779252
+12  chromedriver                        0x0000000102495914 chromedriver + 4069652
+13  chromedriver                        0x0000000102495a90 chromedriver + 4070032
+14  chromedriver                        0x00000001024a5c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-paintstix-lipstick/p/114009?productId=114009&pps=1
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100f1a004 chromedriver + 4169732
+1   chromedriver                        0x0000000100f11ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000100b67500 chromedriver + 292096
+3   chromedriver                        0x0000000100bac7a0 chromedriver + 575392
+4   chromedriver                        0x0000000100be7818 chromedriver + 817176
+5   chromedriver                        0x0000000100ba05e8 chromedriver + 525800
+6   chromedriver                        0x0000000100ba14b8 chromedriver + 529592
+7   chromedriver                        0x0000000100ee0334 chromedriver + 3932980
+8   chromedriver                        0x0000000100ee4970 chromedriver + 3950960
+9   chromedriver                        0x0000000100ec8774 chromedriver + 3835764
+10  chromedriver                        0x0000000100ee5478 chromedriver + 3953784
+11  chromedriver                        0x0000000100ebaab4 chromedriver + 3779252
+12  chromedriver                        0x0000000100f01914 chromedriver + 4069652
+13  chromedriver                        0x0000000100f01a90 chromedriver + 4070032
+14  chromedriver                        0x0000000100f11c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/huda-beauty-the-ultimate-lip-trio-set-icon/p/9240532?productId=9240532&pps=20
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/rimmel-london-lasting-finish-matte-lipstick/p/3631552?productId=3631552&pps=16
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/i-m-meme-drawing-atelier-velvet-lipstick/p/7031753?productId=7031753&pps=18
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/pierre-cardin-paris-porcelain-edition-rouge-lipstick/p/8240504?productId=8240504&pps=3
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/i-m-meme-drawing-atelier-velvet-lipstick/p/7031753?productId=7031753&pps=18
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/elizabeth-arden-ceramide-ultra-lipstick/p/176541?productId=176541&pps=5
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/glam21-ultra-velvet-lipstick/p/12292167?productId=12292167&pps=20
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-weightless-creme-lipstick/p/514189?productId=514189&pps=18
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/daily-life-forever52-pro-artist-multitasker-lipstick-palette/p/3662415?productId=3662415&pps=12
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/rimmel-london-lasting-finish-matte-lipstick/p/3631552?productId=3631552&pps=16
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/inglot-rich-care-lipstick/p/12706158?productId=12706158&pps=17
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/pierre-cardin-paris-porcelain-edition-rouge-lipstick/p/8240504?productId=8240504&pps=3
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/i-m-meme-drawing-atelier-velvet-lipstick/p/7031753?productId=7031753&pps=18
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/chambor-floriographie-lipstick/p/9256391?productId=9256391&pps=7
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/stars-cosmetics-lush-lips-semi-matte-lipstick/p/225435?productId=225435&pps=12
+Error: HTTPConnectionPool(host='localhost', port=49636): Max retries exceeded with url: /session/248c6756dfa9f73a4cb4a03ff7c94d5e/elements (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1497f2340>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-weightless-creme-lipstick/p/514189?productId=514189&pps=18
+Error: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+An error occurred while scraping the URL: https://www.nykaa.com/renee-cosmetics-fab-bullet-lipstick/p/5063701?productId=5063701&pps=3
+Error: HTTPConnectionPool(host='localhost', port=49624): Max retries exceeded with url: /session/1b5c89e887b6c5b3d06d224c107513ab/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x14a136820>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/chambor-floriographie-lipstick/p/9256391?productId=9256391&pps=7
+Error: HTTPConnectionPool(host='localhost', port=49630): Max retries exceeded with url: /session/4d8628c56718b6a7f10544727a060e15/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x14a4d4b50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-superstar-lips/p/985201?productId=985201&pps=20
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/inglot-rich-care-lipstick/p/12706158?productId=12706158&pps=17
+Error: HTTPConnectionPool(host='localhost', port=49632): Max retries exceeded with url: /session/7940badd99ee87f3d68db82b6c6c4d18/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x149f65340>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/revlon-super-lustrous-the-luscious-mattes-lipstick/p/4761820?productId=4761820&pps=15
+Error: HTTPConnectionPool(host='localhost', port=50180): Max retries exceeded with url: /session/09908423bdd3280f0a6730a5a5e53c11/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x14a465d90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/givenchy-le-rouge-deep-velvet-lipstick/p/881574?productId=881574&pps=10
+Error: HTTPConnectionPool(host='localhost', port=49631): Max retries exceeded with url: /session/b75a7e429846f4278a7152d717092a3d/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x14a4a7820>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/i-m-meme-drawing-atelier-velvet-lipstick/p/7031753?productId=7031753&pps=18
+Error: HTTPConnectionPool(host='localhost', port=49626): Max retries exceeded with url: /session/6ea1f6e3efaf10db4d98133c999b3603/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x14a4d4280>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673727&pps=1
+Error: HTTPConnectionPool(host='localhost', port=49618): Max retries exceeded with url: /session/1aa3d1c30990d2fb007596fecde1a17b/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x14a4d4070>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-paintstix-lipstick/p/114009?productId=114009&pps=1
+Error: HTTPConnectionPool(host='localhost', port=49627): Max retries exceeded with url: /session/90266941394facd2bd2bf1c50cfdbf21/element/1B60F26D91811814B0B1C55641BE4224_element_93/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x149dc0a90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/pierre-cardin-paris-porcelain-edition-rouge-lipstick/p/8240504?productId=8240504&pps=3
+Error: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-lip-love-chapstick/p/363154?productId=363154&pps=19
+Error: HTTPConnectionPool(host='localhost', port=49622): Max retries exceeded with url: /session/632201d618f7c576f2bb0283aa00cbe6/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x14a465f10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-pure-matte-lipstick/p/367160?productId=367160&pps=16
+Error: cannot identify image file <_io.BytesIO object at 0x1072c0f90>
+An error occurred while scraping the URL: https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=20
+Error: cannot identify image file <_io.BytesIO object at 0x117c113b0>
+Total count of shades: 676
