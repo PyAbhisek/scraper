@@ -247,7 +247,7 @@ links = links_data['links']
 all_data = []
 
 # Define the maximum number of threads (adjust as needed)
-max_threads =5
+max_threads = 12
 
 # Use ThreadPoolExecutor for concurrent scraping
 with concurrent.futures.ThreadPoolExecutor(max_threads) as executor:
@@ -257,6 +257,7 @@ with concurrent.futures.ThreadPoolExecutor(max_threads) as executor:
     # Retrieve results as they become available
     for future in concurrent.futures.as_completed(future_to_url):
         url = future_to_url[future]
+        print(f"Scraping data from: {url}")
         try:
             data = future.result()
             if data:

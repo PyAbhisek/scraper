@@ -256,3 +256,25 @@ Error: cannot identify image file <_io.BytesIO object at 0x1072c0f90>
 An error occurred while scraping the URL: https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=20
 Error: cannot identify image file <_io.BytesIO object at 0x117c113b0>
 Total count of shades: 676
+An error occurred while scraping the URL: https://www.nykaa.com/c-a-l-los-angeles-x-gurishq-beauties-soft-matte-lipstick/p/1425160?productId=1425160&pps=4
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-superstar-lips/p/985201?productId=985201&pps=20
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/rimmel-london-lasting-finish-matte-lipstick/p/3631552?productId=3631552&pps=16
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673727&pps=1
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-lip-love-chapstick/p/363154?productId=363154&pps=19
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-fetish-matte-lipstick-roleplay/p/12098309?productId=12098309&pps=16
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-pure-matte-lipstick/p/367160?productId=367160&pps=16
+Error: cannot identify image file <_io.BytesIO object at 0x104b40e00>
+An error occurred while scraping the URL: https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=20
+Error: cannot identify image file <_io.BytesIO object at 0x10b8992c0>
+Total count of shades: 676
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-pure-matte-lipstick/p/367160?productId=367160&pps=16
+Error: cannot identify image file <_io.BytesIO object at 0x10ea471d0>
+An error occurred while scraping the URL: https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=20
+Error: cannot identify image file <_io.BytesIO object at 0x12946bf90>
+Total count of shades: 676
