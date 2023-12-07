@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Load data from the JSON file
-json_file_path = r"C:\Users\abhis\Downloads\partial_scraped_data (9).json"
+json_file_path = "/Users/cepl/Desktop/scraping/scraper/07-12-2023/partial_scraped_data.json"
 
 with open(json_file_path, 'r') as json_file:
     data = json.load(json_file)
@@ -16,22 +16,24 @@ for item in data:
 
     for shade in shades:
         shade_url = shade.get("shade_url", "")
-        shade_color = ', '.join(map(str, shade.get("shade_color", "")))
+        shade_color = ', '.join(map(str, shade.get("shade_color", []) or []))
+
         shade_image_url = shade.get("shade_image_url", "")
-        shade_sale_price = shade.get("shade_sale_price", "")
-        shade_original_price = shade.get("shade_original_price", "")
+        shade_sale_price = shade.get("shade_sale_price", "").replace("₹"," ")
+        shade_original_price = shade.get("shade_original_price", "").replace("MRP:₹"," ")
         product_name = shade.get("Product_Name", "")
+        Variant_Sku = product_name.replace(' ', '-')
         product_type = shade.get("Product_type", "")
         selected_shade_name = shade.get("Selected_shade_name", "")
         vendor = shade.get("vendor", "")
 
         # Append the extracted information to the rows list
         rows.append([shade_url, shade_color, shade_image_url, shade_sale_price, shade_original_price,
-                     product_name, product_type, selected_shade_name, vendor])
+                     product_name,Variant_Sku, product_type, selected_shade_name, vendor])
 
 # Create a DataFrame from the extracted information
 df = pd.DataFrame(rows, columns=["shade_url", "shade_color", "shade_image_url", "shade_sale_price",
-                                 "shade_original_price", "Product_Name", "Product_type", "Selected_shade_name",
+                                 "shade_original_price", "Product_Name", "Variant_Sku" ,"Product_type", "Selected_shade_name",
                                  "vendor"])
 
 # Save the DataFrame to a CSV file

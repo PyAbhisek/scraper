@@ -1,0 +1,269 @@
+An error occurred while scraping the URL: https://www.nykaa.com/incolor-lipfinity-lipstick/p/821566?productId=821566&pps=2
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-lip-love-chapstick/p/363154?productId=363154&pps=20
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-limitless-lucky-lips/p/3706494?productId=3706494&pps=17
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/keya-seth-professional-glossy-lipstick/p/1375993?productId=1375993&pps=19
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-lny-lipstick/p/4239014?productId=4239014&pps=5
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/coloressence-pure-matte-lipstick/p/4740115?productId=4740115&pps=5
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673727&pps=19
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/verymiss-check-matte-lipstick/p/9061651?productId=9061651&pps=13
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/protouch-lip-plumping-drops/p/7598536?productId=7598536&pps=8
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-lustreglass-lipstick/p/1473196?productId=1473196&pps=7
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/mua-super-stylo-satin-finish-lipstick/p/3632636?productId=3632636&pps=13
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-ultra-matte-lipstick/p/370560?productId=370560&pps=19
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-treasure-it-seude-matte-lipstick/p/13141546?productId=13141546&pps=19
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/fashion-colour-kiss-lip-no-transfer-lipstick/p/1179272?productId=1179272&pps=16
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-manish-malhotra-beauty-powder-matte-lipstick/p/7948562?productId=7948562&pps=7
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/fran-wilson-moodmatcher-metallic-moods-lipstick/p/553156?productId=553156&pps=3
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9926/p/271248?productId=271248&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/verymiss-check-matte-lipstick/p/9061651?productId=9061651&pps=13
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673727&pps=19
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-lip-love-chapstick/p/363154?productId=363154&pps=20
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/pigment-play-lip-cream-palette/p/6840185?productId=6840185&pps=12
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-lny-lipstick/p/4239014?productId=4239014&pps=5
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-lustreglass-lipstick/p/1473196?productId=1473196&pps=7
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/protouch-lip-plumping-drops/p/7598536?productId=7598536&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-lip-love-chapstick/p/363154?productId=363154&pps=20
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/incolor-lipfinity-lipstick/p/821566?productId=821566&pps=2
+Error: HTTPConnectionPool(host='localhost', port=49871): Max retries exceeded with url: /session/9a2097bb845967d7a567214bd3583121/element/43F07A1CA83881C2F9B897EEB9E0A49C_element_33/text (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1072c93a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-limitless-lucky-lips/p/3706494?productId=3706494&pps=17
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/zm-zayn-myza-transfer-proof-power-matte-lipstick-13-fiery-cherry/p/9752458?productId=9752458&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/verymiss-check-matte-lipstick/p/9061651?productId=9061651&pps=13
+Error: name 'Selected_shade_name' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-down-to-earth/p/5773713?productId=5773713&pps=2
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9933/p/271251?productId=271251&pps=17
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/coloressence-pure-matte-lipstick/p/4740115?productId=4740115&pps=5
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/zm-zayn-myza-transfer-proof-power-matte-lipstick-13-fiery-cherry/p/9752458?productId=9752458&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-limitless-lucky-lips/p/3706494?productId=3706494&pps=17
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/keya-seth-professional-glossy-lipstick/p/1375993?productId=1375993&pps=19
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-limitless-lucky-lips/p/3706494?productId=3706494&pps=17
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-lny-lipstick/p/4239014?productId=4239014&pps=5
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9926/p/271248?productId=271248&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/coloressence-pure-matte-lipstick/p/4740115?productId=4740115&pps=5
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/pigment-play-lip-cream-palette/p/6840185?productId=6840185&pps=12
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/zm-zayn-myza-transfer-proof-power-matte-lipstick-13-fiery-cherry/p/9752458?productId=9752458&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9933/p/271251?productId=271251&pps=17
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-down-to-earth/p/5773713?productId=5773713&pps=2
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/zm-zayn-myza-transfer-proof-power-matte-lipstick-13-fiery-cherry/p/9752458?productId=9752458&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-down-to-earth/p/5773713?productId=5773713&pps=2
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/coloressence-pure-matte-lipstick/p/4740115?productId=4740115&pps=5
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/protouch-lip-plumping-drops/p/7598536?productId=7598536&pps=8
+Error: HTTPConnectionPool(host='localhost', port=52949): Max retries exceeded with url: /session/9bfe8d68093fb54cc5b24cbea15a1382/element/2BD84F0D24AF873CE17604C07ED1DC23_element_52/text (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104db4b50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/verymiss-check-matte-lipstick/p/9061651?productId=9061651&pps=13
+Error: HTTPConnectionPool(host='localhost', port=52948): Max retries exceeded with url: /session/d8a0fd4f5c29e8af23798be7b8ef7209/element/2062740F8634EB753F90E5FD0C46F9EA_element_40/text (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104db4eb0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/keya-seth-professional-glossy-lipstick/p/1375993?productId=1375993&pps=19
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/anastasia-beverly-hills-satin-lipstick/p/3876693?productId=3876693&pps=7
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/protouch-lip-plumping-drops/p/7598536?productId=7598536&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-lip-love-chapstick/p/363154?productId=363154&pps=20
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/anastasia-beverly-hills-satin-lipstick/p/3876693?productId=3876693&pps=7
+Error: HTTPConnectionPool(host='localhost', port=55271): Max retries exceeded with url: /session/8302c7d431c07059b7422c52ace76f34/element/F02CCD3BDBC801F95FF380F53A61B667_element_44/text (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102c15490>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/mua-super-stylo-satin-finish-lipstick/p/3632636?productId=3632636&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/keya-seth-professional-glossy-lipstick/p/1375993?productId=1375993&pps=19
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-ultra-matte-lipstick/p/370560?productId=370560&pps=19
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/verymiss-check-matte-lipstick/p/9061651?productId=9061651&pps=13
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Total count of shades: 846
+Total count of shades: 324
+An error occurred while scraping the URL: https://www.nykaa.com/biotique-natural-makeup-starshine-matte-lipstick/p/579121?productId=579121&pps=20
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/lamel-silk-cover-silky-cream-lipstick/p/12268708?productId=12268708&pps=12
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/pierre-cardin-paris-mercury-velvet-lipstick/p/8240506?productId=8240506&pps=3
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/blue-heaven-walkfree-matte-lipstick/p/1037220?productId=1037220&pps=4
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/hindash-manifesto/p/6994952?productId=6994952&pps=1
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/matt-look-matte-crush-velvet-mousse-lipstick/p/4971227?productId=4971227&pps=3
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-paintstix-lipstick/p/114009?productId=114009&pps=16
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/soultree-ayurvedic-lipstick/p/19683?productId=19683&pps=14
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/clinique-pop-matte-lip-colour-primer/p/76787?productId=76787&pps=10
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/rufa-beauty-lux-matte-lipstick/p/5063875?productId=5063875&pps=13
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/alix-avien-paris-matte-lipstick/p/8223849?productId=8223849&pps=15
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/coloressence-intense-long-wear-lip-color/p/27758?productId=27758&pps=5
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/essence-hydra-matte-lipstick/p/6529946?productId=6529946&pps=18
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/nudestix-nudies-matte-lux-all-over-face-blush-color/p/12230434?productId=12230434&pps=6
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/fran-wilson-moodmatcher-metallic-moods-lipstick/p/553156?productId=553156&pps=4
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/charmacy-milano-soft-satin-matte-lipstick/p/5444808?productId=5444808&pps=10
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/incolor-urban-choice-jewel-queen-lipstick/p/447183?productId=447183&pps=20
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/lotus-herbals-colorkick-lip/p/274738?productId=274738&pps=5
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673724&pps=12
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/pierre-cardin-paris-porcelain-edition-rouge-lipstick/p/8240504?productId=8240504&pps=4
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/huda-beauty-power-bullet-cream-glow/p/1374411?productId=1374411&pps=19
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673726&pps=16
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/too-faced-femme-heart-core-lipstick/p/4480410?productId=4480410&pps=8
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/max-factor-colour-elixir-velvet-matt-lipstick/p/3626572?productId=3626572&pps=7
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/pierre-cardin-paris-matte-rouge/p/8240505?productId=8240505&pps=18
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-cushion-matte-lip/p/12687452?productId=12687452&pps=1
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/plume-plush-matte-lipstick/p/3959617?productId=3959617&pps=18
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/sugar-pop-liquid-lipstick/p/5389409?productId=5389409&pps=14
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-matte-lipstick/p/90344?productId=90344&pps=12
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/c2p-pro-epic-matte-lipink-set-of-4/p/2759579?productId=2759579&pps=11
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/incolor-lets-go-for-matte-lipstick/p/4862910?productId=4862910&pps=17
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/mars-super-stay-lipstick-lip-color/p/10708406?productId=10708406&pps=14
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/love-earth-multipot-lipstick/p/3657958?productId=3657958&pps=2
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/deborah-milano-extra-lipstick/p/290351?productId=290351&pps=8
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/beauty-people-sheer-color-lipstick/p/1324414?productId=1324414&pps=2
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/matt-look-matte-crush-velvet-mousse-lipstick/p/4971227?productId=4971227&pps=3
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-paintstix-lipstick/p/114009?productId=114009&pps=16
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/biotique-natural-makeup-starshine-matte-lipstick/p/579121?productId=579121&pps=20
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-super-stay-matte-the-archies-collection-ink-liquid-lipstick/p/13271368?productId=13271368&pps=7
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/hindash-manifesto/p/6994952?productId=6994952&pps=1
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/blue-heaven-walkfree-matte-lipstick/p/1037220?productId=1037220&pps=4
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/soultree-ayurvedic-lipstick/p/19683?productId=19683&pps=14
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/lamel-silk-cover-silky-cream-lipstick/p/12268708?productId=12268708&pps=12
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/sivanna-colors-crystal-power-kiss-lipstick/p/3683272?productId=3683272&pps=13
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/clinique-pop-matte-lip-colour-primer/p/76787?productId=76787&pps=10
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/alix-avien-paris-matte-lipstick/p/8223849?productId=8223849&pps=15
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/rufa-beauty-lux-matte-lipstick/p/5063875?productId=5063875&pps=13
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/coloressence-intense-long-wear-lip-color/p/27758?productId=27758&pps=5
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/lenphor-treasure-matte-lipstick/p/1015683?productId=1015683&pps=11
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/essence-hydra-matte-lipstick/p/6529946?productId=6529946&pps=18
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/nudestix-nudies-matte-lux-all-over-face-blush-color/p/12230434?productId=12230434&pps=6
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/fran-wilson-moodmatcher-metallic-moods-lipstick/p/553156?productId=553156&pps=4
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673724&pps=12
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/charmacy-milano-soft-satin-matte-lipstick/p/5444808?productId=5444808&pps=10
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/pierre-cardin-paris-porcelain-edition-rouge-lipstick/p/8240504?productId=8240504&pps=4
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/lotus-herbals-colorkick-lip/p/274738?productId=274738&pps=5
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/incolor-urban-choice-jewel-queen-lipstick/p/447183?productId=447183&pps=20
+Error: name 'unique_key' is not defined
+An error occurred while scraping the URL: https://www.nykaa.com/beauty-people-sheer-color-lipstick/p/1324414?productId=1324414&pps=2
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/incolor-lets-go-for-matte-lipstick/p/4862910?productId=4862910&pps=17
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/kay-beauty-lip-tint/p/12966982?productId=12966982&skuId=4673726&pps=16
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/huda-beauty-power-bullet-cream-glow/p/1374411?productId=1374411&pps=19
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/fran-wilson-moodmatcher-10-pcs-moodmatcher-collection/p/2748781?productId=2748781&pps=17
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/max-factor-colour-elixir-velvet-matt-lipstick/p/3626572?productId=3626572&pps=7
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/plume-plush-matte-lipstick/p/3959617?productId=3959617&pps=18
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/pierre-cardin-paris-matte-rouge/p/8240505?productId=8240505&pps=18
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Total count of shades: 153
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-glitter-color-change-lipstick-set-of-3/p/8464695?productId=8464695&pps=4
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104736004 chromedriver + 4169732
+1   chromedriver                        0x000000010472dff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104383500 chromedriver + 292096
+3   chromedriver                        0x00000001043c87a0 chromedriver + 575392
+4   chromedriver                        0x0000000104403818 chromedriver + 817176
+5   chromedriver                        0x00000001043bc5e8 chromedriver + 525800
+6   chromedriver                        0x00000001043bd4b8 chromedriver + 529592
+7   chromedriver                        0x00000001046fc334 chromedriver + 3932980
+8   chromedriver                        0x0000000104700970 chromedriver + 3950960
+9   chromedriver                        0x00000001046e4774 chromedriver + 3835764
+10  chromedriver                        0x0000000104701478 chromedriver + 3953784
+11  chromedriver                        0x00000001046d6ab4 chromedriver + 3779252
+12  chromedriver                        0x000000010471d914 chromedriver + 4069652
+13  chromedriver                        0x000000010471da90 chromedriver + 4070032
+14  chromedriver                        0x000000010472dc70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+Total count of shades: 2353

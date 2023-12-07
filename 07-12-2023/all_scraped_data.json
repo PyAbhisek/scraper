@@ -1,23 +1,4 @@
-def count_duplicate_tests(data):
-    duplicate_count = {}
-
-    for item in data:
-        if item['shades'] and len(item['shades']) > 0 and 'duplicate_test' in item['shades'][0]:
-            duplicate_test = item['shades'][0]['duplicate_test']
-
-            # Check if duplicate test is already encountered
-            if duplicate_test in duplicate_count:
-                duplicate_count[duplicate_test] += 1
-            else:
-                duplicate_count[duplicate_test] = 1
-
-    # Filter out counts that are not duplicates (count > 1)
-    duplicates = {key: value for key, value in duplicate_count.items() if value > 1}
-
-    return duplicates
-
-# Example usage
-data = [
+[
     {
         "url": "https://www.nykaa.com/flower-beauty-perfect-pout-moisturizing-lipstick/p/4945709?productId=4945709&pps=4",
         "shades": [
@@ -1771,7 +1752,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/matt-look-vivid-matte-lipstick/p/4971232?productId=4971232&pps=6&skuId=4971141",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/9/4/94844178904403604174-1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9194",
                 "shade_original_price": "MRP:\u20b9249",
@@ -1783,7 +1764,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/matt-look-vivid-matte-lipstick/p/4971232?productId=4971232&pps=6&skuId=4971144",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/0/0/00104178904403604211-1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9194",
                 "shade_original_price": "MRP:\u20b9249",
@@ -7717,7 +7698,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/soultree-ayurvedic-lipstick/p/19683?productId=19683&pps=17&skuId=29225",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/d/b/db149ee8906026913763_3.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b91295",
                 "shade_original_price": "MRP:",
@@ -7729,7 +7710,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/soultree-ayurvedic-lipstick/p/19683?productId=19683&pps=17&skuId=575887",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/9/6/96d8ff78906026913770_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b91295",
                 "shade_original_price": "MRP:",
@@ -7741,7 +7722,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/soultree-ayurvedic-lipstick/p/19683?productId=19683&pps=17&skuId=575888",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/9/6/96d8ff78906026913787_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b91295",
                 "shade_original_price": "MRP:",
@@ -7753,7 +7734,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/soultree-ayurvedic-lipstick/p/19683?productId=19683&pps=17&skuId=575889",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/9/6/96d8ff78906026913794_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b91295",
                 "shade_original_price": "MRP:",
@@ -7765,7 +7746,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/soultree-ayurvedic-lipstick/p/19683?productId=19683&pps=17&skuId=575892",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/9/6/96d8ff78906026913817_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b91295",
                 "shade_original_price": "MRP:",
@@ -9074,7 +9055,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/revlon-super-lustrous-lipstick-6/p/560?productId=560&pps=2&skuId=422248",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/9/b/9bbd2898902656110015_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9631",
                 "shade_original_price": "MRP:\u20b9799",
@@ -10225,7 +10206,7 @@ data = [
         "shades": [
             {
                 "shade_url": "https://www.nykaa.com/glamgals-matte-finish-kissproof-lipstick/p/1267769?productId=1267769&pps=17",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/8/1/81c96b68906062419106_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9425",
                 "shade_original_price": "MRP:",
@@ -10253,7 +10234,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/glamgals-matte-finish-kissproof-lipstick/p/1267769?productId=1267769&pps=17&skuId=1267753",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/b/2/b2766b68906062419137_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9425",
                 "shade_original_price": "MRP:",
@@ -15736,7 +15717,7 @@ data = [
         "shades": [
             {
                 "shade_url": "https://www.nykaa.com/coloressence-pure-matte-lipstick-velvet-soft-finish-long-long-stay-lip-color/p/10787809?productId=10787809&pps=14&skuId=1124772",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/d/7/d7e528d8906045487894_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9650",
                 "shade_original_price": "MRP:",
@@ -15748,7 +15729,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/coloressence-pure-matte-lipstick-velvet-soft-finish-long-long-stay-lip-color/p/10787809?productId=10787809&pps=14&skuId=1124772",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/6/4/6490b9f8906045488761_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9650",
                 "shade_original_price": "MRP:",
@@ -15760,7 +15741,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/coloressence-pure-matte-lipstick-velvet-soft-finish-long-long-stay-lip-color/p/10787809?productId=10787809&pps=14&skuId=1124771",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/c/5/c5a0b9f8906045487870_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9650",
                 "shade_original_price": "MRP:",
@@ -15772,7 +15753,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/coloressence-pure-matte-lipstick-velvet-soft-finish-long-long-stay-lip-color/p/10787809?productId=10787809&pps=14&skuId=1124770",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/3/0/30a8bbe8906045488778_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9650",
                 "shade_original_price": "MRP:",
@@ -16106,7 +16087,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/swiss-beauty-pure-matte-lipstick/p/367160?productId=367160&pps=16&skuId=367146",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/7/e/7e427c7NYSWISSB00108_01.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9206",
                 "shade_original_price": "MRP:\u20b9229",
@@ -25174,7 +25155,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/coloressence-pure-matte-lip-color/p/537441?productId=537441&pps=5&skuId=537440",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/2/b/2ba35e38906045487658_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9399",
                 "shade_original_price": "MRP:",
@@ -25402,7 +25383,7 @@ data = [
         "shades": [
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/4/b/4b2f2caNYPAC00001821_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -25414,7 +25395,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15&skuId=739385",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/7/c/7c5e2caNYPAC00001822_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -25426,7 +25407,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15&skuId=739386",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/1/4/145a2caNYPAC00001823_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -25438,7 +25419,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15&skuId=739388",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/5/1/51a02caNYPAC00001824_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -25450,7 +25431,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15&skuId=739388",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/a/d/adb12caNYPAC00001825_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -25462,7 +25443,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15&skuId=739390",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/c/e/ce532caNYPAC00001826_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -25474,7 +25455,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15&skuId=739390",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/7/7/77932caNYPAC00001827_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -25486,7 +25467,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15&skuId=739391",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/f/9/f99b2caNYPAC00001828_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -25498,7 +25479,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15&skuId=739392",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/7/5/750a2caNYPAC00001829_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -25510,7 +25491,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15&skuId=739394",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/1/d/1df72caNYPAC00001830_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -25522,7 +25503,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=15&skuId=739394",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/5/9/59c92caNYPAC00001831_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9575",
                 "shade_original_price": "MRP:",
@@ -34913,7 +34894,7 @@ data = [
         "shades": [
             {
                 "shade_url": "https://www.nykaa.com/c-a-l-los-angeles-intense-soft-matte-lipstick/p/10787806?productId=10787806&pps=9",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/8/f/8f1e6ab8906138281248_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9260",
                 "shade_original_price": "MRP:",
@@ -37337,7 +37318,7 @@ data = [
         "shades": [
             {
                 "shade_url": "https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=2&skuId=4429679",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/c/f/cf4c822ESSAB00000244_001.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9289",
                 "shade_original_price": "MRP:\u20b9340",
@@ -37349,7 +37330,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=2&skuId=4429679",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/6/e/6ecc4e14059729271495_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9289",
                 "shade_original_price": "MRP:\u20b9340",
@@ -37361,7 +37342,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=2&skuId=4429676",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/7/b/7b844e14059729271501_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9289",
                 "shade_original_price": "MRP:\u20b9340",
@@ -37373,7 +37354,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=2&skuId=4429677",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/6/7/678d4e14059729271518_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9289",
                 "shade_original_price": "MRP:\u20b9340",
@@ -37385,7 +37366,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=2&skuId=4429678",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/e/7/e7554e14059729271488_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9264",
                 "shade_original_price": "MRP:\u20b9310",
@@ -37397,7 +37378,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=2&skuId=4429680",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/7/3/73d34e14059729271532_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9289",
                 "shade_original_price": "MRP:\u20b9340",
@@ -37409,7 +37390,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=2&skuId=4429681",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/a/b/ab394e14059729271549_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9264",
                 "shade_original_price": "MRP:\u20b9310",
@@ -37421,7 +37402,7 @@ data = [
             },
             {
                 "shade_url": "https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=2&skuId=4429681",
-                "shade_color": None,
+                "shade_color": null,
                 "shade_image_url": "https://images-static.nykaa.com/media/catalog/product/8/c/8cdd4e14059729271556_1.jpg?tr=w-344,h-344,cm-pad_resize",
                 "shade_sale_price": "\u20b9289",
                 "shade_original_price": "MRP:\u20b9340",
@@ -39730,8 +39711,3 @@ data = [
         "brand_name": "FSN E-Commerce Ventures Limited"
     }
 ]
-
-# Get the count of duplicate tests
-duplicate_count = count_duplicate_tests(data)
-
-print("Duplicate Test Counts (Occurrences > 1):", duplicate_count)

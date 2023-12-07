@@ -1,0 +1,451 @@
+An error occurred while scraping the URL: https://www.nykaa.com/glamgals-matte-finish-kissproof-lipstick/p/1267769?productId=1267769&pps=14
+Error: cannot identify image file <_io.BytesIO object at 0x107dd8310>
+An error occurred while scraping the URL: https://www.nykaa.com/incolor-lipfinity-lipstick/p/2707257?productId=2707257&pps=9
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100c8a004 chromedriver + 4169732
+1   chromedriver                        0x0000000100c81ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001008d7500 chromedriver + 292096
+3   chromedriver                        0x000000010091c7a0 chromedriver + 575392
+4   chromedriver                        0x0000000100957818 chromedriver + 817176
+5   chromedriver                        0x00000001009105e8 chromedriver + 525800
+6   chromedriver                        0x00000001009114b8 chromedriver + 529592
+7   chromedriver                        0x0000000100c50334 chromedriver + 3932980
+8   chromedriver                        0x0000000100c54970 chromedriver + 3950960
+9   chromedriver                        0x0000000100c38774 chromedriver + 3835764
+10  chromedriver                        0x0000000100c55478 chromedriver + 3953784
+11  chromedriver                        0x0000000100c2aab4 chromedriver + 3779252
+12  chromedriver                        0x0000000100c71914 chromedriver + 4069652
+13  chromedriver                        0x0000000100c71a90 chromedriver + 4070032
+14  chromedriver                        0x0000000100c81c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/c-a-l-los-angeles-intense-soft-matte-lipstick/p/10787806?productId=10787806&pps=3
+Error: cannot identify image file <_io.BytesIO object at 0x1098895e0>
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-pure-matte-lipstick/p/367160?productId=367160&pps=16
+Error: cannot identify image file <_io.BytesIO object at 0x11daf40e0>
+An error occurred while scraping the URL: https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=16
+Error: cannot identify image file <_io.BytesIO object at 0x10a875f90>
+An error occurred while scraping the URL: https://www.nykaa.com/c-a-l-los-angeles-intense-matte-lipstick/p/1425175?productId=1425175&pps=9
+Error: cannot identify image file <_io.BytesIO object at 0x11c005040>
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-lit-satin-matte-lipstick/p/506087?productId=506087&pps=12
+Error: cannot identify image file <_io.BytesIO object at 0x11d66f360>
+An error occurred while scraping the URL: https://www.nykaa.com/soultree-ayurvedic-lipstick/p/19683?productId=19683&pps=11
+Error: cannot identify image file <_io.BytesIO object at 0x10a798ea0>
+An error occurred while scraping the URL: https://www.nykaa.com/coloressence-pure-matte-lipstick-velvet-soft-finish-long-long-stay-lip-color/p/10787809?productId=10787809&pps=13
+Error: cannot identify image file <_io.BytesIO object at 0x10c1ca310>
+An error occurred while scraping the URL: https://www.nykaa.com/essence-long-lasting-lipstick/p/4429697?productId=4429697&pps=2
+Error: cannot identify image file <_io.BytesIO object at 0x11a1609f0>
+An error occurred while scraping the URL: https://www.nykaa.com/matt-look-vivid-matte-lipstick/p/4971232?productId=4971232&pps=2
+Error: cannot identify image file <_io.BytesIO object at 0x1087926d0>
+An error occurred while scraping the URL: https://www.nykaa.com/fashion-colour-super-matte-lipstick/p/4148501?productId=4148501&pps=13
+Error: cannot identify image file <_io.BytesIO object at 0x108792b30>
+An error occurred while scraping the URL: https://www.nykaa.com/coloressence-pure-matte-lip-color/p/537441?productId=537441&pps=6
+Error: cannot identify image file <_io.BytesIO object at 0x109ae4db0>
+Total count of shades: 3934
+An error occurred while scraping the URL: https://www.nykaa.com/glamgals-matte-finish-kissproof-lipstick/p/1267769?productId=1267769&pps=14
+Error: cannot identify image file <_io.BytesIO object at 0x106def310>
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-hd-matte-lipstick-lipstick/p/1231613?productId=1231613&pps=7
+Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/8904325012187_10wineblush.jpg?tr=w-50,h-50 (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
+An error occurred while scraping the URL: https://www.nykaa.com/anastasia-beverly-hills-satin-lipstick/p/3876693?productId=3876693&pps=15
+Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/689304186810_royalred.jpg?tr=w-50,h-50 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+An error occurred while scraping the URL: https://www.nykaa.com/pac-soft-matte-cream-lipstick-342945/p/342945?productId=342945&pps=20
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/insight-professional-air-matte-lipstick/p/12454111?productId=12454111&pps=6
+Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/8904207510886_olaf.jpg?tr=w-50,h-50 (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1129)')))
+An error occurred while scraping the URL: https://www.nykaa.com/lancome-l-absolu-rouge-cream/p/9044877?productId=9044877&pps=4
+Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/3614273307017_397berrynoir.jpg?tr=w-50,h-50 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+An error occurred while scraping the URL: https://www.nykaa.com/pac-matte-mischief/p/2786011?productId=2786011&pps=15
+Error: HTTPConnectionPool(host='localhost', port=62667): Max retries exceeded with url: /session/607ed66f3c70400f0ac15e0c1ff3193d/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x134b32760>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/keya-seth-professional-glossy-lipstick/p/1375993?productId=1375993&pps=10
+Error: HTTPConnectionPool(host='localhost', port=64165): Max retries exceeded with url: /session/1cf14d05d40e7f5b15645163e97eea01/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107464280>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/coloressence-intense-long-wear-lip-color/p/27758?productId=27758&pps=6
+Error: HTTPConnectionPool(host='localhost', port=62729): Max retries exceeded with url: /session/c8141646b84cba2e0ce22a0c1f05fdb5/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x133e8e0d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/just-herbs-ayurvedic-lipstick/p/833257?productId=833257&pps=10
+Error: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+An error occurred while scraping the URL: https://www.nykaa.com/lancome-l-absolu-rouge-intimatte/p/9044880?productId=9044880&pps=15
+Error: HTTPConnectionPool(host='localhost', port=64221): Max retries exceeded with url: /session/8341f716043b039822485fb97e64284b/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10656a0d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-matte-addiction-lipstick/p/6880840?productId=6880840&pps=18
+Error: HTTPConnectionPool(host='localhost', port=63681): Max retries exceeded with url: /session/c1eef18361d27e2dbab6f2e0fc04768c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104578ac0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/c-a-l-los-angeles-rose-collection-bullet-lipstick/p/10797305?productId=10797305&pps=20
+Error: HTTPConnectionPool(host='localhost', port=63727): Max retries exceeded with url: /session/42f7611aa3284d6c109923add493b139/element/0D7FD5B224C0C32AC5859D0C8F54E65D_element_91/text (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x135202b20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/guerlain-kisskiss-tender-matte-lipstick/p/3802467?productId=3802467&pps=5
+Error: HTTPConnectionPool(host='localhost', port=62527): Max retries exceeded with url: /session/cfa0bddb6f0297428389989de6efe16b/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1310ed700>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-so-matte-lipstick/p/71406?productId=71406&pps=14
+Error: HTTPConnectionPool(host='localhost', port=62732): Max retries exceeded with url: /session/9a3054c754c2c84b4e6281f7f67daedc/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1102f29d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/elle-18-color-pop-matte-lip-color/p/2732715?productId=2732715&pps=18
+Error: HTTPConnectionPool(host='localhost', port=62716): Max retries exceeded with url: /session/e8ed43a7ac4dd10ae230aa13abb556ad/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x134b32130>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/lovechild-masaba-for-the-kid-in-you-luxe-matte-lipstick/p/6805644?productId=6805644&pps=3
+Error: HTTPConnectionPool(host='localhost', port=63675): Max retries exceeded with url: /session/11f98209707f0a0d232d30053664a3cf/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1045788e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/clinique-poplip-colour-primer/p/76647?productId=76647&pps=6
+Error: HTTPConnectionPool(host='localhost', port=62728): Max retries exceeded with url: /session/1c8db965639e08b9dfdec7d5b28060d3/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10656a1c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+An error occurred while scraping the URL: https://www.nykaa.com/mars-super-stay-lipstick-lip-color/p/10708406?productId=10708406&pps=12
+Error: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x0000000104eba004 chromedriver + 4169732
+1   chromedriver                        0x0000000104eb1ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104b07500 chromedriver + 292096
+3   chromedriver                        0x0000000104aedc98 chromedriver + 187544
+4   chromedriver                        0x0000000104aeeb14 chromedriver + 191252
+5   chromedriver                        0x0000000104b0ab50 chromedriver + 306000
+6   chromedriver                        0x0000000104b0b52c chromedriver + 308524
+7   chromedriver                        0x0000000104b0e780 chromedriver + 321408
+8   chromedriver                        0x0000000104b0e8ac chromedriver + 321708
+9   chromedriver                        0x0000000104b4c8f8 chromedriver + 575736
+10  chromedriver                        0x0000000104b87818 chromedriver + 817176
+11  chromedriver                        0x0000000104b405e8 chromedriver + 525800
+12  chromedriver                        0x0000000104b414b8 chromedriver + 529592
+13  chromedriver                        0x0000000104e80334 chromedriver + 3932980
+14  chromedriver                        0x0000000104e84970 chromedriver + 3950960
+15  chromedriver                        0x0000000104e68774 chromedriver + 3835764
+16  chromedriver                        0x0000000104e85478 chromedriver + 3953784
+17  chromedriver                        0x0000000104e5aab4 chromedriver + 3779252
+18  chromedriver                        0x0000000104ea1914 chromedriver + 4069652
+19  chromedriver                        0x0000000104ea1a90 chromedriver + 4070032
+20  chromedriver                        0x0000000104eb1c70 chromedriver + 4136048
+21  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+22  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/matt-look-velvet-smooth-non-transfer/p/4971231?productId=4971231&pps=14
+Error: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x0000000104ffe004 chromedriver + 4169732
+1   chromedriver                        0x0000000104ff5ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104c4b500 chromedriver + 292096
+3   chromedriver                        0x0000000104c33a88 chromedriver + 195208
+4   chromedriver                        0x0000000104c3397c chromedriver + 194940
+5   chromedriver                        0x0000000104c31ef4 chromedriver + 188148
+6   chromedriver                        0x0000000104c32b14 chromedriver + 191252
+7   chromedriver                        0x0000000104c4eb50 chromedriver + 306000
+8   chromedriver                        0x0000000104c4faec chromedriver + 309996
+9   chromedriver                        0x0000000104c52780 chromedriver + 321408
+10  chromedriver                        0x0000000104c528ac chromedriver + 321708
+11  chromedriver                        0x0000000104c908f8 chromedriver + 575736
+12  chromedriver                        0x0000000104ccb818 chromedriver + 817176
+13  chromedriver                        0x0000000104c845e8 chromedriver + 525800
+14  chromedriver                        0x0000000104c854b8 chromedriver + 529592
+15  chromedriver                        0x0000000104fc4334 chromedriver + 3932980
+16  chromedriver                        0x0000000104fc8970 chromedriver + 3950960
+17  chromedriver                        0x0000000104fac774 chromedriver + 3835764
+18  chromedriver                        0x0000000104fc9478 chromedriver + 3953784
+19  chromedriver                        0x0000000104f9eab4 chromedriver + 3779252
+20  chromedriver                        0x0000000104fe5914 chromedriver + 4069652
+21  chromedriver                        0x0000000104fe5a90 chromedriver + 4070032
+22  chromedriver                        0x0000000104ff5c70 chromedriver + 4136048
+23  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+24  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/skin-story-clean-beauty-bold-multistick/p/12481688?productId=12481688&pps=6
+Error: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x0000000104d8a004 chromedriver + 4169732
+1   chromedriver                        0x0000000104d81ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001049d7500 chromedriver + 292096
+3   chromedriver                        0x00000001049bdc98 chromedriver + 187544
+4   chromedriver                        0x00000001049beb14 chromedriver + 191252
+5   chromedriver                        0x00000001049dab50 chromedriver + 306000
+6   chromedriver                        0x00000001049dbaec chromedriver + 309996
+7   chromedriver                        0x00000001049de780 chromedriver + 321408
+8   chromedriver                        0x00000001049de8ac chromedriver + 321708
+9   chromedriver                        0x0000000104a1c8f8 chromedriver + 575736
+10  chromedriver                        0x0000000104a57818 chromedriver + 817176
+11  chromedriver                        0x0000000104a105e8 chromedriver + 525800
+12  chromedriver                        0x0000000104a114b8 chromedriver + 529592
+13  chromedriver                        0x0000000104d50334 chromedriver + 3932980
+14  chromedriver                        0x0000000104d54970 chromedriver + 3950960
+15  chromedriver                        0x0000000104d38774 chromedriver + 3835764
+16  chromedriver                        0x0000000104d55478 chromedriver + 3953784
+17  chromedriver                        0x0000000104d2aab4 chromedriver + 3779252
+18  chromedriver                        0x0000000104d71914 chromedriver + 4069652
+19  chromedriver                        0x0000000104d71a90 chromedriver + 4070032
+20  chromedriver                        0x0000000104d81c70 chromedriver + 4136048
+21  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+22  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/lotus-make-up-ecostay-butter-matte-lip-color/p/181558?productId=181558&pps=11
+Error: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x000000010312e004 chromedriver + 4169732
+1   chromedriver                        0x0000000103125ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102d7b500 chromedriver + 292096
+3   chromedriver                        0x0000000102d63a88 chromedriver + 195208
+4   chromedriver                        0x0000000102d6397c chromedriver + 194940
+5   chromedriver                        0x0000000102d61ef4 chromedriver + 188148
+6   chromedriver                        0x0000000102d62b14 chromedriver + 191252
+7   chromedriver                        0x0000000102d7eb50 chromedriver + 306000
+8   chromedriver                        0x0000000102d7f52c chromedriver + 308524
+9   chromedriver                        0x0000000102d82780 chromedriver + 321408
+10  chromedriver                        0x0000000102d828ac chromedriver + 321708
+11  chromedriver                        0x0000000102dc08f8 chromedriver + 575736
+12  chromedriver                        0x0000000102dfb818 chromedriver + 817176
+13  chromedriver                        0x0000000102db45e8 chromedriver + 525800
+14  chromedriver                        0x0000000102db54b8 chromedriver + 529592
+15  chromedriver                        0x00000001030f4334 chromedriver + 3932980
+16  chromedriver                        0x00000001030f8970 chromedriver + 3950960
+17  chromedriver                        0x00000001030dc774 chromedriver + 3835764
+18  chromedriver                        0x00000001030f9478 chromedriver + 3953784
+19  chromedriver                        0x00000001030ceab4 chromedriver + 3779252
+20  chromedriver                        0x0000000103115914 chromedriver + 4069652
+21  chromedriver                        0x0000000103115a90 chromedriver + 4070032
+22  chromedriver                        0x0000000103125c70 chromedriver + 4136048
+23  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+24  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-long-lasting-matte-lipstick/p/262116?productId=262116&pps=14
+Error: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x0000000105346004 chromedriver + 4169732
+1   chromedriver                        0x000000010533dff8 chromedriver + 4136952
+2   chromedriver                        0x0000000104f93500 chromedriver + 292096
+3   chromedriver                        0x0000000104f7ba88 chromedriver + 195208
+4   chromedriver                        0x0000000104f7b97c chromedriver + 194940
+5   chromedriver                        0x0000000104f79ef4 chromedriver + 188148
+6   chromedriver                        0x0000000104f7ab14 chromedriver + 191252
+7   chromedriver                        0x0000000104f96b50 chromedriver + 306000
+8   chromedriver                        0x0000000104f9752c chromedriver + 308524
+9   chromedriver                        0x0000000104f9a780 chromedriver + 321408
+10  chromedriver                        0x0000000104f9a8ac chromedriver + 321708
+11  chromedriver                        0x0000000104fd88f8 chromedriver + 575736
+12  chromedriver                        0x0000000105013818 chromedriver + 817176
+13  chromedriver                        0x0000000104fcc5e8 chromedriver + 525800
+14  chromedriver                        0x0000000104fcd4b8 chromedriver + 529592
+15  chromedriver                        0x000000010530c334 chromedriver + 3932980
+16  chromedriver                        0x0000000105310970 chromedriver + 3950960
+17  chromedriver                        0x00000001052f4774 chromedriver + 3835764
+18  chromedriver                        0x0000000105311478 chromedriver + 3953784
+19  chromedriver                        0x00000001052e6ab4 chromedriver + 3779252
+20  chromedriver                        0x000000010532d914 chromedriver + 4069652
+21  chromedriver                        0x000000010532da90 chromedriver + 4070032
+22  chromedriver                        0x000000010533dc70 chromedriver + 4136048
+23  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+24  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/insight-cosmetics-matte-lipstick/p/415916?productId=415916&pps=6
+Error: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x000000010259e004 chromedriver + 4169732
+1   chromedriver                        0x0000000102595ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001021eb500 chromedriver + 292096
+3   chromedriver                        0x00000001021d3a88 chromedriver + 195208
+4   chromedriver                        0x00000001021d397c chromedriver + 194940
+5   chromedriver                        0x00000001021d1ef4 chromedriver + 188148
+6   chromedriver                        0x00000001021d2b14 chromedriver + 191252
+7   chromedriver                        0x00000001021eeb50 chromedriver + 306000
+8   chromedriver                        0x00000001021efaec chromedriver + 309996
+9   chromedriver                        0x00000001021f2780 chromedriver + 321408
+10  chromedriver                        0x00000001021f28ac chromedriver + 321708
+11  chromedriver                        0x00000001022308f8 chromedriver + 575736
+12  chromedriver                        0x000000010226b818 chromedriver + 817176
+13  chromedriver                        0x00000001022245e8 chromedriver + 525800
+14  chromedriver                        0x00000001022254b8 chromedriver + 529592
+15  chromedriver                        0x0000000102564334 chromedriver + 3932980
+16  chromedriver                        0x0000000102568970 chromedriver + 3950960
+17  chromedriver                        0x000000010254c774 chromedriver + 3835764
+18  chromedriver                        0x0000000102569478 chromedriver + 3953784
+19  chromedriver                        0x000000010253eab4 chromedriver + 3779252
+20  chromedriver                        0x0000000102585914 chromedriver + 4069652
+21  chromedriver                        0x0000000102585a90 chromedriver + 4070032
+22  chromedriver                        0x0000000102595c70 chromedriver + 4136048
+23  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+24  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/incolor-lets-go-for-matte-lipstick/p/4862910?productId=4862910&pps=14
+Error: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x0000000104812004 chromedriver + 4169732
+1   chromedriver                        0x0000000104809ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010445f500 chromedriver + 292096
+3   chromedriver                        0x0000000104447094 chromedriver + 192660
+4   chromedriver                        0x0000000104446f9c chromedriver + 192412
+5   chromedriver                        0x00000001044defc8 chromedriver + 815048
+6   chromedriver                        0x00000001044985e8 chromedriver + 525800
+7   chromedriver                        0x00000001044994b8 chromedriver + 529592
+8   chromedriver                        0x00000001047d8334 chromedriver + 3932980
+9   chromedriver                        0x00000001047dc970 chromedriver + 3950960
+10  chromedriver                        0x00000001047c0774 chromedriver + 3835764
+11  chromedriver                        0x00000001047dd478 chromedriver + 3953784
+12  chromedriver                        0x00000001047b2ab4 chromedriver + 3779252
+13  chromedriver                        0x00000001047f9914 chromedriver + 4069652
+14  chromedriver                        0x00000001047f9a90 chromedriver + 4070032
+15  chromedriver                        0x0000000104809c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/mamaearth-soft-matte-long-stay-lipsticks/p/9977548?productId=9977548&pps=1
+Error: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x0000000100d82004 chromedriver + 4169732
+1   chromedriver                        0x0000000100d79ff8 chromedriver + 4136952
+2   chromedriver                        0x00000001009cf500 chromedriver + 292096
+3   chromedriver                        0x00000001009b7094 chromedriver + 192660
+4   chromedriver                        0x00000001009b6f9c chromedriver + 192412
+5   chromedriver                        0x0000000100a4efc8 chromedriver + 815048
+6   chromedriver                        0x0000000100a085e8 chromedriver + 525800
+7   chromedriver                        0x0000000100a094b8 chromedriver + 529592
+8   chromedriver                        0x0000000100d48334 chromedriver + 3932980
+9   chromedriver                        0x0000000100d4c970 chromedriver + 3950960
+10  chromedriver                        0x0000000100d30774 chromedriver + 3835764
+11  chromedriver                        0x0000000100d4d478 chromedriver + 3953784
+12  chromedriver                        0x0000000100d22ab4 chromedriver + 3779252
+13  chromedriver                        0x0000000100d69914 chromedriver + 4069652
+14  chromedriver                        0x0000000100d69a90 chromedriver + 4070032
+15  chromedriver                        0x0000000100d79c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/revlon-super-lustrous-the-luscious-mattes-lipstick/p/4761820?productId=4761820&pps=11
+Error: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x0000000100d06004 chromedriver + 4169732
+1   chromedriver                        0x0000000100cfdff8 chromedriver + 4136952
+2   chromedriver                        0x0000000100953500 chromedriver + 292096
+3   chromedriver                        0x000000010093b094 chromedriver + 192660
+4   chromedriver                        0x000000010093af9c chromedriver + 192412
+5   chromedriver                        0x00000001009d2fc8 chromedriver + 815048
+6   chromedriver                        0x000000010098c5e8 chromedriver + 525800
+7   chromedriver                        0x000000010098d4b8 chromedriver + 529592
+8   chromedriver                        0x0000000100ccc334 chromedriver + 3932980
+9   chromedriver                        0x0000000100cd0970 chromedriver + 3950960
+10  chromedriver                        0x0000000100cb4774 chromedriver + 3835764
+11  chromedriver                        0x0000000100cd1478 chromedriver + 3953784
+12  chromedriver                        0x0000000100ca6ab4 chromedriver + 3779252
+13  chromedriver                        0x0000000100ced914 chromedriver + 4069652
+14  chromedriver                        0x0000000100ceda90 chromedriver + 4070032
+15  chromedriver                        0x0000000100cfdc70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/mars-creamy-matte-lipstick/p/8608943?productId=8608943&pps=12
+Error: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x000000010135e004 chromedriver + 4169732
+1   chromedriver                        0x0000000101355ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000100fab500 chromedriver + 292096
+3   chromedriver                        0x0000000100f93094 chromedriver + 192660
+4   chromedriver                        0x0000000100f92f9c chromedriver + 192412
+5   chromedriver                        0x000000010102afc8 chromedriver + 815048
+6   chromedriver                        0x0000000100fe45e8 chromedriver + 525800
+7   chromedriver                        0x0000000100fe54b8 chromedriver + 529592
+8   chromedriver                        0x0000000101324334 chromedriver + 3932980
+9   chromedriver                        0x0000000101328970 chromedriver + 3950960
+10  chromedriver                        0x000000010130c774 chromedriver + 3835764
+11  chromedriver                        0x0000000101329478 chromedriver + 3953784
+12  chromedriver                        0x00000001012feab4 chromedriver + 3779252
+13  chromedriver                        0x0000000101345914 chromedriver + 4069652
+14  chromedriver                        0x0000000101345a90 chromedriver + 4070032
+15  chromedriver                        0x0000000101355c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/pac-lip-dip-lipstick/p/739417?productId=739417&pps=5
+Error: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x00000001011f6004 chromedriver + 4169732
+1   chromedriver                        0x00000001011edff8 chromedriver + 4136952
+2   chromedriver                        0x0000000100e43500 chromedriver + 292096
+3   chromedriver                        0x0000000100e2b094 chromedriver + 192660
+4   chromedriver                        0x0000000100e2af9c chromedriver + 192412
+5   chromedriver                        0x0000000100ec2fc8 chromedriver + 815048
+6   chromedriver                        0x0000000100e7c5e8 chromedriver + 525800
+7   chromedriver                        0x0000000100e7d4b8 chromedriver + 529592
+8   chromedriver                        0x00000001011bc334 chromedriver + 3932980
+9   chromedriver                        0x00000001011c0970 chromedriver + 3950960
+10  chromedriver                        0x00000001011a4774 chromedriver + 3835764
+11  chromedriver                        0x00000001011c1478 chromedriver + 3953784
+12  chromedriver                        0x0000000101196ab4 chromedriver + 3779252
+13  chromedriver                        0x00000001011dd914 chromedriver + 4069652
+14  chromedriver                        0x00000001011dda90 chromedriver + 4070032
+15  chromedriver                        0x00000001011edc70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-pure-matte-lipstick/p/367160?productId=367160&pps=16
+Error: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=119.0.6045.199)
+Stacktrace:
+0   chromedriver                        0x000000010333a004 chromedriver + 4169732
+1   chromedriver                        0x0000000103331ff8 chromedriver + 4136952
+2   chromedriver                        0x0000000102f87500 chromedriver + 292096
+3   chromedriver                        0x0000000102f6f094 chromedriver + 192660
+4   chromedriver                        0x0000000102f6ef9c chromedriver + 192412
+5   chromedriver                        0x0000000103006fc8 chromedriver + 815048
+6   chromedriver                        0x0000000102fc05e8 chromedriver + 525800
+7   chromedriver                        0x0000000102fc14b8 chromedriver + 529592
+8   chromedriver                        0x0000000103300334 chromedriver + 3932980
+9   chromedriver                        0x0000000103304970 chromedriver + 3950960
+10  chromedriver                        0x00000001032e8774 chromedriver + 3835764
+11  chromedriver                        0x0000000103305478 chromedriver + 3953784
+12  chromedriver                        0x00000001032daab4 chromedriver + 3779252
+13  chromedriver                        0x0000000103321914 chromedriver + 4069652
+14  chromedriver                        0x0000000103321a90 chromedriver + 4070032
+15  chromedriver                        0x0000000103331c70 chromedriver + 4136048
+16  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/incolor-lip-perfection-lipstick/p/168213?productId=168213&pps=10
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102922004 chromedriver + 4169732
+1   chromedriver                        0x0000000102919ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010256f500 chromedriver + 292096
+3   chromedriver                        0x00000001025b47a0 chromedriver + 575392
+4   chromedriver                        0x00000001025ef818 chromedriver + 817176
+5   chromedriver                        0x00000001025a85e8 chromedriver + 525800
+6   chromedriver                        0x00000001025a94b8 chromedriver + 529592
+7   chromedriver                        0x00000001028e8334 chromedriver + 3932980
+8   chromedriver                        0x00000001028ec970 chromedriver + 3950960
+9   chromedriver                        0x00000001028d0774 chromedriver + 3835764
+10  chromedriver                        0x00000001028ed478 chromedriver + 3953784
+11  chromedriver                        0x00000001028c2ab4 chromedriver + 3779252
+12  chromedriver                        0x0000000102909914 chromedriver + 4069652
+13  chromedriver                        0x0000000102909a90 chromedriver + 4070032
+14  chromedriver                        0x0000000102919c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+An error occurred while scraping the URL: https://www.nykaa.com/incolor-lipfinity-lipstick/p/2707257?productId=2707257&pps=20
+Error: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010072e004 chromedriver + 4169732
+1   chromedriver                        0x0000000100725ff8 chromedriver + 4136952
+2   chromedriver                        0x000000010037b500 chromedriver + 292096
+3   chromedriver                        0x00000001003c07a0 chromedriver + 575392
+4   chromedriver                        0x00000001003fb818 chromedriver + 817176
+5   chromedriver                        0x00000001003b45e8 chromedriver + 525800
+6   chromedriver                        0x00000001003b54b8 chromedriver + 529592
+7   chromedriver                        0x00000001006f4334 chromedriver + 3932980
+8   chromedriver                        0x00000001006f8970 chromedriver + 3950960
+9   chromedriver                        0x00000001006dc774 chromedriver + 3835764
+10  chromedriver                        0x00000001006f9478 chromedriver + 3953784
+11  chromedriver                        0x00000001006ceab4 chromedriver + 3779252
+12  chromedriver                        0x0000000100715914 chromedriver + 4069652
+13  chromedriver                        0x0000000100715a90 chromedriver + 4070032
+14  chromedriver                        0x0000000100725c70 chromedriver + 4136048
+15  libsystem_pthread.dylib             0x000000018bcb106c _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018bcabe2c thread_start + 8
+
+Total count of shades: 3876

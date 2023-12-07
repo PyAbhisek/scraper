@@ -12,7 +12,7 @@ from selenium.common.exceptions import NoSuchElementException, StaleElementRefer
     ElementNotInteractableException, ElementClickInterceptedException
 from bs4 import BeautifulSoup
 import time
-from PIL import Image
+from PIL import Image, UnidentifiedImageError 
 import os  # Import the os module
 from datetime import date
 import traceback
@@ -50,10 +50,15 @@ def get_image_rgb(url):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"}
     response = requests.get(url, headers=headers)
-    img = Image.open(BytesIO(response.content))
-    width, height = img.size
-    img = img.convert('RGB')
-    return img.getpixel((width // 2, height // 2))
+    try:
+        img = Image.open(BytesIO(response.content))
+        width, height = img.size
+        img = img.convert('RGB')
+        return img.getpixel((width // 2, height // 2))
+    except UnidentifiedImageError as e:
+        print(f"Error: Unable to identify image file from URL: {url}")
+        print(f"Error details: {e}")
+        return None
 
 
 def click_element_safely(element):
@@ -62,6 +67,9 @@ def click_element_safely(element):
     except StaleElementReferenceException:
         # Handle the StaleElementReferenceException by re-locating the element before clicking
         click_element_safely(element)
+
+# Initialize the set to track processed shade keys for duplicate checking
+processed_shade_keys = set()
 
 
 def scrape_data(url):
@@ -72,7 +80,7 @@ def scrape_data(url):
         driver.implicitly_wait(10)
         shade_items = driver.find_elements(By.CSS_SELECTOR, '.css-11ozycd')
         product_counter = 0
-        brand_name_found = False
+        
         product_data = {
             "url": url,
             "shades": [],
@@ -100,8 +108,8 @@ def scrape_data(url):
             # time.sleep(3)
             window_location = driver.execute_script("return window.location.href")
             print(window_location)
-            page_source = driver.page_source
-            soup = BeautifulSoup(page_source, 'html.parser')
+            
+            
 
             try:
                 price_match = driver.find_element(By.CSS_SELECTOR, '.css-1jczs19')
@@ -130,7 +138,7 @@ def scrape_data(url):
 
                 print(pname)
 
-                keywords = ['satin', 'metallic', 'matte', 'gloss']
+                keywords = ['satin', 'metallic', 'matte', 'gloss','creme','luminous','radiant','shimmer','natural','tinted','glitter']
                 found_keywords = [keyword for keyword in keywords if keyword in pname.lower()]
 
                 if found_keywords:
@@ -159,7 +167,7 @@ def scrape_data(url):
                 except NoSuchElementException:
                     selected_shade_name = "Shade name not found"
                     print(selected_shade_name)
-
+            duplicates_test = selected_shade_name.replace(" ", "-") + "-" + pname.replace(" ", "-")           
             try:
                 color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
                 shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
@@ -187,6 +195,9 @@ def scrape_data(url):
             except NoSuchElementException:
                 full_image_url = "Image URL not available"
                 print(full_image_url)
+            
+            
+            
 
             shade_data = {
                 "shade_url": window_location,
@@ -197,8 +208,21 @@ def scrape_data(url):
                 "Product_Name": pname,
                 "Product_type": result,
                 "Selected_shade_name": selected_shade_name,
-                "vendor": "Nykaa E-Retail Pvt. Ltd"
+                "vendor": "Nykaa E-Retail Pvt. Ltd",
+                "duplicate_test":duplicates_test
             }
+
+            
+
+            print("duplicates_test" + duplicates_test)
+            #to check duplicates
+            # unique_key = (window_location, selected_shade_name, full_image_url, duplicates_test)
+            # Check if the shade has already been processed
+            if duplicates_test in processed_shade_keys:
+                print(f"Duplicate shade found. Skipping {selected_shade_name}")
+                return None 
+            # Update the set of processed shade keys
+            processed_shade_keys.add(duplicates_test)
 
             product_data["shades"].append(shade_data)
 
@@ -247,22 +271,39 @@ links = links_data['links']
 all_data = []
 
 # Define the maximum number of threads (adjust as needed)
-max_threads = 12
+max_threads = 15
+
+# Set to store processed URLs for duplicate checking
+processed_urls = set()
+
+# Create a list to store the futures for the submitted tasks
+futures = []
 
 # Use ThreadPoolExecutor for concurrent scraping
 with concurrent.futures.ThreadPoolExecutor(max_threads) as executor:
-    # Submit tasks for each URL
-    future_to_url = {executor.submit(scrape_data, url): url for url in links}
+    for url in links:
+        # Check if the URL has already been processed
+        if url in processed_urls:
+            print(f"Duplicate URL found. Skipping {url}")
+            continue
+
+        # Submit the task and store the future in the list
+        future = executor.submit(scrape_data, url)
+        futures.append(future)
+
+        # Add the URL to the set of processed URLs
+        processed_urls.add(url)
     
     # Retrieve results as they become available
-    for future in concurrent.futures.as_completed(future_to_url):
-        url = future_to_url[future]
+    
+    for future, url in zip(concurrent.futures.as_completed(futures), links):
         print(f"Scraping data from: {url}")
         try:
             data = future.result()
-            if data:
+            if data is not None:
                 all_data.append(data)
-                  # Save the updated data to the JSON file after scraping each URL
+
+                # Save the updated data to the JSON file after scraping each URL
                 output_file_partial = os.path.join(output_directory, 'partial_scraped_data.json')
                 with open(output_file_partial, 'w') as f:
                     json.dump(all_data, f, indent=4)
@@ -272,20 +313,7 @@ with concurrent.futures.ThreadPoolExecutor(max_threads) as executor:
         except Exception as e:
             print(f"Error scraping data from {url}: {e}")
 
-# for url in links:
-#     print(f"Scraping data from: {url}")
-#     scraped_data = scrape_data(url)
-#     if scraped_data:
-#         # Append the scraped data for this URL to the list
-#         all_data.append(scraped_data)
 
-#         # Save the updated data to the JSON file after scraping each URL
-#         output_file_partial = os.path.join(output_directory, 'partial_scraped_data.json')
-#         with open(output_file_partial, 'w') as f:
-#             json.dump(all_data, f, indent=4)
-#             print(f"Partial scraped data saved to '{output_file_partial}'")
-
-#     print("-" * 50)
 
 # Exclude shades with "combo" keyword
 all_data_filtered = []
