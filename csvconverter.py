@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Load data from the JSON file
-json_file_path = "/Users/cepl/Desktop/scraping/scraper/07-12-2023/partial_scraped_data.json"
+json_file_path = "./08-12-2023/partial_scraped_data.json"
 
 with open(json_file_path, 'r') as json_file:
     data = json.load(json_file)

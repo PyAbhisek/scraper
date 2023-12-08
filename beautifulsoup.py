@@ -16,7 +16,7 @@ from PIL import Image, UnidentifiedImageError
 import os  # Import the os module
 from datetime import date
 import traceback
-
+import pandas as pd
 # Chrome options to run headless
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
@@ -363,3 +363,59 @@ for root, dirs, files in os.walk(output_directory):
             print(f"Error uploading {local_path} to s3://{bucket_name}/{s3_key}: {e}")
 
 print(f"Scraped data in '{output_directory}' uploaded to S3 bucket '{bucket_name}' with prefix '{s3_prefix}'")
+
+
+
+# json to csv converter
+script_directory = os.path.dirname(os.path.abspath(__file__))
+output_directory = date.today().strftime("%d-%m-%Y")  # Dynamic date value
+json_file_path = os.path.join(script_directory, output_directory, "all_scraped_data.json")
+
+with open(json_file_path, 'r') as json_file:
+    data = json.load(json_file)
+
+
+# Initialize lists to store the extracted information
+rows = []
+
+# Iterate through each JSON object and its shades
+for item in data:
+    shades = item.get("shades", [])
+
+    for shade in shades:
+        shade_url = shade.get("shade_url", "")
+        shade_color = ', '.join(map(str, shade.get("shade_color", []) or []))
+
+        shade_image_url = shade.get("shade_image_url", "")
+        shade_sale_price = shade.get("shade_sale_price", "").replace("₹"," ")
+        shade_original_price = shade.get("shade_original_price", "").replace("MRP:₹"," ")
+        product_name = shade.get("Product_Name", "")
+        Variant_Sku = product_name.replace(' ', '-')
+        product_type = shade.get("Product_type", "")
+        selected_shade_name = shade.get("Selected_shade_name", "")
+        vendor = shade.get("vendor", "")
+
+        # Append the extracted information to the rows list
+        rows.append([shade_url, shade_color, shade_image_url, shade_sale_price, shade_original_price,
+                     product_name,Variant_Sku, product_type, selected_shade_name, vendor])
+
+# Create a DataFrame from the extracted information
+df = pd.DataFrame(rows, columns=["shade_url", "shade_color", "shade_image_url", "shade_sale_price",
+                                 "shade_original_price", "Product_Name", "Variant_Sku" ,"Product_type", "Selected_shade_name",
+                                 "vendor"])
+
+# Save the DataFrame to a CSV fi
+
+
+# Specify the output CSV file path
+csv_file_path = f"./{output_directory}/output.csv"
+
+# Check if the CSV file already exists
+if not os.path.exists(csv_file_path):
+    # Save the DataFrame to a CSV file
+    df.to_csv(csv_file_path, index=False)
+    print(f"CSV file created successfully at '{csv_file_path}'.")
+else:
+    print(f"CSV file already exists at '{csv_file_path}'.")
+
+print("CSV file created successfully.")
