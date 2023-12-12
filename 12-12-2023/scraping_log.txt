@@ -1,0 +1,22 @@
+Total count of shades: 22
+Total count of shades: 90
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-hd-matte-lipstick-magnetic-bold-wine/p/1484907?productId=1484907&pps=14
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-hd-matte-lipstick-tea-rose-natural-coco/p/1484905?productId=1484905&pps=16
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-weightless-compact-natural-weightless-matte-lipstick-buff-nude/p/1484911?productId=1484911&pps=15
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+An error occurred while scraping the URL: https://www.nykaa.com/faces-weightless-matte-finish-lipstick/p/466327?productId=466327&pps=2
+Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/8903380003543_buffnude05.jpg?tr=w-50,h-50 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11850b490>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+An error occurred while scraping the URL: https://www.nykaa.com/faces-ultime-pro-hd-intense-matte-lips-primer/p/370965?productId=370965&pps=1
+Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/8903380001969_10tearose.jpg?tr=w-50,h-50 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x118574460>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-weightless-creme-lipstick/p/514189?productId=514189&pps=4
+Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/8903380004397_summerready05.jpg?tr=w-50,h-50 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x118592310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-matte-addiction-lipstick/p/6880840?productId=6880840&pps=8
+Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/8903380020564_vintagered08.jpg?tr=w-50,h-50 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1185061f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-comfy-matte-creme-lipstick/p/11939514?productId=11939514&pps=5
+Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/8903380032680_keepin'itreal18new.jpg?tr=w-50,h-50 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11828a8e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Total count of shades: 0
+An error occurred while scraping the URL: https://www.nykaa.com/faces-weightless-matte-finish-lipstick/p/466327?productId=466327&pps=2
+Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/8903380003543_buffnude05.jpg?tr=w-50,h-50 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116e081f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Total count of shades: 68

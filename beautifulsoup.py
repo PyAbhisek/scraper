@@ -89,9 +89,43 @@ def scrape_data(url):
         }
 
         for shade_item in shade_items:
+
             driver.implicitly_wait(10)
             product_counter += 1
             print(f"Product #{product_counter}")
+            try:
+                # test = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
+                shade_name = shade_item.find_element(By.TAG_NAME, 'img')
+                selected_shade_text = shade_name.get_attribute('alt')
+                selected_shade_name = selected_shade_text.replace('Color:', '').strip()
+                print(selected_shade_name)
+            except NoSuchElementException:
+                try:
+                    # test = driver.find_element(By.CSS_SELECTOR, '.oos.css-10ht89k')
+                    shade_name = shade_item.find_element(By.TAG_NAME, 'img')
+                    selected_shade_text = shade_name.get_attribute('alt')
+                    selected_shade_name = selected_shade_text.replace('Color:', '').strip()
+                except NoSuchElementException:
+                    selected_shade_name = "Shade name not found"
+                    print(selected_shade_name)
+
+            try:
+                color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
+                shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
+                color_code = shade_name.get_attribute('src')
+                background_color_rgb = get_image_rgb(color_code)
+                print(background_color_rgb)
+            except NoSuchElementException:
+                try:
+                    color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
+                    shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
+                    color_code = shade_name.get_attribute('src')
+                    background_color_rgb = get_image_rgb(color_code)
+                    print(background_color_rgb)
+                except NoSuchElementException:
+                    background_color_rgb = "color code not found"
+                    print(background_color_rgb)
+            print("before click")
 
             try:
                 shade_item.click()
@@ -104,6 +138,7 @@ def scrape_data(url):
                     shade_item.click()  # Attempt to click again after waiting
                 except (ElementNotInteractableException, ElementClickInterceptedException):
                     print("Still unable to click on the shade item. Skipping to the next one.")
+            print("after click")
 
             # time.sleep(3)
             window_location = driver.execute_script("return window.location.href")
@@ -152,38 +187,9 @@ def scrape_data(url):
                 pname = "Product name not found"
                 print(pname)
 
-            try:
-                test = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
-                shade_name = test.find_element(By.TAG_NAME, 'img')
-                selected_shade_text = shade_name.get_attribute('alt')
-                selected_shade_name = selected_shade_text.replace('Color:', '').strip()
-                print(selected_shade_name)
-            except NoSuchElementException:
-                try:
-                    test = driver.find_element(By.CSS_SELECTOR, '.oos.css-10ht89k')
-                    shade_name = test.find_element(By.TAG_NAME, 'img')
-                    selected_shade_text = shade_name.get_attribute('alt')
-                    selected_shade_name = selected_shade_text.replace('Color:', '').strip()
-                except NoSuchElementException:
-                    selected_shade_name = "Shade name not found"
-                    print(selected_shade_name)
-            duplicates_test = selected_shade_name.replace(" ", "-") + "-" + pname.replace(" ", "-")           
-            try:
-                color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
-                shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
-                color_code = shade_name.get_attribute('src')
-                background_color_rgb = get_image_rgb(color_code)
-                print(background_color_rgb)
-            except NoSuchElementException:
-                try:
-                    color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
-                    shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
-                    color_code = shade_name.get_attribute('src')
-                    background_color_rgb = get_image_rgb(color_code)
-                    print(background_color_rgb)
-                except NoSuchElementException:
-                    background_color_rgb = "color code not found"
-                    print(background_color_rgb)
+   
+            duplicates_test = selected_shade_name.replace(" ", "-") + "-" + pname.replace(" ", "-").lower()          
+            
 
             try:
                 test1 = driver.find_element(By.CSS_SELECTOR,
