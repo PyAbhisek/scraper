@@ -78,7 +78,11 @@ def scrape_data(url):
 
     try:
         driver.implicitly_wait(10)
-        shade_items = driver.find_elements(By.CSS_SELECTOR, '.css-11ozycd')
+        # shade_items = # Wait until the shade items are visible on the page
+        shade_items = WebDriverWait(driver, 10).until(
+        EC.visibility_of_all_elements_located((By.CSS_SELECTOR, '.css-11ozycd'))
+        )
+
         product_counter = 0
         
         product_data = {
@@ -94,6 +98,7 @@ def scrape_data(url):
             product_counter += 1
             print(f"Product #{product_counter}")
             try:
+               
                 # test = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
                 shade_name = shade_item.find_element(By.TAG_NAME, 'img')
                 selected_shade_text = shade_name.get_attribute('alt')
@@ -101,6 +106,8 @@ def scrape_data(url):
                 print(selected_shade_name)
             except NoSuchElementException:
                 try:
+                    
+
                     # test = driver.find_element(By.CSS_SELECTOR, '.oos.css-10ht89k')
                     shade_name = shade_item.find_element(By.TAG_NAME, 'img')
                     selected_shade_text = shade_name.get_attribute('alt')
@@ -109,22 +116,7 @@ def scrape_data(url):
                     selected_shade_name = "Shade name not found"
                     print(selected_shade_name)
 
-            try:
-                color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
-                shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
-                color_code = shade_name.get_attribute('src')
-                background_color_rgb = get_image_rgb(color_code)
-                print(background_color_rgb)
-            except NoSuchElementException:
-                try:
-                    color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
-                    shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
-                    color_code = shade_name.get_attribute('src')
-                    background_color_rgb = get_image_rgb(color_code)
-                    print(background_color_rgb)
-                except NoSuchElementException:
-                    background_color_rgb = "color code not found"
-                    print(background_color_rgb)
+           
             print("before click")
 
             try:
@@ -201,6 +193,23 @@ def scrape_data(url):
             except NoSuchElementException:
                 full_image_url = "Image URL not available"
                 print(full_image_url)
+
+            try:
+                color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
+                shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
+                color_code = shade_name.get_attribute('src')
+                background_color_rgb = get_image_rgb(color_code)
+                print(background_color_rgb)
+            except NoSuchElementException:
+                try:
+                    color_code_img = driver.find_element(By.CSS_SELECTOR, '.active.css-10ht89k')
+                    shade_name = color_code_img.find_element(By.TAG_NAME, 'img')
+                    color_code = shade_name.get_attribute('src')
+                    background_color_rgb = get_image_rgb(color_code)
+                    print(background_color_rgb)
+                except NoSuchElementException:
+                    background_color_rgb = "color code not found"
+                    print(background_color_rgb)
             
             
             
@@ -422,6 +431,7 @@ if not os.path.exists(csv_file_path):
     df.to_csv(csv_file_path, index=False)
     print(f"CSV file created successfully at '{csv_file_path}'.")
 else:
-    print(f"CSV file already exists at '{csv_file_path}'.")
+    df.to_csv(csv_file_path, index=False)
+    print(f"CSV file updated successfully at '{csv_file_path}'.")
 
 print("CSV file created successfully.")

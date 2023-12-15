@@ -20,3 +20,540 @@ Total count of shades: 0
 An error occurred while scraping the URL: https://www.nykaa.com/faces-weightless-matte-finish-lipstick/p/466327?productId=466327&pps=2
 Error: HTTPSConnectionPool(host='images-static.nykaa.com', port=443): Max retries exceeded with url: /media/icons/8903380003543_buffnude05.jpg?tr=w-50,h-50 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x116e081f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
 Total count of shades: 68
+Total count of shades: 0
+Total count of shades: 0
+Total count of shades: 90
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-hd-matte-lipstick-magnetic-bold-wine/p/1484907?productId=1484907&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-hd-matte-lipstick-tea-rose-natural-coco/p/1484905?productId=1484905&pps=16
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-weightless-compact-natural-weightless-matte-lipstick-buff-nude/p/1484911?productId=1484911&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-hd-matte-lipstick-tea-rose-natural-coco/p/1484905?productId=1484905&pps=16
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-hd-matte-lipstick-magnetic-bold-wine/p/1484907?productId=1484907&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-weightless-compact-natural-weightless-matte-lipstick-buff-nude/p/1484911?productId=1484911&pps=15
+Error: Message: 
+
+Total count of shades: 90
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-weightless-compact-natural-weightless-matte-lipstick-buff-nude/p/1484911?productId=1484911&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-hd-matte-lipstick-magnetic-bold-wine/p/1484907?productId=1484907&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-hd-matte-lipstick-tea-rose-natural-coco/p/1484905?productId=1484905&pps=16
+Error: Message: 
+
+Total count of shades: 90
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-electric-sparks-collection/p/12941694?productId=12941694&pps=2
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-makeup-essentials/p/8055584?productId=8055584&pps=4
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-cosmetics-all-day-matte-liquid-lipstick-a/p/12256343?productId=12256343&pps=9
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/colors-queen-luscious-lips-non-transfer-matte-lipstick-red-aurora/p/11363098?productId=11363098&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-conceal-pout-duo-light-marrakesh/p/12652887?productId=12652887&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-color-sensational-creamy-matte-lipstick-divine-wine-burgundy-blush/p/467079?productId=467079&pps=8
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-walk-of-no-shame-on-the-go-xmas/p/7142535?productId=7142535&pps=2
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-let-your-lips-talk-ultimattes-more-taupe-super-stay-matte-ink-120-artist/p/10635326?productId=10635326&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-nude-pink/p/5773712?productId=5773712&pps=6
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/typsy-beauty-happy-hour-2-for-1-lippies-pink/p/7010159?productId=7010159&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9925/p/271247?productId=271247&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/colorbar-party-pout-lipstick-duo/p/8186331?productId=8186331&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/katrina-s-natural-but-glam-look-kay-beauty-matte-lipstick-liquid-eyeliner-nail-polsh/p/3772410?productId=3772410&pps=3
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-glitter-bomb-collection/p/12941691?productId=12941691&pps=1
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/iba-multi-tasking-lipstick-trio-party-edit-lipstick-blush-contour/p/1509686?productId=1509686&pps=10
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-bling-bullet-collection/p/12941692?productId=12941692&pps=7
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/iba-halal-care-makeup-gift-set-fair/p/1323361?productId=1323361&pps=6
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-pure-matte-lipstick-with-ultimate-9-colors-eyeshadow-palette/p/12149337?productId=12149337&pps=6
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-peach-crush/p/5773717?productId=5773717&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-ruby-s-crew-powder-kiss-lipstick-ruby-new/p/3829842?productId=3829842&pps=8
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/typsy-beauty-daily-duo/p/7659479?productId=7659479&pps=13
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-color-sensational-creamy-matte-lipstick-touch-of-spice-mesmerizing-magenta/p/467076?productId=467076&pps=10
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/charlotte-tilbury-pillow-talk-on-the-go-xmas/p/7142530?productId=7142530&pps=6
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/fran-wilson-moodmatcher-6-pcs-moodmatcher-collection/p/2748780?productId=2748780&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/c-a-l-los-angeles-x-gurishq-galentine-lipstick/p/1425161?productId=1425161&pps=19
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/c2p-pro-matte-lip-fx-lipstick/p/10425222?productId=10425222&pps=17
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/pac-studio-lipstick-vault-x24/p/4765574?productId=4765574&pps=4
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/rufa-beauty-lux-matte-lipstick-fierce-duo/p/5063866?productId=5063866&pps=1
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/lancome-idole-trial-gift-set/p/12178738?productId=12178738&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-cosmetics-so-matte-everday-nudes/p/4613633?productId=4613633&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-matte-lip-palette-shade-03/p/979421?productId=979421&pps=12
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/recode-lip-palette-18-shades-multi-color/p/12452669?productId=12452669&pps=16
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/pac-6-color-lip-palette-01-pink/p/349323?productId=349323&pps=13
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-blood-red/p/5773716?productId=5773716&pps=10
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/zm-zayn-myza-transfer-proof-power-matte-lipstick-13-fiery-cherry/p/9752458?productId=9752458&pps=16
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/star-struck-by-sunny-leone-purple-taffy-intense-matte-lip-color-purple-taffy/p/5682244?productId=5682244&pps=8
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/skin-story-clean-beauty-legacy-multistick/p/12481689?productId=12481689&pps=7
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/janhvi-s-must-have-lipstick-duo/p/6510484?productId=6510484&pps=17
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/janhvi-s-must-have-lipstick-duo/p/6510484?productId=6510484&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/typsy-beauty-happy-hour-2-for-1-lippies-brown/p/7010160?productId=7010160&pps=18
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/pigment-play-lip-cream-palette/p/6840185?productId=6840185&pps=2
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/clinique-bestseller-duo-moisture-surge-100h-black-honey-lipstick/p/12405296?productId=12405296&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-popxo-makeup-collection-eve-out/p/3787790?productId=3787790&pps=17
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/c2p-pro-epic-matte-lipink-set-of-4/p/2759579?productId=2759579&pps=18
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/iba-must-have-makeup-set-medium/p/5174994?productId=5174994&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-hd-matte-lipstick-tea-rose-natural-coco/p/1484905?productId=1484905&pps=9
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/pac-lip-palette-12-color/p/349104?productId=349104&pps=18
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/renee-cosmetics-fab-face-diva/p/2700005?productId=2700005&pps=1
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/rufa-beauty-lux-matte-lipstick-bridesmaid-trio/p/5063871?productId=5063871&pps=18
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/iba-must-have-makeup-set-fair/p/5174993?productId=5174993&pps=19
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/elle-18-handbag-heroes/p/12149217?productId=12149217&pps=12
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-down-to-earth/p/5773713?productId=5773713&pps=12
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9903/p/271234?productId=271234&pps=17
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/bobbi-brown-confetti-crushed-lip-trio-pink-set/p/12232057?productId=12232057&pps=8
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9902/p/271233?productId=271233&pps=4
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/revolution-pro-lipstick-collection-matte-reds/p/343148?productId=343148&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-color-sensational-the-loaded-bolds-lipstick-09-midnight-date/p/160522?productId=160522&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-stunning-nail-polish-with-hd-matte-lipstick/p/10701312?productId=10701312&pps=8
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-pretty-on-lips-hd-matte-lipstick-set-of-2/p/8464685?productId=8464685&pps=6
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-baby-lips-color-balm-pink-lolita-berry-crush/p/861341?productId=861341&pps=19
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/typsy-beauty-happy-hour-2-for-1-lippies-nude/p/7010158?productId=7010158&pps=8
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/stars-cosmetics-lip-rouge-palette/p/225170?productId=225170&pps=7
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/rufa-beauty-lux-matte-lipstick-nude-alert-duo/p/5063865?productId=5063865&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/fran-wilson-moodmatcher-3-pcs-original-color-change/p/2748778?productId=2748778&pps=12
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9915-b-2/p/271243?productId=271243&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-red-velvet/p/5773718?productId=5773718&pps=12
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-absolute-mousse-lip-duo/p/12941697?productId=12941697&pps=17
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/fran-wilson-moodmatcher-10-pcs-moodmatcher-collection/p/2748781?productId=2748781&pps=12
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/renee-cosmetics-black-magic-madness-ph-stick/p/4869841?productId=4869841&pps=13
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/inglot-lipstick-matte-428/p/12706067?productId=12706067&pps=6
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/shopaarel-mix-it-pro-palette-lip-palette/p/7742176?productId=7742176&pps=1
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/plum-love-at-first-sight-trio/p/9281491?productId=9281491&pps=9
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/iba-halal-care-makeup-gift-set-dusky/p/1323363?productId=1323363&pps=10
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/mamaearth-moisture-matte-longstay-lipstick/p/8232395?productId=8232395&pps=6
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/iba-must-have-black-to-pink-ph-lipstick/p/13188383?productId=13188383&pps=19
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/stars-cosmetics-12-shades-lush-lip-color-palette-lipstick/p/11977769?productId=11977769&pps=4
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9908/p/271239?productId=271239&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-viva-glam-powder-kiss-bhumi-pednekar-lipstick/p/10418598?productId=10418598&pps=19
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/iba-must-have-makeup-set-dusky/p/5174995?productId=5174995&pps=4
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/lancome-labsolu-rouge-intimatte-lipstick-refill-888/p/12049439?productId=12049439&pps=3
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-cosmetics-must-have-ultra-mattes/p/4613637?productId=4613637&pps=12
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-wakeup-makeup-duo-m-a-c-moisturizer-m-a-c-satin-lipstick-brave/p/12652885?productId=12652885&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-warm-neutrals/p/5773719?productId=5773719&pps=13
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/fran-wilson-moodmatcher-camila-s-mother-s-day/p/2748770?productId=2748770&pps=7
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-color-sensational-creamy-matte-lipstick-nude-nuance-mesmerizing-magenta/p/467075?productId=467075&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/just-herbs-raksha-bandhan-gift-set-for-her/p/2737569?productId=2737569&pps=10
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-so-matte-lipstick/p/71406?productId=71406&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-statement-matte-lipstick-80-matte-dreamy/p/6707376?productId=6707376&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-conceal-pout-duo-medium-marrakesh/p/12652888?productId=12652888&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/sugar-matte-attack-transferproof-lipstick-01-bold-play-04-maroon-vibe/p/5389335?productId=5389335&pps=13
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/pixi-pixipretties-louise-roe-cream-colour-palette/p/4401869?productId=4401869&pps=16
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/blue-heaven-ultimatte-lip-moisturising-duo-2/p/8890131?productId=8890131&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/paese-cosmetics-sheer-lipstick-no-31-natural-pink/p/5915379?productId=5915379&pps=7
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-pout-play/p/5177837?productId=5177837&pps=18
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-sunset-pink/p/5773714?productId=5773714&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-dewy-look/p/6878957?productId=6878957&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-hd-matte-lipstick-magnetic-bold-wine/p/1484907?productId=1484907&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/rufa-beauty-lux-matte-lipstick-attendee-trio/p/5063870?productId=5063870&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/blue-heaven-ultimatte-lip-moisturising-duo-4/p/8890133?productId=8890133&pps=2
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/pac-fresh-palette-12-colors/p/337545?productId=337545&pps=12
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-statement-matte-lipstick-77-matte-tender/p/6707375?productId=6707375&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9926/p/271248?productId=271248&pps=1
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-cosmetics-all-day-matte-liquid-lipstick-d/p/12256346?productId=12256346&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/rufa-beauty-lux-matte-lipstick-day-to-night-duo/p/5063864?productId=5063864&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-statement-matte-lipstick-61-matte-naked/p/6707374?productId=6707374&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-statement-lipstick-42-rose-femme/p/6707378?productId=6707378&pps=8
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-cosmetics-all-day-matte-liquid-lipstick-b/p/12256344?productId=12256344&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/huda-beauty-the-ultimate-lip-trio-set-icon/p/9240532?productId=9240532&pps=3
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/glam-time-with-kay-beauty-matte-lipsticks-flashback-house-full/p/3621136?productId=3621136&pps=4
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-turn-heads-collection/p/11365844?productId=11365844&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/fran-wilson-moodmatcher-camila-s-night-out/p/2748771?productId=2748771&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/plum-youre-my-soul-matte-duo/p/9281490?productId=9281490&pps=18
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9915/p/271242?productId=271242&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/bobbi-brown-extra-lip-tint-duo-bare-pink/p/7134349?productId=7134349&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-statement-lipstick-26-nude-creme/p/6922276?productId=6922276&pps=3
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-popxo-makeup-collection-sun-kissed/p/3787789?productId=3787789&pps=2
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/the-ultimate-nude-duo-kay-beauty-long-stay-matte-lipstick-debut-nail-enamel-nutty-21/p/2783917?productId=2783917&pps=9
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/coloressence-intense-long-wear-lip-color-autumn-rush-lw-13/p/1124769?productId=1124769&pps=17
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/pac-lipstick-palette-12-color-matt/p/82335?productId=82335&pps=13
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-color-sensational-creamy-matte-lipstick-touch-of-spice-flaming-fuchsia/p/467078?productId=467078&pps=2
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/typsy-beauty-happy-hour-2-for-1-red/p/7010157?productId=7010157&pps=6
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-rainbow-burst-collection/p/12941693?productId=12941693&pps=1
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/bharat-dorris-lip-stick/p/32355?productId=32355&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9905/p/271236?productId=271236&pps=18
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/rufa-beauty-lux-matte-lipstick-celebrant-trio/p/5063869?productId=5063869&pps=6
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/c-a-l-los-angeles-x-gurishq-beauties-soft-matte-lipstick/p/1425160?productId=1425160&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-everyday-makeup-look-colossal-mascara-superstay-lipstick-fit-me-founation/p/10635332?productId=10635332&pps=16
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/faces-canada-weightless-compact-natural-weightless-matte-lipstick-buff-nude/p/1484911?productId=1484911&pps=2
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/revlon-super-lustrous-lipstick-chocolate-velvet/p/7868402?productId=7868402&pps=1
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/typsy-beauty-lip-wardrobe/p/7659481?productId=7659481&pps=17
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9933/p/271251?productId=271251&pps=12
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-champagne-sparkle-collection/p/12941696?productId=12941696&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/clinique-almost-lipstick-in-black-honey/p/5645192?productId=5645192&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-bff-forever-gift-set-for-rakhi/p/12427425?productId=12427425&pps=14
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/daily-life-forever52-pro-artist-multitasker-lipstick-palette/p/3662415?productId=3662415&pps=1
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/fae-beauty-spf-juice-no-bs-cleanser/p/5418606?productId=5418606&pps=3
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/character-pro-lipstick-palette-c-a401/p/10227681?productId=10227681&pps=18
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/m-a-c-conceal-pout-duo-medium-deep-marrakesh/p/12652886?productId=12652886&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/star-struck-by-sunny-leone-foxy-fuchsia-intense-matte-lip-color-foxy-fuchsia/p/5682243?productId=5682243&pps=10
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-9-to-5-primer-matte-lipstick/p/1037767?productId=1037767&pps=13
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9923/p/271245?productId=271245&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/myglamm-smokey-eyes-look/p/6878953?productId=6878953&pps=3
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/nudestix-90-s-nude-lips/p/6831286?productId=6831286&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/renee-cosmetics-face-nude/p/2700006?productId=2700006&pps=1
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9904/p/271235?productId=271235&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/typsy-beauty-better-than-basic/p/7659480?productId=7659480&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/zm-zayn-myza-transfer-proof-power-matte-lipstick-11-warm-espresso/p/9752457?productId=9752457&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-makeup-essentials/p/8055584?productId=8055584&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/rufa-beauty-lux-matte-lipstick-socializer-duo/p/5063867?productId=5063867&pps=9
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9906/p/271237?productId=271237&pps=8
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/type-beauty-soak-it-lipstick-503-ambition/p/12652267?productId=12652267&pps=8
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-your-makeup-must-haves/p/8496473?productId=8496473&pps=9
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/milani-color-fetish-matte-lipstick-roleplay/p/12098309?productId=12098309&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-x-jk-limited-edition-handbag-heroes-black-magic-eyeliner-lash-talk-mascara-so-creme-lipstick/p/6753459?productId=6753459&pps=18
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/swiss-beauty-glitter-color-change-lipstick-set-of-3/p/8464695?productId=8464695&pps=7
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/lakme-cushion-matte-lipstick/p/888634?productId=888634&pps=21
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/maybelline-new-york-super-stay-matte-ink-founder-creamy-matte-nude-nuance/p/2671014?productId=2671014&pps=1
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/miss-claire-make-up-palette-9914-1/p/271240?productId=271240&pps=3
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/la-mior-butter-slip-vegan-luscious-lipstick-fancy-fig/p/5094277?productId=5094277&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/bronson-professional-hair-extensions-glitter-highlighter-straight-hair-multi-colour/p/12620225?productId=12620225&pps=3
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/pac-6-color-lip-palette-02-nude/p/349103?productId=349103&pps=2
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/iba-halal-care-makeup-gift-set-medium/p/1323362?productId=1323362&pps=5
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-pink-nudes-x-9/p/5773720?productId=5773720&pps=15
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/kingdom-of-lashes-mood-setter/p/5773715?productId=5773715&pps=11
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/star-struck-by-sunny-leone-coralicious-intense-matte-lip-color-coralicious/p/5682245?productId=5682245&pps=20
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/nykaa-cosmetics-all-day-matte-liquid-lipstick-c/p/12256345?productId=12256345&pps=8
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/sugar-matte-attack-transferproof-lipstick-05-tan-halen-07-peachwood-mac/p/5389336?productId=5389336&pps=13
+Error: Message: 
+
+An error occurred while scraping the URL: https://www.nykaa.com/skin-story-clean-beauty-bold-multistick/p/12481688?productId=12481688&pps=2
+Error: Message: 
+
+Total count of shades: 3814
